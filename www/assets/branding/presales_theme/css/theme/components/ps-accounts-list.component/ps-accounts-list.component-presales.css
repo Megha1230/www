@@ -1,0 +1,30 @@
+ps-accounts-list .container-option-table-col {
+    padding: var(--ps-xxxs-padding) 0px;
+    align-items: center;
+}
+
+.isMobile-Layout ps-accounts-list .ps-container-lookup-option-details .available-balance-value,
+.isMobile-Layout ps-accounts-list .ps-container-lookup-option-details .current-balance-value {
+    font-size: calc(var(--ps-xs-font) + 2px) !important;
+    font-weight: 500;
+}
+
+.isMobile-Layout ps-accounts-list mat-card-content .lookup-details-content .container-option-table-col.item-value {
+    font-size: calc(var(--ps-xs-font) + 3px) !important;
+    font-weight: 500;
+}
+
+.isMobile-Layout ps-accounts-list .ps-container-lookup-option-details .action-details-options ps-label {
+    font-size: calc(var(--ps-xs-font) + 3px) !important;
+}
+
+.isWeb-Layout ps-accounts-list .ps-container-lookup-option-details .available-balance-value,
+.isWeb-Layout ps-accounts-list .ps-container-lookup-option-details .current-balance-value {
+    font-size: calc(var(--ps-lg-font)) !important;
+    font-weight: 500;
+}
+
+.isWeb-Layout ps-accounts-list mat-card-content .lookup-details-content .container-option-table-col.item-value {
+    font-size: calc(var(--ps-sm-font) + 1px) !important;
+    font-weight: 500;
+}

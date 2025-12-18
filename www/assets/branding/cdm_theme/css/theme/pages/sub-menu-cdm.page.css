@@ -1,0 +1,20 @@
+sub-menu .is-widget-view ps-complex-menu-item {
+    width: 100%;
+}
+
+sub-menu .is-widget-view .ps-complex-menu-item {
+    flex: 0 0 100%;
+    height: 60px !important;
+    max-width: 100%;
+}
+
+sub-menu ps-complex-menu.is-widget-view .ps-menu-title {
+    max-width: 80% !important;
+    flex: 0 0 80%;
+    align-items: center;
+}
+
+sub-menu .is-widget-view ps-action-menu-item .ps-menu-main-icon {
+    max-width: 20% !important;
+    flex: 0 0 20%;
+}

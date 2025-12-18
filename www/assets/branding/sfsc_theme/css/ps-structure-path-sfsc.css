@@ -1,0 +1,107 @@
+.isWeb-Layout:root {
+  --ps-form-container-padding-ratio-initial: 1.5;
+  --ps-font-size-ratio-initial: 1;
+}
+
+[dir=ltr] body * {
+  font-family: Nunito !important;
+}
+
+[dir=ltr] body a * {
+  font-family: Roboto !important;
+}
+
+[dir=rtl] body * {
+  font-family: Cairo !important;
+}
+
+[dir=rtl] body a * {
+  font-family: Tajwal !important;
+}
+
+
+[dir=ltr] body mat-icon,
+[dir=rtl] body mat-icon {
+  font-family: 'Material Icons' !important;
+}
+
+[dir=rtl] body .ag-icon,
+[dir=ltr] body .ag-icon {
+  font-family: "agGridAlpine" !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+}
+
+
+.isWeb-Layout.userIsNotLoggedIn body {
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.isMobile-Layout body,
+.isMobile-Layout ion-router-outlet .ion-page {
+  background: linear-gradient(360deg, #FFF3BD 50%, rgba(255, 251, 235, 0.2) 100%) !important;
+}
+
+.isPad-Layout body,
+.isPad-Layout ion-router-outlet .ion-page {
+  background-image: url(/assets/branding/sfsc_theme/imgs/Background-image-tab.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.isWeb-Layout body,
+.isWeb-Layout ion-router-outlet .ion-page {
+  background: linear-gradient(180deg, #FFFBEB 0%, #FFF3BD 100%) !important;
+}
+
+.isWeb-Layout.userIsNotLoggedIn ps-template-base .main-content {
+
+  padding: 0px !important;
+}
+
+.isWeb-Layout.userIsNotLoggedIn ps-template-base .main-content .ps-container-form-content {
+
+  border: 1px solid var(--ps-primary-color);
+}
+
+.isWeb-Layout ion-router-outlet omni-login.ion-page {
+  background-image: url(/assets/branding/sfsc_theme/imgs/login-Background-image.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+.isWeb-Layout ion-router-outlet omni-login.ion-page {
+  background: url(/assets/branding/sfsc_theme/imgs/login-Background-image.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+[dir=rtl].isWeb-Layout ion-router-outlet omni-login.ion-page {
+  background: url(/assets/branding/sfsc_theme/imgs/login-Background-image-ar.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+.isWeb-Layout omni-login .login-main {
+  margin: 0px;
+  flex: 0 0 50% !important;
+  width: 50%;
+}
+
+.isWeb-Layout.userIsNotLoggedIn ion-app {
+  width: 100%;
+  margin: auto !important;
+}
+
+.isWeb-Layout.userIsNotLoggedIn ion-app .ion-page ps-template-stepper,
+.isWeb-Layout.userIsNotLoggedIn ion-app .ion-page ps-template-report {
+  width: calc(calc(100/100) * var(--ps-100vh)) !important;
+  margin: 0px auto;
+}

@@ -1,0 +1,25 @@
+ps-template-alert-controller .ps-template-alert-controller-container.center-header-img {
+    background: var(--ps-alert-modal-background-color2);
+    border-radius: var(--ps-popup-border-radius);
+}
+
+ps-template-alert-controller .header ion-label {
+    font-size: var(--ps-xxl-font);
+    text-align: center;
+}
+
+ps-template-alert-controller .ps-template-alert-controller-row {
+    background: transparent;
+    padding: var(--ps-xs-padding) !important;
+}
+
+.isWeb-Layout ps-template-alert-controller .ps-template-alert-controller-row .header {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    [dir="ltr"].isWeb-Layout.userIsLoggedIn ps-template-alert-controller.ion-page {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,15 @@
+ps-complex-segment ps-select-segment{
+    display: none;
+}
+app-beneficiary-list ps-complex-segment ps-select-segment{
+    display: block;
+}
+
+ps-complex-segment ps-container-segment{
+    padding-top: 30px;
+    overflow-x: hidden !important;
+    height: 90%;
+}
+cards-list ps-complex-segment ps-container-segment{
+    height: 100%;
+}

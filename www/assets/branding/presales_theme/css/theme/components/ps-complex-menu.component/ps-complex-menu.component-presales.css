@@ -1,0 +1,161 @@
+/* widget menu */
+/* added (Clark) */
+.is-widget-view .ps-complex-menu-item.ps-animation{
+    height: 15vh !important;
+}
+
+/* added: hide the scrollbar but keep it working (Clark) */
+ps-complex-menu .ps-complex-menu .ps-complex-menu-widget-container::-webkit-scrollbar,
+ps-complex-menu .ps-complex-menu-quick-links .ps-complex-menu-widget-container::-webkit-scrollbar {
+    display: none;
+}
+
+ps-complex-menu.is-widget-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ps-complex-menu.is-widget-view  .ps-menu-title {
+    font-size: calc(var(--ps-sm-font) - 2px);
+}
+
+ps-complex-menu.is-widget-view .icon-screen-title{
+    display: flex;
+    flex-direction: row;
+    color: var(--ps-menu-widget-label-color);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: var(--ps-xxs-padding);
+    margin-top: var(--ps-xxs-margin);
+}
+
+ps-complex-menu.is-widget-view .icon-screen-title .opened-screen-title.row{
+    height: 0px !important;
+    width: 100%;
+    padding-left: var(--ps-xxxl-padding) !important;
+}
+
+ps-complex-menu.is-widget-view .menu-items{ /* menu-item is a div tag added to carry all the leaves. */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ps-complex-menu.is-widget-view .ps-complex-menu-item.menu-action-button-wrapper{
+    width: 100% !important;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: var(--ps-menu-widget-label-color);
+    margin-left: var(--ps-xxxl-margin) !important;
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px) 0px;
+}
+
+ps-complex-menu.is-widget-view .ps-complex-menu-item:hover {
+    background: var(--ps-hover-root-menu) !important;
+}
+
+ps-complex-menu.is-widget-view .menu-breaker {
+    width: 0;
+    height: 0;
+}
+/* end (Clark) */
+
+/* tree menu */
+.is-tree-view .ps-complex-menu::-webkit-scrollbar{
+    display: none;
+}
+
+.is-tree-view .ps-complex-menu-item {
+    padding: var(--ps-xxxs-padding) 0;
+}
+
+.is-tree-view .ps-leaf-menu,
+.is-tree-view .ps-leaf-menu ion-icon:first-child {
+    font-size: calc(var(--ps-menu-icon-font-size) + 3px);
+    padding-left: var(--ps-xxl-padding) !important;
+}
+
+.is-tree-view .ps-complex-menu .ps-root-menu {
+    padding-left: 0 !important;
+}
+
+.is-tree-view .ps-root-menu ion-icon,
+.is-tree-view .ps-root-menu ion-icon:first-child {
+    font-size: calc(var(--ps-menu-icon-font-size) + 3px);
+    padding-left: 0 !important;
+}
+
+.is-tree-view .ps-leaf-menu.ps-root-menu,
+.is-tree-view .ps-leaf-menu.ps-root-menu ion-icon:first-child {
+    zoom: 1;
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item {
+    margin: 0;
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-leaf-menu, ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-root-menu, ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-parent-menu {
+    border-bottom: 1px solid var(--ps-menu-tree-border-color);
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.selected {
+    background: transparent;
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-leaf-menu.selected {
+    background: var(--ps-hover-leaf-menu);
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-root-menu.selected, ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-parent-menu.selected {
+    background: var(--ps-hover-root-menu);
+}
+
+.ps-complex-menu-item:hover {
+    background: transparent !important;
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .3s ease
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-leaf-menu::before, ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-parent-menu::before {
+    background: var(--ps-hover-leaf-menu);
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item.ps-root-menu::before {
+    background: var(--ps-hover-root-menu) !important;
+}
+
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+ps-complex-menu.is-tree-view .menu-items{ /* menu-item is a div tag added to carry all the leaves. */
+    background: var(--menu-children);
+    width: 100%;
+}
+
+ps-complex-menu.is-tree-view .ps-complex-menu-item .ps-menu-title {
+    font-size: var(--ps-xl-font) !important;
+    transition: 0.5s ease;
+}
+
+.menu-header {
+    font-size: var(--ps-xl-font);
+    transition: 0.5s ease;
+}
+
+.menu-breaker {
+    background: var(--ps-menu-tree-border-color) !important;
+}

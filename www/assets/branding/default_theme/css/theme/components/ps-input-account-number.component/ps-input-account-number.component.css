@@ -1,0 +1,21 @@
+.colAcc {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 88% 12%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scanQrIcon ion-icon {
+    color: var(--ps-font-light-color);
+    padding: 1%;
+    background: var(--ps-highlight-background-color);
+    padding: .6rem;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+.scanQrIcon .available-cust ion-icon {
+    background: transparent!important;
+}

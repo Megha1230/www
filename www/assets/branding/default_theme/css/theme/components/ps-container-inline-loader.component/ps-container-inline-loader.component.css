@@ -1,0 +1,15 @@
+ps-container-inline-loader {
+    display: block !important
+}
+
+ps-container-inline-loader .inline-loading-image .ps-action-image-image ion-img {
+    width: var(--ps-loader-size) !important;
+}
+
+ps-container-inline-loader .inline-loading-image .ps-action-image-image {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}

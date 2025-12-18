@@ -1,0 +1,8 @@
+ps-gallery-banners ps-container-html-viewer {
+    width: 100%;
+}
+
+ps-gallery-banners .swiper-scrollbar {
+    height: 100% !important;
+    cursor: move;
+}

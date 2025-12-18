@@ -1,0 +1,13 @@
+.isMobile-Layout ps-template-landing-menu-web .ps-dropdown-allowed-languages-wrapper {
+    margin-left: 20px !important;
+}
+
+.ps-user-info-wrapper {
+    font-size: var(--ps-xl-font) !important;
+    transition: 0.5s ease;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown ion-icon {
+    width: 100px !important;
+    color: #fff !important;
+}

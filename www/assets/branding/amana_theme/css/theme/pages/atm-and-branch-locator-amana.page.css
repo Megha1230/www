@@ -1,0 +1,24 @@
+.mapAtmBranchModal ps-container-item.ps-container-panel-item{
+    background-color: #5B3A6C;
+}
+
+.mapAtmBranchModal ps-container-item.ps-container-panel-content{
+    background-color: #341C46 !important;
+}
+.mapAtmBranchModal{
+    background-color: #00000082;
+}
+.mapAtmBranchModal .map-atm-branch-details-bottom {
+    background-color: #311852 !important;
+}
+
+
+/* Shadab - 15-09-2021*/
+atm-and-branch-locator ps-segment-atm-cdm-branches .ps-segment-button-wrapper .ps-select-segment ion-icon.cdm {
+    font-size: var(--ps-xxxl-font);
+}
+
+.ps-complex-card-details-atm-cdm-item-label, .ps-complex-card-details-branch-item-label{
+    flex: 0 0 25%;
+    max-width: 25%;
+}

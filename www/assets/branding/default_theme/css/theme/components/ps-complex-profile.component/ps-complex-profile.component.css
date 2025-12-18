@@ -1,0 +1,214 @@
+.profile-pic-user {
+    border-radius: 50%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    /* object-fit: fill; */
+    cursor: pointer;
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.isPad-Layout .profile-pic-user {
+    width: 60px !important;
+    height: 60px !important;
+
+}
+
+.isWeb-Layout .profile-pic-user {
+    width: 100px !important;
+    height: 100px !important;
+    margin-top: calc(calc(0.5/100) * var(--ps-100vh));
+}
+
+.ps-complex-profile-img {
+    padding: 0px;
+    padding-top: 2px;
+}
+
+.ps-complex-profile-info {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0.5em !important;
+    color: white !important;
+    font-size: var(--ps-lg-font);
+    text-align: start;
+    justify-content: center;
+}
+
+.profile-pic-user ps-label ion-label {
+    justify-content: center;
+}
+
+.isMobile-Layout .ps-complex-profile {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    /* margin: 1em 0; */
+    color: var(--ps-font-light-color);
+}
+
+ps-complex-profile .verticalFlip {
+    transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+}
+
+ps-complex-profile .ps-complex-profile_container_complex_col_12 {
+    height: 100% !important;
+}
+
+.isMobile-Layout ps-complex-profile .ps-complex-profile>* {
+    width: 100% !important;
+}
+
+ps-complex-profile .ps-dropdown-allowed-languages-wrapper,
+ps-complex-profile .ps-dropdown-theme-wrapper {
+    align-self: center;
+}
+
+.ps-user-info-wrapper {
+    font-size: var(--ps-md-font);
+}
+
+
+ps-complex-profile ps-dropdown-allowed-languages ps-container-item .ps-container-item-wrapper {
+    margin: 0px !important;
+}
+
+ps-complex-profile ps-dropdown-allowed-languages ps-container-item ion-item.item {
+    background: none !important;
+    --background: none !important;
+    /* border-bottom: hsla(0, 0%, 100%, 0.851) 2px solid !important; */
+    border-radius: 0px !important;
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+}
+
+
+ps-complex-profile ps-dropdown-allowed-languages ps-container-item ps-base-container ps-base>.container-fluid {
+    /* padding-inline-start: 0px !important; */
+}
+
+ps-complex-profile .ps-complex-profile-row {
+    align-items: center;
+}
+
+.isMobile-Layout ps-complex-profile .welcome-label {
+    display: none;
+}
+
+.isMobile-Layout ps-complex-profile .last-login-value {
+    opacity: 0.5;
+    font-size: var(--ps-xs-font);
+    flex: 0 0 50%;
+}
+
+.isMobile-Layout ps-complex-profile .last-login-label {
+    opacity: 0.5;
+    font-size: var(--ps-xs-font);
+    flex: 0 0 50%;
+    padding-inline-end: 2px;
+}
+
+.isMobile-Layout ps-label-user-last-login {
+    display: flex;
+}
+
+.isMobile-Layout ps-complex-profile {
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px);
+}
+
+.isMobile-Layout ps-complex-profile .upload-profile-overlay {
+    display: none
+}
+
+.isMobile-Layout .ps-complex-profile {
+    background: none !important;
+}
+
+.welcome-label-value {
+    font-weight: 600;
+}
+
+.welcome-label-cifname {
+    font-weight: 600;
+}
+
+ps-dropdown-allowed-languages .main-dropdown-wrapper {
+    max-width: 100%;
+}
+
+.select-drop-down-img-wrapper {
+    display: none;
+}
+
+ps-complex-profile ps-dropdown-allowed-languages .mat-select-arrow {
+    border-right: 0px solid transparent;
+    border-top: 0px solid;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown {
+    justify-content: center;
+    display: flex;
+}
+
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown {
+    width: 60px;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown * {
+    width: 60px;
+    height: 50px !important;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown ion-icon {
+    width: 30px !important;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown ion-item {
+    height: 35px !important;
+    --background: transparent !important;
+}
+
+ps-complex-profile ps-dropdown-theme #selectDropDown .ps-select-dropdown ps-action-icon {
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.isMobile-Layout ps-template-landing-fab-ui .ps-dropdown-theme-wrapper,
+.isMobile-Layout ps-template-landing-menu-web .ps-dropdown-theme-wrapper,
+.isMobile-Layout ps-template-landing-fab-ui .ps-dropdown-allowed-languages-wrapper,
+.isMobile-Layout ps-template-landing-menu-web .ps-dropdown-allowed-languages-wrapper {
+    max-width: 35px !important;
+}
+
+ps-complex-profile .loyalty-points-miles {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    background: var(--ps-menu-box-background);
+    border-radius: var(--ps-fields-border-radius);
+}
+
+ps-complex-profile .loyalty-points-miles .loyalty-points-miles_link .row {
+    justify-content: center;
+}
+
+ps-complex-profile .loyalty-points-miles .loyalty-points-miles_link .row .ps-anchor-panel-image {
+    display: none;
+}
+
+ps-complex-profile .loyalty-points-miles .loyalty-points-miles_link ion-label {
+    color: var(--ps-font-light-color);
+}
+
+ps-complex-profile .loyalty-points-miles .loyalty-points-miles_label ion-label {
+    font-weight: bold;
+}

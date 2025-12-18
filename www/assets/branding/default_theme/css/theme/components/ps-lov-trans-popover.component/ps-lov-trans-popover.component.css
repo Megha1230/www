@@ -1,0 +1,27 @@
+.lov_trans_item {
+    text-align: start;
+}
+
+.lov_trans_item-lang {
+    color: var(--ps-primary-color);
+    font-weight: bold;
+}
+
+.lov_trans_item-header {
+    border-bottom: 1px solid var(--ps-primary-color);
+    text-align: start;
+}
+
+.lov_trans_item-header .lov_trans_item-desc {
+    color: var(--ps-primary-color);
+    font-weight: bold;
+}
+
+.lov_trans_item-desc {
+    color: black;
+}
+
+.lov_trans_item-desc ion-label {
+    white-space: break-spaces !important;
+    padding-left: 4px;
+}

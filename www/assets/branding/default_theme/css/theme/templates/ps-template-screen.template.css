@@ -1,0 +1,202 @@
+ps-template-screen .widget-header-title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--ps-header-title-font-size) !important;
+    padding-inline-start: 5px !important;
+    padding-inline-end: 5px !important;
+}
+
+ps-template-screen .widget-header-title ps-label-header {
+    text-overflow: ellipsis;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+ps-template-screen .widget-header-title ps-label-header ps-label {
+    color: var(--ps-main-title-color);
+    display: flex;
+    width: max-content;
+}
+
+ps-template-screen .widget-style {
+    margin: 0 !important;
+    min-height: 45px !important;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    /* Provide header height */
+}
+
+ps-template-screen .widget-style.center-header {
+    width: 100%;
+    justify-content: center;
+}
+
+ps-template-screen .widget-menu-icon {
+    display: flex;
+    align-items: center;
+    border: 0px;
+    padding: 0px calc(var(--ps-form-container-padding-ratio-initial) * 10px) !important;
+    justify-content: center;
+}
+
+
+ps-template-screen .widget-menu-icon .menu-icon ion-icon {
+    color: var(--ps-app-header-icon-color) !important;
+}
+
+ps-template-screen .widget-header-icon .menu-icon ion-icon {
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-template-screen .widget-header-icon {
+    align-self: center;
+    color: var(--ps-main-title-color);
+    padding: 0px calc(var(--ps-form-container-padding-ratio-initial) * 5px) !important;
+}
+
+ps-template-screen .save-as-draft {
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-template-screen .saveAsDraftButton {
+    align-self: center;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+ps-template-screen .menu-icon ion-icon {
+    font-size: var(--ps-header-icon-font-size);
+    vertical-align: middle;
+}
+
+ps-template-screen .main-header {
+    background: var(--ps-header-background-color) !important;
+}
+
+/* 
+.isWeb-Layout ps-template-screen .main-header {
+    border-bottom: 3px solid white;
+    font-weight: bold;
+    border-radius: 0px !important;
+} */
+
+
+
+.footer-buttons {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.widget-menu-icon-back,
+.widget-menu-icon-draft {
+    -webkit-box-flex: 0;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+@media (min-width: 576px) {
+    .widget-menu-icon-back {
+        -webkit-box-flex: 0;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+
+@media (min-width: 768px) {
+    .widget-menu-icon-back {
+        -webkit-box-flex: 0;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .widget-menu-icon-back {
+        -webkit-box-flex: 0;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .widget-menu-icon-back {
+        -webkit-box-flex: 0;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+}
+
+
+
+.widget-header-title {
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+
+@media (min-width: 576px) {
+    .widget-header-title {
+        -webkit-box-flex: 0;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .widget-header-title {
+        -webkit-box-flex: 0;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .widget-header-title {
+        -webkit-box-flex: 0;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .widget-header-title {
+        -webkit-box-flex: 0;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+ps-template-screen .widget-menu-icon .home_icon {
+    display: none;
+}
+
+ps-template-screen .common-quick-menu {
+    position: fixed;
+    bottom: 0px;
+    height: auto !important;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+ps-template-screen .common-quick-menu.collapsed {
+    height: var(--ps-quick-menu-height) !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ps-template-screen .common-quick-menu .show-more-less-icon ps-label {
+    display: none;
+}

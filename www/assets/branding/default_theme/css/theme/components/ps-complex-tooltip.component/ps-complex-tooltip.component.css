@@ -1,0 +1,57 @@
+:root {
+  --ps-tooltip-text-color: hsl(0, 0%, 100%);
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  height: 18px !important;
+  background-color: var(--ps-font-dark-color);
+  color: var(--ps-tooltip-text-color) !important;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip-container .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip-container .tooltipicon {
+  position: absolute;
+  top: 0;
+}
+
+[dir=ltr] .tooltipicon {
+  left: 0;
+}
+
+[dir=rtl] .tooltipicon {
+  right: 0;
+}
+
+.tooltip-container ps-container-html-viewer .ps-html-viewer-wrapper iframe {
+  background-color: var(--ps-font-dark-color);
+  height: -webkit-fill-available
+}

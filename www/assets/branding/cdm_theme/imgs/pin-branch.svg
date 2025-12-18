@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="42.992" viewBox="0 0 30 42.992">
+  <g id="Group_602" data-name="Group 602" transform="translate(6569.67 -1207.906)">
+    <path id="Icon_map-map-pin" data-name="Icon map-map-pin" d="M22.843,1.728c-8.285,0-15,5.724-15,12.781s15,30.211,15,30.211,15-23.151,15-30.211-6.719-12.781-15-12.781Z" transform="translate(-6577.514 1206.178)" fill="#248b92"/>
+    <g id="Branch" transform="translate(-6562.895 1215.631)">
+      <path id="Path_120990" data-name="Path 120990" d="M2096.49,1504.319l8.233-5.682,8.217,5.682Z" transform="translate(-2096.49 -1498.637)" fill="#fff"/>
+      <g id="Group_42996" data-name="Group 42996" transform="translate(2.371 5.455)">
+        <rect id="Rectangle_17544" data-name="Rectangle 17544" width="2.376" height="7.128" transform="translate(0 0)" fill="#fff"/>
+        <rect id="Rectangle_17545" data-name="Rectangle 17545" width="2.376" height="7.128" transform="translate(9.504 0)" fill="#fff"/>
+        <rect id="Rectangle_17546" data-name="Rectangle 17546" width="2.376" height="7.128" transform="translate(4.752 0)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_17547" data-name="Rectangle 17547" width="14.256" height="2.376" transform="translate(1.183 11.395)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

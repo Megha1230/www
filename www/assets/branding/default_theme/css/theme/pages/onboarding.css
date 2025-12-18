@@ -1,0 +1,18 @@
+.success-image .ps-action-image-row {
+    justify-content: center;
+    margin: 0px !important;
+}
+
+.success-image ion-img {
+    max-width: 250px;
+    min-height: 200px;
+    background: white;
+    border-radius: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.success-image ion-img::part(image) {
+    border-radius: 20%;
+}

@@ -1,0 +1,34 @@
+.ps-popup-modal-button ion-button {
+    height: 40px !important;
+    --border-color: unset !important;
+    font-weight: 400;
+    font-size: var(--ps-sm-font);
+    color: var(--ps-font-light-color) !important;
+}
+
+.popup-modal-gif,
+.popup-modal-gif ion-img {
+    width: 250px;
+}
+
+.alert-modal .popup-modal-gif ion-img {
+    justify-content: center;
+    display: flex;
+}
+
+.info-alert .popup-modal-gif,
+.info-alert .popup-modal-gif ion-img {
+    width: 80px;
+}
+
+.alert-modal ps-template-popup-message ps-action-image .ps-action-image-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.alert-modal ps-template-popup-message ps-action-image .ps-action-image-image ion-img {
+    width: 50px;
+    height: 50px;
+}

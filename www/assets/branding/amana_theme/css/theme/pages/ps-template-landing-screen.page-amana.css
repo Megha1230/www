@@ -1,0 +1,25 @@
+ps-template-landing-screen .landing-div {
+    background-image: url('/assets/branding/amana_theme/imgs/splash.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ps-template-landing-screen .landing-progress,
+ps-template-landing-screen .landing-label {
+    color: var(--ps-font-light-color);
+    font-size: var(--ps-md-font);
+    margin: calc(calc(5/100) * var(--ps-100vh));
+    margin-top: calc(calc(30/100) * var(--ps-100vh));
+}
+
+ps-template-landing-screen .landing-spinner {
+    width: 25% !important;
+    margin: calc(calc(5/100) * var(--ps-100vh));
+    margin-top: calc(calc(30/100) * var(--ps-100vh));
+}
+
+ps-template-landing-screen .landing-logo,
+ps-template-landing-screen .landing-label {
+    display: none;
+}

@@ -1,0 +1,116 @@
+ps-template-login .bank-logo {
+    background-image: url('/assets/branding/amana_theme/imgs/BankLogo.png');
+    height: calc(calc(20/100) * var(--ps-100vh));
+}
+
+.isWeb-Layout ps-template-login .bank-logo {
+    height: calc(calc(12/100) * var(--ps-100vh));
+    margin: 0px !important;
+}
+
+.isMobile-Layout ps-template-login .bank-logo {
+    margin: 0px 0px !important;
+}
+
+ps-template-login .ps-template-login-help {
+    font-size: 0.7em;
+}
+
+ps-template-login ps-label ion-label {
+    font-size: var(--ps-lg-font) !important;
+}
+
+.ps-template-login-card-flex {
+    background-image: url('/assets/branding/amana_theme/imgs/prelogin-background.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+ps-template-login .bank-name {
+    display: none;
+}
+
+.isWeb-Layout ps-template-login #ps-container-login-form {
+    height: calc(calc(65/100) * var(--ps-100vh)) !important;
+    margin-top: 60px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+/* .isWeb-Layout ps-template-login .ps-template-login-logo {
+    margin-bottom: 16px !important;
+} */
+
+omni-login ps-action-hyperlink .ps-action-image-row {
+    justify-content: center;
+}
+
+/* .isWeb-Layout omni-login .additional-links .online-registration-link {
+    position: absolute;
+    bottom: 10%;
+} */
+
+.isWeb-Layout .ps-template-login-rememberMe ps-container-item .ps-container-item-wrapper {
+    margin-bottom: 0px !important;
+}
+
+
+.isWeb-Layout ps-template-login .ps-template-login-rememberMe .ps-select-toggle-item {
+    padding-bottom: 0px;
+}
+
+.isWeb-Layout ps-template-login .ps-input {
+    font-size: var(--ps-lg-font) !important;
+}
+
+.isWeb-Layout ps-template-login .ps-template-login-submit ion-button.ps-button-submit {
+    height: 50px;
+
+}
+
+.isWeb-Layout ps-template-login .ps-template-login-submit ion-button.ps-button-submit .ps-action-image-container * {
+    height: 100%;
+}
+
+.isWeb-Layout ps-template-login .ps-template-login-submit ion-button.ps-button-submit .ps-action-image-container ion-label {
+    text-transform: uppercase !important;
+    font-size: var(--ps-lg-font) !important;
+}
+
+.isWeb-Layout ps-template-login .ps-select-toggle-wrapper {
+    flex: 0 0 20% !important;
+}
+
+.omni-login-fab-list ps-button-fab-list ion-fab-button ion-icon {
+    font-size: var(--ps-xxxl-font);
+}
+ps-template-login ps-button-fab#faq_link_fab_login,
+ps-template-login ps-button-fab#create_account_fab_login,
+ps-template-login ps-button-fab#qibla_direction_fab_login,
+ps-template-login ps-button-fab#prayer_time_fab_login{
+    display: none;
+}
+
+ps-template-login ps-button-fab#atm_and_branch_fab_login
+{   
+    bottom: calc(var(--ps-fab-login-button-size) + 5px) !important;
+}
+.isWeb-Layout .ps-template-login-card-flex {
+height: 100%;
+}
+
+.isMobile-Layout .ps-template-login-card-flex>div {
+bottom:0;
+}
+.isMobile-Layout ps-template-login   ps-button-fab-list ion-fab{
+    bottom:30px
+  }
+  
+ /*to check it later*/
+  .isMobile-Layout  .ps-template-login-captcha .ps-container-item-wrapper {
+    width:330px;
+  }

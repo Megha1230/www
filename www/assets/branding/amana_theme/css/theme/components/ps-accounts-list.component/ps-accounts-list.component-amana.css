@@ -1,0 +1,108 @@
+ps-accounts-list mat-card-content .lookup-details-content .container-option-table {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--ps-md-font) !important;
+}
+
+ps-accounts-list mat-card-content .lookup-details-content .container-option-table-row,
+.container-lookup-balance {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-inline-start: 2% !important;
+}
+
+ps-accounts-list mat-card-content .lookup-details-content .container-option-table-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+ps-accounts-list mat-card-content ps-balance .ps-balance {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ps-accounts-list mat-card-content ps-balance .current-balance-div {
+    display: none;
+}
+
+ps-accounts-list mat-card-content ps-balance .available-balance-div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-title ps-action-icon {
+    font-size: 2.3em;
+}
+
+ps-accounts-list mat-card-content .lookup-details-content .container-option-table {
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px) !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-content {
+    padding-top: 0px !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-title {
+    font-size: var(--ps-md-font);
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-title ps-action-icon ion-icon {
+    font-size: 1.8em;
+}
+
+.isWeb-Layout ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-title ps-action-icon ion-icon {
+    font-size: 2.2em;
+}
+
+.container-currency-iso .ps-separator {
+    text-transform: uppercase;
+}
+
+ps-accounts-list .validation-message {
+    font-weight: bold;
+}
+
+.no-account-text {
+    color: var(--ps-font-light-color);
+}
+
+/* Shadab - 08/09/2021 */
+.ps-container-lookup-option-details .mat-card {
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+.isMobile-Layout ps-accounts-list mat-card-content .lookup-details-content .container-option-table {
+    padding: 0px !important;
+    font-size: var(--ps-xs-font) !important;
+}
+
+.isMobile-Layout ps-accounts-list mat-card-content .lookup-details-content .container-option-table-row,
+.container-lookup-balance {
+    margin-inline-start: 0% !important;
+}
+
+/* 07Dec2021 */
+.mat-card-header .mat-card-subtitle:not(:first-child){
+    margin-top:-10px !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-content .container-option-labels-order {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+   
+}
+ps-accounts-list .container-option-table-row-Account ps-keyin-input .ps-custom-component-preview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+ps-accounts-list .ps-container-lookup-option-details .card-content-field .ps-custom-component-preview ps-label-input{
+    width: 100%;
+}
+

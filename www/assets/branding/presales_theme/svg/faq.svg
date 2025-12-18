@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <g id="question" transform="translate(-0.003 0)">
+    <g id="Group_43384" data-name="Group 43384" transform="translate(0.003 0)">
+      <g id="Group_43383" data-name="Group 43383" transform="translate(0)">
+        <path id="Path_122318" data-name="Path 122318" d="M17.555,15.957l-1.21-3.521a8.609,8.609,0,1,0-7.725,4.8h.014a8.644,8.644,0,0,0,3.806-.892l3.521,1.21a1.264,1.264,0,0,0,.411.069,1.256,1.256,0,0,0,1.183-1.664Zm-1.038.556a.2.2,0,0,1-.217.05l-3.731-1.282a.522.522,0,0,0-.414.032,7.569,7.569,0,1,1,3.162-3.162.522.522,0,0,0-.032.414L16.567,16.3A.2.2,0,0,1,16.517,16.514Z" transform="translate(-0.003 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_43386" data-name="Group 43386" transform="translate(8.012 12.484)">
+      <g id="Group_43385" data-name="Group 43385">
+        <path id="Path_122319" data-name="Path 122319" d="M233.242,362.748a.522.522,0,1,0,.522.522A.528.528,0,0,0,233.242,362.748Z" transform="translate(-232.719 -362.748)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_43388" data-name="Group 43388" transform="translate(5.936 4.394)">
+      <g id="Group_43387" data-name="Group 43387">
+        <path id="Path_122320" data-name="Path 122320" d="M174.994,127.674a2.6,2.6,0,0,0-2.6,2.6.522.522,0,1,0,1.045,0,1.554,1.554,0,1,1,1.554,1.554.522.522,0,0,0-.522.522v2.131a.522.522,0,1,0,1.045,0v-1.661a2.6,2.6,0,0,0-.522-5.145Z" transform="translate(-172.395 -127.674)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

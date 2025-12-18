@@ -1,0 +1,55 @@
+{
+    "MAIN_CONFIG": {
+        "MAIN_PATH": "http://172.27.113.34:10012/",
+        "PACKAGE_NAME": "omni_services_omni_qa_ucb_34_o19",
+        "COMP_CODE": 1,
+        "APP_VERSION": "3.1.0.13.0.1",
+        "APP_ID": 1,
+        "LOG_LEVEL_INTERVAL": 300,
+        "MINIFIED_CLIENT_CSS_FILE_NAME": "/assets/branding/presales_theme/ps-css-files.min.css",
+        "APP_NAME": "OmniBK",
+        "REQUEST_TIMEOUT": 31000000,
+        "CLIENT_COUNTRY_ISO_CODE": "MA",
+        "previewTimeOut":1500,
+        "PAYMENT_AMOUNT": "",
+        "PAYMENT_AMOUNT_T": "",
+        "APP_STORE_ID": "1562181881",
+        "DEFAULT_QUICK_LINKS_MENU": [
+            1498,
+            1488,
+            1491,
+            1497
+        ],
+        "PAYMENT_CURRENCY" : "af7c30e551dc831fb67f7340ea5213e45b54e331c5f576b63606764dca0f9ed4",
+        "SCREEN_TRANSLATION_OPER": [
+            61,
+            203
+        ],
+        "OLD_APP_ID" : "",
+        "WEBVIEW_URLS":{
+            "WEBVIEW_ONBOARDING_URL": "https://www.wikipedia.org"
+        }
+    },
+    "DefaultZoomBranchPercentage": 14,
+    "CLIENT_ASSETS_CONFIG": {
+        "ASSETS_URL": "/assets/branding/presales_theme/",
+        "MAIN_CSS_FILE_NAME": "ps-css-files-presales.css",
+        "IMGS_FOLDER_URL": "/assets/branding/presales_theme/imgs/",
+        "CSS_FOLDER_URL": "/assets/branding/presales_theme/css/",
+        "ICONS_URL": "/assets/branding/presales_theme/icon/",
+        "HTML_URL": "/assets/html/",
+        "FONT_FAMILY": "/assets/branding/presales_theme/fonts/Montserrat/Montserrat.css",
+        "SVG_URL": "/assets/branding/presales_theme/svg/",
+        "BANNERS_FILE_URL": null,
+        "UI_CONFIGURATION": {
+            "LANDING_UI_TYPE": 3,
+            "DISPLAY_SLIDER_ON_LOGIN": false,
+            "MENU_TREE": null,
+            "ENHANCED_CONTACT_US": true,
+            "MAX_NUMBER_OF_IMAGES_IN_MEDIA_CAPTURE": 10,
+            "CUSTOM_TIMEOUT_SERVICE_LIST": {},
+            "CUSTOM_TIMEOUT_OPER_LIST": {},
+            "ENABLE_VITUAL_KEYBOARD": false
+        }
+    }
+}

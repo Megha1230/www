@@ -1,0 +1,7 @@
+:root {
+    --ps-valid-field-color: transparent;
+    --ps-invalid-field-color: hsl(0, 85%, 60%);
+    --ps-focused-field-color: hsl(0, 0%, 100%);
+    --ps-default-field-color: hsl(0, 0%, 100%);
+    --ps-default-font-color: hsl(0, 0%, 100%);
+}

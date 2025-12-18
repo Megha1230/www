@@ -1,0 +1,13 @@
+{
+    "banner-files": [
+        {
+            "file": "default_banners/housing.html"
+        },
+        {
+            "file": "default_banners/Car.html"
+        },
+        {
+            "file": "default_banners/Personal.html"
+        }
+    ]
+}

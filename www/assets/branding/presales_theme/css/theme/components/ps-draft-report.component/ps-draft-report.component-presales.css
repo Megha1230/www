@@ -1,0 +1,36 @@
+.isWeb-Layout .main-header ps-drafts-report {
+    background: var(--ps-primary-color) !important;
+}
+
+ps-drafts-report .warning-bookmark-message {
+    padding-bottom: var(--ps-xs-padding);
+}
+
+ps-drafts-report.inline-draft-report {
+    max-height: calc(calc(100/100) * var(--ps-100vh));
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 100vh !important;
+}
+
+ps-drafts-report .report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    padding: var(--ps-xxxs-padding) 0px;
+    margin: var(--ps-xxxs-margin) 0px;
+    border-bottom: var(--ps-font-color-opp-highlight-color) 1px solid;
+}
+
+ps-drafts-report .report-field {
+    flex-direction: row;
+}
+
+ps-drafts-report round-progress {
+    height: 50px;
+}
+
+ps-drafts-report .main-wrapper .container-fluid{
+    padding: 0;
+}

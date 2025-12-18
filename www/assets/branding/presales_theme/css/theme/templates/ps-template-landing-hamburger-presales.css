@@ -1,0 +1,5 @@
+/* added (Clark) */
+.sidenav-header .header-settings-icon,
+.sidenav-header .logout-header {
+    max-width: 0;
+}

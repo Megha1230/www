@@ -1,0 +1,21 @@
+.toleranceIntervals {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.percentage {
+    width: 100%;
+    color: var(--ps-font-light-color);
+    align-content: center;
+    font-size: medium;
+
+}
+
+.toleranceIntervals ps-input-numeric {
+    flex: 0 0 46%;
+}
+
+.toleranceLbl {
+    color: var(--ps-font-light-color);
+}

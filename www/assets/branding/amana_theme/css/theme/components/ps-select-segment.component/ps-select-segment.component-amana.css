@@ -1,0 +1,11 @@
+/* Shadab - 08/09/2021 */
+ps-select-segment ion-segment-button:not(.segment-button-checked) {
+  border: 1px solid var(--ps-segment-panel-selected-background-color);
+  opacity: 0.8;
+  border-radius: calc(var(--ps-border-radius-ratio-initial) * 4px) calc(var(--ps-border-radius-ratio-initial) * 4px) 0 0;
+}
+
+ps-complex-segment .ps-content-segment {
+  background: transparent;
+  /* padding: 20px 0 0; */
+}

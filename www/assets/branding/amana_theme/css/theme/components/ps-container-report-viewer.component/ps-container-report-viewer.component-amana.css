@@ -1,0 +1,9 @@
+ps-template-landing-fab-ui ps-template-base .trigger-disable-field {
+    opacity: 1
+}
+
+/* Shadab - 21/09/2021 */
+ps-container-report-viewer td.report-header-value
+{
+    padding-inline-start:5px;
+}

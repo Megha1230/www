@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1000px) {
+    ps-button-notification ion-icon {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    ps-button-notification ion-icon {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}

@@ -1,0 +1,60 @@
+ps-complex-calendar .cal-event-actions .cal-event-action {
+    background: var(--ps-highlight-background-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    color: var(--ps-font-light-color);
+}
+
+ps-complex-calendar .cal-event-actions .cal-event-action:hover {
+    text-decoration: none;
+}
+
+ps-complex-calendar ion-item {
+    --inner-padding-end: 0px !important;
+}
+
+/* ps-complex-calendar .calendar-navigation-wrapper,
+ps-complex-calendar .calendar-view-change-wrapper {
+    flex: 0 0 40%;
+    max-width: 40%;
+    display: flex;
+}
+
+ps-complex-calendar .calendar-navigation-wrapper>*,
+ps-complex-calendar .calendar-view-change-wrapper>* {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+} */
+
+.complex-calendar-row {
+    justify-content: space-around;
+}
+
+ps-complex-calendar .calendar-viewdate {
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: var(--ps-font-light-color);
+    min-width: fit-content;
+}
+
+.cal-day-cell,
+.cal-cell-top {
+    height: auto !important;
+    min-height: auto !important;
+}
+
+ps-complex-calendar .cal-event.item-is-selected {
+    height: 20px !important;
+    width: 20px !important;
+    /* border-radius: 0px !important; */
+}
+
+ps-complex-calendar .cal-event-container.item-is-selected {
+    padding: 2px;
+}

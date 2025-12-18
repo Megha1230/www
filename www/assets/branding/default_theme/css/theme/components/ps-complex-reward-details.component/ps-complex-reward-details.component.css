@@ -1,0 +1,142 @@
+.reward-details-modal .modal-wrapper {
+    width: 60%;
+}
+
+.reward-details-modal .reward-details_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background: var(--ps-header-background-color);
+}
+
+.reward-details-modal .reward-details_header .reward_title {
+    color: var(--ps-panel-title-font-color);
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.reward-details-modal .reward-details_header .header_close {
+    padding: 0 5px;
+    color: var(--ps-font-light-color);
+}
+
+.reward-details-modal .reward-details_body {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main {
+    height: 100%;
+    width: 50%;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .ps-action-image-row {
+    justify-content: center;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_image ion-img {
+    width: 100%;
+    padding: var(--ps-xl-font);
+    height: auto;
+    object-fit: contain;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_points {
+    display: block;
+    text-align: center;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_name {
+    display: block;
+    text-align: center;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .reward_description ion-label {
+    white-space: break-spaces;
+    font-family: cursive !important;
+    font-style: italic;
+    color: var(--ps-dropdown-widget-font-color);
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_points ion-label,
+.reward-details-modal .reward-details_body .reward-details_main .reward_name ion-label,
+.reward-details-modal .reward-details_body .reward-details_desc .reward_merchant ion-label,
+.reward-details-modal .reward-details_body .reward-details_desc .reward_validity ion-label {
+    color: var(--ps-dropdown-widget-font-color);
+    font-weight: bold;
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_points ion-label {
+    font-size: var(--ps-xl-font);
+    padding: 0 var(--ps-xl-font);
+    border: 1px solid var(--ps-dropdown-widget-font-color);
+}
+
+.reward-details-modal .reward-details_body .reward-details_main .reward_name,
+.reward-details-modal .reward-details_body .reward-details_desc .reward_merchant,
+.reward-details-modal .reward-details_body .reward-details_desc .reward_validity {
+    margin: 10px 0;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .reward_merchant ion-label,
+.reward-details-modal .reward-details_body .reward-details_desc .reward_validity ion-label {
+    font-style: italic;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .redeem_action ion-button {
+    --box-shadow: none;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .redeem_action {
+    width: 100%;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .redeem_action ion-button ps-label {
+    background-color: var(--ps-dropdown-widget-font-color) !important;
+    padding: 5px 40px;
+}
+
+.reward-details-modal .reward-details_body .reward-details_desc .redeem_action ion-button ion-label {
+    color: var(--ps-dropdown-widget-additional-action-label-color) !important;
+    font-family: cursive !important;
+}
+
+@media (max-width: 576px) {
+    .reward-details-modal .modal-wrapper {
+        width: 100%;
+    }
+
+    .reward-details-modal .reward-details_body {
+        flex-direction: column;
+    }
+
+    .reward-details-modal .reward-details_body .reward-details_main {
+        width: 100%;
+    }
+
+    .reward-details-modal .reward-details_body .reward-details_main .reward_image ion-img {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .reward-details-modal .reward-details_body .reward-details_main .reward_image .ps-action-image-row {
+        margin: auto;
+    }
+
+    .reward-details-modal .reward-details_body .reward-details_desc {
+        width: 100%;
+        text-align: center;
+    }
+
+}

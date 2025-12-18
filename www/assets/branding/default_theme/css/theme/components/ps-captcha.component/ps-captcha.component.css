@@ -1,0 +1,37 @@
+.ps-template-login-captcha .ps-component-default-class {
+  margin-right: 5% !important;
+}
+.ps-template-login-captcha  .ps-field-item-wrapper{
+  max-width:82%
+}
+.ps-template-login-captcha .ps-base-row {
+  margin-right: 22% !important;
+}
+.ps-template-login-captcha ion-item {
+  --background: #f9f9f9 !important;
+}
+.ps-template-login-captcha.ps-field-item-wrapper,
+.ps-template-login-captcha .ps-base-container-body-row {
+
+  margin-left: -7% !important;
+  margin-bottom: -1% !important;
+}
+.ps-template-login-captcha .ps-container-item-main-content-icon {
+  margin-left: 1% !important;
+}
+
+.isMobile-Layout .ps-template-login-captcha .ps-base-row {
+  margin-right: 12% !important;
+}
+.isMobile-Layout .ps-template-login-captcha ion-item {
+  --background: #f9f9f9 !important;
+}
+.isMobile-Layout .ps-template-login-captcha .ps-base-container-body-row {
+  margin-left: -7% !important;
+  margin-bottom: -1% !important;
+}
+.isMobile-Layout
+  .ps-template-login-captcha
+  .ps-container-item-main-content-icon {
+  margin-left: 1% !important;
+}

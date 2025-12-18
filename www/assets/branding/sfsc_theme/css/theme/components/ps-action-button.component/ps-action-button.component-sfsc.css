@@ -1,0 +1,30 @@
+:root {
+    --ps-button-border-radius: calc(var(--ps-border-radius-ratio-initial) * 42px);
+    --ps-button-border-width: 0px;
+    --ps-button-submit-background-color: #A83800;
+    --ps-button-next-background-color: transparent;
+    --ps-button-cancel-background-color: transparent;
+    --ps-button-submit-background-color-hover: var(--ps-button-submit-background-color);
+    --ps-button-cancel-background-color-hover: rgba(0, 0, 0, 0.3);
+    --ps-button-cancel-font-color: white;
+    --ps-button-next-background-color-hover: rgba(0, 0, 0, 0.2);
+    --ps-button-back-background-color-hover: rgba(0, 0, 0, 0.2);
+    --ps-button-export-background-color: var(--ps-button-submit-background-color);
+    --ps-button-export-border-color: transparent;
+    --ps-button-export-background-color-hover: hsl(118, 22%, 66%);
+    --ps-button-print-background-color: var(--ps-button-submit-background-color);
+    --ps-button-print-border-color: transparent;
+    --ps-button-print-background-color-hover: rgba(0, 0, 0, 0.2);
+    --ps-button-next-border-color: 1px solid white;
+    --ps-button-previous-background-color: transparent;
+    --ps-button-previous-border-color: 1px solid white;
+    --ps-button-reset-border: 1px solid white;
+    --ps-button-retrieve-background-color: var(--ps-button-submit-background-color);
+    --ps-button-cancel-border-color: 1px solid white;
+    --ps-button-submit-font-color: white;
+    --ps-button-previous-background-color-hover: rgba(0, 0, 0, 0.3);
+}
+
+ps-action-button ion-button ion-icon {
+    display: none;
+}

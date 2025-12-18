@@ -1,0 +1,32 @@
+.splash-div {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: var(--ps-font-light-color);
+}
+
+.splash-logo {
+    width: 70%;
+    margin: calc(calc(5/100) * var(--ps-100vh)) calc(calc(2/100) * var(--ps-100vh)) calc(calc(5/100) * var(--ps-100vh)) calc(calc(2/100) * var(--ps-100vh));
+}
+
+.splash-label {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: #aaa;
+    margin: calc(calc(10/100) * var(--ps-100vh));
+}
+
+.splash-spinner {
+    width: 45%;
+    margin-top: calc(calc(10/100) * var(--ps-100vh));
+}
+
+ps-splash-screen {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+}

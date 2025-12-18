@@ -1,0 +1,386 @@
+ .sidenav {
+     position: fixed;
+     z-index: 1;
+
+     top: var(--ps-nav-header-init);
+     left: 0;
+     right: unset;
+     overflow-x: hidden;
+     transition: 0.5s;
+     text-align: center;
+     z-index: 100000;
+     background: rgba(0, 0, 0, 0.9);
+ }
+
+ [dir=rtl] .sidenav {
+     right: 0;
+     left: unset;
+ }
+
+ .isMobile-Layout .sidenav {
+     height: 0%;
+     width: 100%;
+ }
+
+ .isWeb-Layout .sidenav {
+     height: 100%;
+     width: 0%;
+ }
+
+
+ .sidenav-contents {
+     height: 90vh;
+     background-color: var(--ps-menu-background-color);
+     border-radius: 0px 0px var(--ps-popup-border-radius) var(--ps-popup-border-radius);
+ }
+
+ /* .sidenav {
+    background-color: var(--ps-secondary-color);
+} */
+
+ .sidenav {
+     --width: 100%;
+     --background: var(--ps-secondary-color);
+ }
+
+ .sidenav-header {
+     display: flex;
+     background: var(--ps-font-light-color);
+     height: var(--ps-nav-header-init)
+ }
+
+ .sidenav .is-widget-view .ps-complex-menu .ps-action-menu-item .ps-label-input {
+     text-align: start;
+     display: flex;
+     padding-inline-start: 10px;
+ }
+
+ .sidenav .info-separator {
+     display: flex;
+     height: 6vh;
+     color: var(--ps-font-light-color);
+     opacity: 0.5;
+     justify-content: center;
+ }
+
+ .sidenav .menu_content_complex {
+     max-height: 35vh;
+ }
+
+ .sidenav-header .widget-menu-icon ion-icon {
+     color: var(--ps-primary-degree-3-color);
+ }
+
+ .sidenav-header ion-icon.log-out {
+     color: var(--ps-error-color);
+ }
+
+ .sidenav-header .widget-menu-icon {
+     max-width: 20%;
+     flex: 0 0 20%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+
+ .sidenav-header .header-settings-icon,
+ .sidenav-header .logout-header {
+     max-width: 10%;
+     flex: 0 0 10%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+
+ .navbar-logo {
+     max-width: 60%;
+     flex: 0 0 60%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     background-image: var(--ps-bank-logo);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+
+
+ .home-quick-links .is-widget-view ps-action-menu-item .ps-menu-main-icon {
+     height: 50%;
+ }
+
+ .sidenav .is-widget-view .ps-complex-menu-item,
+ .home-quick-links .is-widget-view .ps-complex-menu-item {
+     flex: 0 0 28%;
+     max-width: 28%;
+     margin-top: 0px;
+ }
+
+ .sidenav .is-widget-view ps-action-menu-item .ps-menu-main-icon {
+     max-width: 20% !important;
+     flex: 0 0 20% !important;
+     align-items: center;
+     height: auto !important;
+ }
+
+ .sidenav .is-widget-view ps-action-menu-item .ps-menu-title {
+     max-width: 80% !important;
+     flex: 0 0 80% !important;
+     align-items: center;
+     height: auto !important;
+ }
+
+ .sidenav ps-complex-profile {
+     display: flex;
+     background: var(--ps-primary-color);
+     height: 21vh;
+ }
+
+ .sidenav ps-complex-info {
+     display: flex;
+     height: 21vh;
+ }
+
+ .sidenav ps-complex-info ps-hyperlink-anchor .ps-action-icon-avatar {
+     display: none
+ }
+
+ /* .sidenav ps-complex-menu-reach {
+    display: flex;
+    height: 21vh;
+}
+
+.sidenav ps-complex-menu-reach .ps-action-button,
+.sidenav ps-complex-menu-reach ps-action-button {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+} */
+
+ .sidenav ps-complex-profile .profile-pic-user {
+     height: 100px !important;
+     width: 100px !important;
+ }
+
+ .sidenav ps-complex-profile ps-container-complex {
+     width: 100%;
+ }
+
+ .sidenav .is-widget-view .ps-complex-menu-item {
+     height: 60pt !important;
+ }
+
+ .sidenav ps-complex-info .widget-view ps-container-item {
+     height: 40pt !important;
+ }
+
+ ps-complex-info .widget-view ps-hyperlink-anchor .ps-anchor-panel-data ion-label {
+
+     font-weight: 400;
+     font-size: var(--ps-md-font);
+ }
+
+ .sidenav .ps-complex-profile-img,
+ .sidenav .ps-complex-profile-info,
+ .sidenav .ps-user-info-wrapper,
+ .sidenav ps-complex-profile .ps-dropdown-theme-wrapper {
+     max-width: 100%;
+     flex: 0 0 100%;
+ }
+
+ .sidenav .welcome-label-value {
+     font-weight: 400;
+ }
+
+ .sidenav .welcome-label-value {
+     text-align: center;
+ }
+
+ .sidenav .welcome-label-cifname {
+     font-weight: 400;
+ }
+
+ .sidenav .welcome-label-cifname {
+     text-align: center;
+ }
+
+ .sidenav .last-login-label {
+     text-align: end;
+ }
+
+ /* 
+ .sidenav ion-icon,
+ .sidenav ion-image,
+ .sidenav ion-label {
+     pointer-events: auto !important;
+ } */
+
+ ps-template-landing-hamburger .menu-icon ion-icon {
+     font-size: var(--ps-xxxl-font);
+ }
+
+ ps-template-landing-hamburger ps-template-screen .menu-icon ion-icon {
+     font-size: var(--ps-lg-font);
+ }
+
+ .hamburger-home {
+     background: var(--ps-form-container-background-color);
+ }
+
+ .home-content {
+     height: 60vh;
+     background: var(--ps-form-container-background-color);
+ }
+
+ .home-quick-links {
+     background: var(--ps-primary-degree-2-color);
+     height: 34vh;
+     border-radius: var(--ps-home-quick-links-radius) var(--ps-home-quick-links-radius) 0px 0px;
+ }
+
+ /* 
+ .home-content ps-template-base>.container-fluid.template-base-container,
+ .home-content ps-template-base .container-fluid.ps-base-container-fluid, */
+ .home-content ps-template-base>.container-fluid.template-base-container,
+ .home-content ps-template-base>.container-fluid.template-base-container>.row {
+     max-height: 60vh !important;
+ }
+
+ .home-content ps-template-base .container-fluid.ps-base-container-fluid {
+     max-height: 55vh !important;
+ }
+
+ .home-quick-links ps-complex-menu.is-widget-view .ps-menu-main-icon ps-action-icon ion-icon {
+     font-size: var(--ps-xxxl-font);
+ }
+
+ .sidenav .is-widget-view ps-action-menu-item .ps-menu-main-icon {
+     height: auto;
+ }
+
+ .sidenav .is-widget-view .ps-complex-menu-item {
+     margin-top: 0px
+ }
+
+ .sidenav .is-widget-view ps-action-menu-item .ps-menu-main-icon ps-action-icon {
+     padding: 0px;
+ }
+
+ .sidenav .main-footer {
+     display: none;
+ }
+
+ .sidenav .widget-menu-icon-back {
+     display: none;
+ }
+
+ .separator-line {
+     width: 20%;
+     border-bottom: 1px solid white;
+     margin-bottom: 30px;
+ }
+
+ .help-label {
+     margin: 0px 35px;
+ }
+
+ ps-template-landing-hamburger .faq-link {
+     order: 3;
+ }
+
+ ps-template-landing-hamburger .terms-and-condition {
+     order: 1;
+ }
+
+ ps-template-landing-hamburger .terms-and-condition ion-label {
+     text-transform: capitalize;
+ }
+
+ ps-template-landing-hamburger .bank-website {
+     order: 2;
+ }
+
+ ps-template-landing-hamburger .security-statement {
+     order: 4
+ }
+
+ .faq-link ion-label {
+     text-transform: uppercase;
+
+ }
+
+ ps-template-landing-hamburger ps-complex-info .widget-view ps-container-item {
+     align-items: start;
+ }
+
+ .home-quick-links-expanded,
+ .home-quick-links-collapsed {
+     display: flex;
+ }
+
+ .home-quick-links-expanded .ps-action-icon-icon,
+ .home-quick-links-collapsed .ps-action-icon-icon {
+     display: flex;
+     justify-content: center;
+ }
+
+ .home-quick-links-expanded ion-icon,
+ .home-quick-links-collapsed ion-icon {
+     border-radius: 50%;
+     background: var(--ps-font-light-color);
+     padding: 5px;
+     fill: var(--ps-primary-color);
+     box-shadow: 2px 2px #afacac73;
+ }
+
+ .common-quick-menu {
+     position: fixed;
+     bottom: 0px;
+     height: auto !important;
+     width: 100%;
+     z-index: 1000;
+ }
+
+ .common-quick-menu.collapsed {
+     height: var(--ps-quick-menu-height) !important;
+ }
+
+ ps-template-landing-hamburger .header {
+     height: var(--ps-nav-header-init);
+ }
+
+ .isWeb-Layout ps-template-landing-hamburger .main-section ion-router-outlet {
+     margin-top: calc(2* var(--ps-nav-header-init));
+     margin-bottom: var(--ps-nav-header-init);
+     width: 70%;
+     margin-inline-start: 15%;
+ }
+
+ .isMobile-Layout ps-template-landing-hamburger .main-section ion-router-outlet {
+     margin-top: var(--ps-nav-header-init);
+ }
+
+ ps-template-landing-hamburger .sidenav .opened-screen-title {
+     height: auto !important;
+ }
+
+ .sidenav ps-complex-profile .ps-dropdown-theme-wrapper ps-container-item .item {
+     margin-top: 0px;
+ }
+
+ ps-template-landing-hamburger .main-section .hidden-content-wrapper {
+     background-color: #072D76 !important;
+     position: relative;
+ }
+
+ ps-template-landing-hamburger .opened-screen-title+* {
+     height: 100vh;
+ }

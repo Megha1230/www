@@ -1,0 +1,114 @@
+.ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle ps-label .text-truncate{
+    font-weight: 700;
+    font-size: var(--ps-lg-font) !important;
+}
+
+.ps-container-lookup-option-details ps-dynamic-edit .dynamic-edit-action{
+    padding: var(--ps-xxxs-padding) calc(var(--ps-xxs-padding) + 1px) !important;
+}
+
+.isMobile-Layout .ps-container-lookup-option-details ps-dynamic-edit .dynamic-edit-action .edit-button{
+    padding: calc(var(--ps-xxxs-padding) + 2px) !important
+}
+
+.ps-container-lookup-option-details .lookup-details-header .lookup-details-title {
+    font-weight: normal;
+    font-size: var(--ps-lg-font);
+    align-items: center;
+    padding-bottom: var(--ps-xxxs-padding);
+}
+
+.isMobile-Layout .ps-container-lookup-option-details .lookup-details-header .lookup-details-title {
+    font-size: calc(var(--ps-sm-font) - 2px);
+}
+
+.isMobile-Layout .show-more-less-icon .ps-action-image-row ion-label {
+    font-size: calc(var(--ps-sm-font) - 2px);
+}
+
+.show-more-less-icon .ps-action-image-row .ps-action-icon-icon {
+    margin-inline-end: 0px;
+}
+
+.isWeb-Layout .show-more-less-icon .ps-action-image-row .ps-action-icon-icon {
+    font-size: var(--ps-xxl-font);
+    color: var(--ps-font-color-opp-primary-color) !important;
+}
+
+.isMobile-Layout .show-more-less-icon .ps-action-image-row .ps-action-icon-icon {
+    font-size: var(--ps-md-font);
+}
+
+ps-container-lookup-option .show-more-less-button-card {
+    padding-top: var(--ps-xxs-padding) !important;
+}
+
+.container-option-table-row {
+    border-inline-end: 0px !important;
+}
+
+ps-container-lookup-option .lookup-item-value, ps-container-lookup-option .lookup-item-label{
+    flex: 0 0 48%;
+}
+
+.isWeb-Layout ps-container-lookup-option .lookup-item-value, .isWeb-Layout ps-container-lookup-option .lookup-item-label{
+    padding-left: var(--ps-xxxs-padding) !important;
+}
+
+ps-container-lookup-option .ps-balance{
+    justify-content: center;
+}
+
+.ps-container-lookup-option-details .ps-balance .available-balance-div,
+.ps-container-lookup-option-details .ps-balance .current-balance-div {
+    font-weight: 500;
+    padding: var(--ps-xxxs-padding) calc(var(--ps-xxs-padding) + 1px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isMobile-Layout .ps-container-lookup-option-details .ps-balance .available-balance-div,
+.isMobile-Layout .ps-container-lookup-option-details .ps-balance .current-balance-div{
+    font-size: calc(var(--ps-xs-font) + 2px) !important;
+}
+
+.isWeb-Layout .ps-container-lookup-option-details .ps-balance .available-balance-div,
+.isWeb-Layout .ps-container-lookup-option-details .ps-balance .current-balance-div{
+    font-size: calc(var(--ps-lg-font)) !important;
+}
+
+.isMobile-Layout .action-details-options ion-icon {
+    font-size: var(--ps-xl-font);
+}
+
+.ps-container-lookup-option-details mat-card-content {
+    margin: 0;
+    padding: 0 var(--ps-md-padding);
+    background: var(--container-card-content-background-color);
+}
+
+.ps-container-lookup-option-details .lookup-details-header {
+    background: var(--ps-card-header-color) !important;
+    border-radius: var(--ps-card-border-radius) var(--ps-card-border-radius) 0 0;
+}
+
+ps-container-lookup-option .lookup-item-value, .lookup-item-label ion-label {
+    color: inherit !important;
+    font-size: calc(var(--ps-sm-font) + 1px) !important;
+}
+
+ps-container-lookup-option .lookup-item-value .item-value-child {
+    color: var(--ps-font-color-opp-primary-color) !important;
+}
+
+ps-container-lookup-option .show-more-less-button-card ion-label {
+    color: var(--ps-font-color-opp-primary-color) !important;
+    font-weight: 600;
+}
+
+ps-container-lookup-option ps-action-hyperlink ps-action-icon .ps-action-icon-label ion-label,
+.ps-container-lookup-option-details .action-details-options ps-label{
+    color: var(--ps-secondary-color) !important;
+    font-weight: 600;
+}

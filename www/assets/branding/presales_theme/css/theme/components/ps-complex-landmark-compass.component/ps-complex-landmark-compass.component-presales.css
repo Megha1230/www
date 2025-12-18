@@ -1,0 +1,19 @@
+ps-complex-landmark-compass .landmark-compass-title {
+    color: var(--ps-primary-color);
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.landmark-compass-wrapper .compass-background {
+    width: 100%;
+    height: 90%;
+}
+
+.landmark-compass-wrapper {
+    width: 78%;
+    padding-bottom: 78%;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--ps-md-margin);
+}

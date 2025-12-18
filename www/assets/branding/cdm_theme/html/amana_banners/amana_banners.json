@@ -1,0 +1,24 @@
+{
+    "banner-files": [
+        {
+            "file": "amana_banners/Banner1.html",
+            "onClickUrl": "https://www.amanabank.lk/personal/services/visa-debit-card/offers/"
+        },
+        {
+            "file": "amana_banners/Banner2.html",
+            "onClickUrl": "https://www.amanabank.lk/personal/financial-support/home-finance.html"
+        },
+        {
+            "file": "amana_banners/Banner3.html",
+            "onClickUrl": "https://www.amanabank.lk/orphan-care/"
+        },
+        {
+            "file": "amana_banners/Banner4.html",
+            "onClickUrl": "https://www.amanabank.lk/sms-alerts-and-e-statements.html"
+        },
+        {
+            "file": "amana_banners/Banner5.html",
+            "onClickUrl": "https://www.amanabank.lk/personal/financial-support/vehicle-finance.html"
+        }
+    ]
+}

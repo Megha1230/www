@@ -1,0 +1,32 @@
+:root ps-container-item {
+    --ps-valid-field-color: var(--ps-checked-color);
+    --ps-invalid-field-color: hsl(0, 95%, 55%);
+    --ps-focused-field-color: #4A4636;
+    --ps-default-field-color: #4A4636;
+    --ps-default-font-color: var(--ps-secondary-color);
+}
+
+ps-container-item ion-icon {
+    display: none !important;
+}
+
+ps-complex-info ps-container-item ion-icon,
+prayer-time ps-container-item ion-icon {
+    display: block !important;
+}
+
+ps-container-item .item {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    --highlight-background: none !important;
+    border-radius: var(--ps-fields-border-radius) !important;
+    font-size: var(--ps-md-font) !important;
+}
+
+ps-container-item .item ion-input,
+ps-container-item .item ion-datetime,
+.mat-form-field-label-wrapper {
+    font-size: var(--ps-md-font) !important;
+    font-weight: 500;
+    color: var(--ps-input-placeholder-font-color) !important;
+}

@@ -1,0 +1,33 @@
+:root {
+    --ps-field-color: white;
+}
+
+.lbl-required-star {
+    display: none;
+}
+
+.ps-keyin-input-label {
+    display: none;
+}
+
+*[ng-reflect-placeholder],
+*[ng-reflect-form-control-name],
+*[psFcName],
+.ng-touched,
+.ng-untouched,
+.ps-input-display-only-value,
+.mat-form-field-label,
+ps-container-item ion-item.item-has-focus ion-label,
+ps-container-item ion-item.ion-touched.ion-dirty ion-label,
+.ps-keyin-input-label {
+    text-overflow: ellipsis;
+    font-size: var(--ps-md-font) !important;
+}
+
+.ng-touched:not(.has-value),
+.ng-untouched:not(.has-value) {
+    color: var(--ps-font-light-color) !important;
+}
+ps-input-account-number *[ng-reflect-placeholder]{
+    text-transform: capitalize !important;
+}

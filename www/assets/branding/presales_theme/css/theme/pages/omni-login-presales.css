@@ -1,0 +1,34 @@
+@media (min-width: 1200px) {
+  .isWeb-Layout omni-login .login-main {
+    max-width: 100%;
+  }
+}
+
+.isWeb-Layout omni-login .login-main .main-content {
+  height: var(--ps-100vh) !important;
+}
+
+.isWeb-Layout omni-login .omni-login-links {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.isWeb-Layout omni-login .online-registration-link .ps-action-anchor {
+  margin-top: 0px !important;
+}
+
+.isMobile-Layout omni-login .additional-links {
+  height: 20%;
+}
+
+.isMobile-Layout ps-template-login .online-registration-link a {
+  margin-top: 0px !important;
+}
+
+.isMobile-Layout omni-login #online_registration_link .ps-action-image-row {
+  padding: 0px;
+}
+
+omni-login .additional-links ps-complex-tooltip ps-action-icon {
+  color: var(--ps-login-label-color) !important;
+}

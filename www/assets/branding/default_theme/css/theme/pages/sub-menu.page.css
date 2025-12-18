@@ -1,0 +1,11 @@
+sub-menu .opened-screen-title {
+    display: none;
+}
+
+sub-menu ps-complex-menu.is-widget-view .ps-menu-title {
+    color: var(--ps-sub-menu-widget-label-color) !important;
+}
+
+sub-menu .is-widget-view .ps-complex-menu .ps-action-menu-item .ps-label-input {
+    color: var(--ps-sub-menu-widget-label-color) !important;
+}

@@ -1,0 +1,13 @@
+:root {
+    --ps-date-color: #A390AC;
+}
+
+ps-complex-notification .ps-complex-notification-date-label {
+    font-size: var(--ps-sm-font);
+    color: lightgray !important;
+}
+
+/* Shadab - 15Sep2021 */
+.isMobile-Layout ps-template-landing-menu-web .fab-ui-notification {
+    right: 10px !important;
+}

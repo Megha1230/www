@@ -1,0 +1,43 @@
+.ps-container-lookup-option-details .lookup-details-header {
+    background: none !important;
+}
+
+.ps-container-lookup-option-details .ps-balance .current-balance-div {
+    background: unset;
+    border-right: 0px;
+}
+
+.ps-container-lookup-option-details .ps-balance .available-balance-div {
+    margin-inline-start: 10px;
+}
+
+ps-container-lookup-option mat-card-title ps-action-image {
+    display: none;
+}
+
+.card-content-options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.add-beneficiary-button ion-icon,
+.add-fav-payee-button ion-icon {
+    font-size: 6em;
+    height: auto !important;
+    display: inline-table;
+}
+
+.details-benef {
+    order: 1;
+}
+
+.edit-benef {
+    order: 2
+}
+
+.delete-benef {
+    order: 3;
+}
+

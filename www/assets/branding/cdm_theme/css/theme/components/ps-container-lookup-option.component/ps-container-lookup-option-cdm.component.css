@@ -1,0 +1,90 @@
+.ps-container-lookup-option-details .mat-card {
+    border: 1px solid 1px solid #e0d9d9;
+}
+
+.ps-container-lookup-option-details .lookup-details-header {
+    border-bottom: 3px solid black;
+    color: var(--ps-font-dark-color);
+}
+
+.ps-container-lookup-option-details .mat-card {
+    color: black;
+}
+
+.ps-container-lookup-option-details ps-dynamic-edit .dynamic-edit-action .edit-button{
+    border: none !important;
+}
+
+
+.ps-container-lookup-option-details mat-card-subtitle ps-dynamic-edit{
+    order: 2;
+}
+
+ps-accounts-list mat-card-subtitle ps-dynamic-edit .dynmaic-edit-label ps-label:not(.select-card-dropDown ps-accounts-list mat-card-subtitle ps-dynamic-edit .dynmaic-edit-label ps-label){
+    margin: 0px !important;
+}
+
+debit-card-request ps-accounts-list mat-card-subtitle ps-dynamic-edit .dynmaic-edit-label ps-label{
+    margin: 0 15px !important;
+}
+.ps-select-lookup-arrow-wrapper{
+    right: 1em;
+    transform: rotate(90deg);
+}
+
+.ps-container-lookup-option-details .lookup-details-header .lookup-details-title ps-action-icon{
+    display: none !important;
+}
+.ps-container-lookup-option-details ps-balance ion-label, .lookup-details-content .lookup-item-label{
+    display: none !important;
+}
+ps-container-lookup-option ps-action-hyperlink ps-action-icon .ps-action-icon-label ion-label{
+    color: var(--ps-font-dark-color) !important;
+}
+
+.common-quick-menu .show-more-less-icon .ps-action-image-row ion-label{
+    display: none !important;
+}
+
+.ps-container-lookup-option-details ps-dynamic-edit .dynamic-edit-action .save-button .ps-action-image-container ion-label{
+    font-size: var(--ps-sm-font);
+    background: var(--ps-primary-color);
+    color: var(--ps-font-light-color);
+    border: none;
+    text-transform: lowercase !important;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.ps-container-lookup-option-details ps-dynamic-edit ps-keyin-input ps-container-item .item{
+    --background:#F6F6F6 !important;
+    text-transform: uppercase;
+}
+
+cards-list .mat-card-header-text{
+    margin: 0px !important;
+}
+cards-list ps-container-item ion-item ion-label{
+    font-size: var(--ps-sm-font) !important;
+}
+
+ps-container-item ps-base-container-body .ps-container-item-img-icon{
+    display: none;
+}
+ps-container-item.ps-field-item-wrapper .ps-container-item-main-content{
+    margin-left: 15px;
+}
+
+.avatar-label-wrapper ion-label{
+    font-size: var(--ps-md-font);
+}
+.dropdown-select-ui ps-select-dropdown-overlay .ps-item-list-wrapper ps-container-item .item{
+    border: none ;
+}
+
+debit-card-request ps-container-item.ps-field-item-wrapper .ps-container-item-main-content{
+    font-size: 14px;
+}
+
+personal-details ps-entity-phone-number ps-container-item .item .item, ps-complex-amount ps-container-item .item .item{
+    opacity: 0.8 !important;
+}

@@ -1,0 +1,8 @@
+chequebook-list .statement-card {
+    display: none;
+}
+
+chequebook-list ps-container-lookup-option .show-more-less-button-card {
+    max-width: 100%;
+    flex: 0 0 100%
+}

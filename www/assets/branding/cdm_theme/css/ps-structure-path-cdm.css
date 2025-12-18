@@ -1,0 +1,1180 @@
+.isMobile-Layout body,
+.isMobile-Layout ion-router-outlet .ion-page {
+    background: rgb(255, 255, 255) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+.isPad-Layout body,
+.isPad-Layout ion-router-outlet .ion-page {
+    background: #072D76 !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.isWeb-Layout.userIsNotLoggedIn body,
+.isWeb-Layout.userIsNotLoggedIn ion-router-outlet .ion-page {
+    background: linear-gradient(43deg, hsla(0, 0%, 41.2%, .02), hsla(0, 0%, 41.2%, .02) 62%, hsla(0, 0%, 89%, .02) 0, hsla(0, 0%, 89%, .02) 69%, rgba(24, 24, 24, .02) 0, rgba(24, 24, 24, .02) 80%, rgba(13, 13, 13, .02) 0, rgba(13, 13, 13, .02) 82%, rgba(13, 13, 13, .02) 0, rgba(13, 13, 13, .02)), linear-gradient(31deg, hsla(0, 0%, 60.8%, .02), hsla(0, 0%, 60.8%, .02) 29%, hsla(0, 0%, 64.3%, .02) 0, hsla(0, 0%, 64.3%, .02) 41%, hsla(0, 0%, 78.4%, .02) 0, hsla(0, 0%, 78.4%, .02) 74%, hsla(0, 0%, 89.8%, .02) 0, hsla(0, 0%, 89.8%, .02) 79%, rgba(15, 15, 15, .02) 0, rgba(15, 15, 15, .02)), linear-gradient(319deg, rgba(39, 39, 39, .02), rgba(39, 39, 39, .02) 17%, rgba(49, 49, 49, .02) 0, rgba(49, 49, 49, .02) 25%, rgba(59, 59, 59, .02) 0, rgba(59, 59, 59, .02) 32%, hsla(0, 0%, 76.1%, .02) 0, hsla(0, 0%, 76.1%, .02) 46%, hsla(0, 0%, 86.3%, .02) 0, hsla(0, 0%, 86.3%, .02)), linear-gradient(113deg, hsla(0, 0%, 73.7%, .02), hsla(0, 0%, 73.7%, .02) 15%, hsla(0, 0%, 87.5%, .02) 0, hsla(0, 0%, 87.5%, .02) 46%, rgba(21, 21, 21, .02) 0, rgba(21, 21, 21, .02) 88%, rgba(93, 93, 93, .02) 0, rgba(93, 93, 93, .02) 94%, hsla(0, 0%, 51%, .02) 0, hsla(0, 0%, 51%, .02)), linear-gradient(29deg, hsla(0, 0%, 52.5%, .02), hsla(0, 0%, 52.5%, .02) 27%, hsla(0, 0%, 71%, .02) 0, hsla(0, 0%, 71%, .02) 41%, rgba(81, 81, 81, .02) 0, rgba(81, 81, 81, .02) 46%, hsla(0, 0%, 99.2%, .02) 0, hsla(0, 0%, 99.2%, .02) 58%, rgba(74, 74, 74, .02) 0, rgba(74, 74, 74, .02)),
+        linear-gradient(90deg, rgb(0, 103, 76), #e4e4e4);
+}
+
+.isWeb-Layout .ion-page ion-router-outlet .ion-page {
+    background: rgb(255, 255, 255) !important;
+}
+
+.isWeb-Layout .ion-page ion-router-outlet omni-login.ion-page {
+    background: transparent !important;
+}
+
+/* hide links for web */
+.isWeb-Layout omni-login .ps-template-login-links {
+    display: none;
+}
+
+/* show fab for web */
+.isWeb-Layout omni-login .omni-login-fab-list {
+    display: block;
+}
+
+.right-floating-section .floating-content {
+    background: linear-gradient(23deg, gray, white)
+}
+
+.live-chat,
+.widget-header-title ion-icon {
+    display: none;
+}
+
+ion-toggle {
+    --handle-width: 12px;
+    --handle-height: 12px;
+}
+
+ion-label {
+    display: block !important;
+    text-transform: none !important;
+}
+ps-dynamic-edit ion-label{
+    text-transform: uppercase !important;
+}
+
+ion-label::first-letter {
+    text-transform: capitalize;
+}
+
+.main-footer {
+    padding-bottom: 0px;
+}
+
+
+app-payment .template-base-row {
+    background: url('/assets/branding/cdm_theme/imgs/payment_bkg.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.ps-balance {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ps-balance .current-balance-div,
+.ps-balance .available-balance-div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ps-balance ps-label {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.ps-balance .current-balance-value,
+.ps-balance .available-balance-value,
+ps-accounts-list .lookup-details-content .container-option-table-col.item-value.lookup-item-value {
+    max-width: 50%;
+    flex: 0 0 50%;
+    font-weight: 400 !important;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+
+.ps-container-lookup-option-details ps-balance ion-label,
+.lookup-details-content .lookup-item-label {
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.ps-container-lookup-option-details ps-balance ion-label {
+    white-space: initial;
+}
+
+.mat-horizontal-stepper-header-container{
+    /* padding: var(--ps-panel-padding) !important; */
+    margin-bottom: 28px !important;
+}
+ps-container-stepper .mat-step-header .mat-step-icon.mat-step-icon-selected{
+    width: 30px;
+    height: 30px;
+}
+ps-authentication-matrix .mat-step-header .mat-step-icon.mat-step-icon-selected{
+    display: none;
+}
+ps-label-input {
+    display: none;
+}
+.ps-template-login-rememberMe ps-label-input {
+    display: initial;
+}
+ps-container-item .item {
+    border: #d5d5d5 1px solid;
+    margin-top: 0px !important;
+}
+.dropdown-select-ui .ps-dropdown-select-item{
+    border: none !important;
+}
+.dropdown-select-ui .avatar-label-wrapper ps-label{
+    padding: 0 !important;
+}
+ps-select-dropdown-base .mat-select-arrow-wrapper{
+    margin-right: -30px;
+}
+ps-input-display-only .ps-container-item-main-content-icon{
+    margin: 0 15px;
+}
+.ps-template-login-rememberMe ps-container-item .item, .item-multiple-inputs ps-container-item .item { 
+    border: none;
+}
+ps-entity-phone-number ps-container-item .item .item, ps-complex-amount ps-container-item .item .item{
+    margin-top: 0px !important;
+    border: none;
+}
+
+.popup-modal-message-label ion-label, .popup-modal-title-label ion-label{
+    color: var(--ps-font-dark-color) !important;
+    text-align: center;
+    white-space: break-spaces;
+}
+
+ps-template-alert-controller .header ion-label{
+    color: var(--ps-font-dark-color) !important;
+}
+ps-complex-terms-and-conditions ps-container-html-viewer{
+    color: var(--ps-font-dark-color);
+}
+.avatar-label-wrapper ion-label{
+    font-size: var(--ps-md-font);
+}
+.faqbody, .WordSection1 *{
+    color: #565656 !important;
+    font-size: 14px !important;
+}
+.MsoNormal.title{
+    background: #248B92 !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 15px;
+    color: #BDD8DC !important;
+}
+div.WordSection1 p:not(first-child) {
+    padding: 0 20px;
+}
+ps-complex-preview ps-container-panel ps-container-item{
+    background: var(--ps-primary-color) !important;
+}
+ps-complex-preview .ps-container-panel .ps-container-panel-content{
+    background: var(--ps-background-info-color) !important;
+}
+.isMobile-Layout ps-select-segment ps-container-item ion-item{
+    height: 50px !important;
+}
+atm-and-branch-locator #main-content{
+    padding:calc(var(--ps-form-container-padding-ratio-initial) * 15px) ;
+    padding-bottom: 0px !important;
+}
+atm-and-branch-locator ps-select-segment .ps-select-segment ion-icon{
+    display: none;
+}
+atm-and-branch-locator ps-container-item .item{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+atm-and-branch-locator ps-map-atm-branches .ps-map-map-section{
+    padding-top:0 !important;
+}
+.mapAtmBranchModal ps-container-panel:nth-child(2) .ps-container-panel-content{
+    text-align: center;
+}
+
+.ps-complex-card-details-atm-cdm-item-label, .mapAtmBranchModal ps-container-panel .ps-container-panel-content{
+    color: #BDD8DC !important;
+    font-weight: 400 !important;
+}
+.ps-complex-card-details-branch-item-value{
+    color: var(--ps-font-light-color) !important; 
+    font-weight: 600 !important;
+}
+.mapAtmBranchModal ps-action-button.ps-button-cancel ion-button{
+    border: var(--ps-primary-color) 1px solid !important;
+    --color: var(--ps-primary-color) !important;
+}
+.my-location-btn-text{
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-sm-font) !important;
+}
+ps-select-segment ion-segment-button:not(.segment-button-checked){
+    box-shadow: 0 0px 1px rgb(0 0 0 / 16%) !important;
+    opacity: 1 ; 
+    border:1px #e6e6e6 solid;
+}
+ps-select-segment .segment-button-checked{
+    z-index: 1;
+    color: white !important;
+    border-bottom: none !important;
+}
+ps-select-segment .ps-select-segment{
+    font-size: var(--ps-sm-font);
+    margin: 0px;
+    text-transform: capitalize !important;   
+    border-radius: 0px;
+}
+
+ps-select-segment .ps-select-segment.segment-button-checked ion-label{
+    color: #ffffff !important;
+    white-space: pre-wrap;
+}
+.mapAtmBranchModal .modal-close-icon-row ion-label, .mapAtmBranchModal .modal-close-icon-row, .mapAtmBranchModal .modal-close-icon ion-icon{
+    color: var(--ps-primary-color);
+    font-weight: 500;
+
+}
+.mapAtmBranchModal ps-container-panel{
+    margin-top: 0 !important;
+}
+.mapAtmBranchModal ps-container-panel .ps-container-panel-item ion-item{
+    border-radius: 8px 8px 0px 0px !important;
+    border: none;
+    border-bottom: var(--ps-primary-degree-1-color) 2px solid;
+}
+[dir=ltr] sub-menu .menu_content_complex{
+    width: 80%;
+    margin: 0 auto;
+    height: 65%;
+}
+[dir=ltr] sub-menu .menu_content_complex .ps-complex-menu-item {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0;
+    max-height: 55px;
+    align-items: start;
+    margin-bottom: 20px;
+}
+sub-menu .is-widget-view .menu_content_complex .row{
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin: 0;
+} 
+
+
+sub-menu ps-complex-menu .ps-menu-title{
+    color: var(--ps-font-light-color) !important;
+}
+[dir=ltr] sub-menu .menu_content_complex .ps-menu-main-icon{
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+    height: 45px;
+    align-items: start;
+    justify-content: start;
+    width: 160px;
+}
+[dir=ltr] sub-menu .menu_content_complex .ps-menu-title{
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+    height: 45px;
+    align-items:center;
+    justify-content: start;
+    text-align: left;
+}
+[dir=ltr] sub-menu .menu_content_complex .ps-complex-menu-item:nth-child(3) .ps-menu-title{
+    margin-left: 0px;
+}
+
+/* sub-menu .menu_content_complex .ps-complex-menu-item > .interbank-transfer-to-others{
+    background: var(--ps-primary-color);
+    order: 1;
+} */
+sub-menu .menu_content_complex .ps-complex-menu-item > .interbank-transfer-to-others .ps-action-menu-item .ps-label-input{
+    color: var(--ps-font-dark-color) !important;
+     padding: 10px 5px;
+     padding: 0;
+} 
+
+sub-menu .menu_content_complex .ps-complex-menu .ps-complex-menu-item .ps-action-menu-item .ps-label-input{
+    color: var(--ps-font-dark-color) !important;
+    padding: 10px 5px;
+    padding: 0;
+    font-size: var(--ps-md-font);
+    font-weight: 500;
+}
+ps-container-panel .ps-container-panel-item ion-item{
+    border-radius: var(-ps-panel-border-radius) !important;
+}
+sub-menu ps-complex-menu.is-widget-view .ps-menu-title{
+    color: var(--ps-font-light-color) !important;
+}
+.profile-info{
+    width: 75px;
+    height: 75px;
+}
+
+[dir=ltr] sub-menu .menu_content_complex .ps-menu-main-icon ps-action-icon{
+    background: var(--ps-primary-color) ;
+    border-radius: 100% !important;
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px); 
+}
+.ps-popup-modal-button ion-button{
+    --border-radius:calc(1 * var(--ps-button-border-radius));
+}
+ps-container-item .ps-disabled ion-label, ps-container-item ion-item.item-has-focus.ps-disabled ion-label, ps-container-item ion-item.ion-touched.ion-dirty.ps-disabled ion-label, ps-input-display-only ion-label, ps-input-display-only ion-item.item-has-focus.ps-disabled ion-label, ps-input-display-only ion-item.ion-touched.ion-dirty.ps-disabled ion-label{
+    color: #737573 !important;
+}
+app-relationship-officer-details .common-quick-menu,app-information .common-quick-menu,alternative-login .common-quick-menu,personal-details  .common-quick-menu, debit-card-request .common-quick-menu, app-profile .common-quick-menu, app-change-pass .home-quick-links, app-profile .home-quick-links, app-beneficiary-list .common-quick-menu, local-beneficiary .common-quick-menu, internal-beneficiary .common-quick-menu, app-chequebook-request .common-quick-menu, report-page .common-quick-menu, app-change-security-questions .home-quick-links, app-payment .common-quick-menu,app-information .home-quick-links, atm-and-branch-locator .home-quick-links , #sub_menu_1491 .home-quick-links, card-pin-request .home-quick-links,card-pin-request .home-quick-links-expanded, card-management .common-quick-menu{
+    display: none !important;
+}
+
+/*report-page .main-footer{
+    display: none;
+}*/
+.profile-section{
+    display: none;
+}
+
+app-profile ps-hyperlink-anchor .ps-action-icon-avatar{
+    background-color: var(--ps-primary-color);
+    border: none !important;
+}
+app-profile ps-hyperlink-anchor .ps-action-icon-avatar ion-icon{
+    font-size: var(--ps-lg-font);
+    color: white !important;
+}
+personalize-my-quick-links ps-label-input{
+    display: flex !important;
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+}
+personalize-my-quick-links ps-container-item .ps-select-toggle-item{
+    padding-inline-start:20px !important;
+}   
+chequebook-list #main-footer, app-beneficiary-list #main-footer{
+    display: none;
+}
+.chequebook-list-div .ps-container-lookup-option-details{
+    box-shadow: 0px 0px 10px 5px !important;
+    color: lightgrey;
+}
+.chequebook-list-div .mat-card{
+    position: relative;
+    color: white;
+    min-height: 150px;
+}
+.isMobile-Layout ion-router-outlet app-beneficiary-list.ion-page ps-container-form .ps-container-form-content, .isMobile-Layout ion-router-outlet internal-beneficiary.ion-page ps-container-form .ps-container-form-content, .isMobile-Layout ion-router-outlet local-beneficiary.ion-page ps-container-form .ps-container-form-content{
+    background:transparent url('/assets/branding/cdm_theme/imgs/virementbkg.png') center bottom no-repeat !important;
+    background-size: cover !important;
+}
+.isMobile-Layout ion-router-outlet sub-menu.ion-page ps-container-form .ps-container-form-content{
+    background:transparent url('/assets/branding/cdm_theme/imgs/payment_bkg.png') center bottom no-repeat !important;
+    background-size: cover !important;
+}
+app-beneficiary-list mat-card-content .lookup-details-content .container-option-table .container-option-table-row:first-child, app-beneficiary-list mat-card-content .statement-card{
+    display: none;
+}
+app-beneficiary-list ps-container-lookup-option .show-more-less-button-card{
+    right: 75px;
+}
+app-beneficiary-list ps-container-lookup-option .show-more-less-button-card{
+    margin-bottom: -10px;
+}
+
+app-beneficiary-list mat-card-title .container-currency-iso{
+    display : none;
+
+}
+
+app-beneficiary-list mat-card-content .lookup-details-content .container-option-table .container-option-table-row:first-child{
+    display: flex;
+}
+
+app-beneficiary-list ps-container-lookup-option .lookup-item-value .item-value-child{
+    font-size: 14px;
+}
+app-beneficiary-list mat-card-content .lookup-details-content .container-option-table-row-benef_name_key .lookup-item-value .item-value-child{
+    font-weight: bold;
+}
+.isMobile-Layout .add-beneficiary-button {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    background: white;
+    border-radius: 50px;
+    height: 50px;
+}
+.isMobile-Layout .add-beneficiary-button .ps-action-icon-icon{
+    background: white;
+    box-shadow: 0px 0px 10px #d5d5d5;
+    height: 45px;
+    flex: 0 0 14%;
+    max-width: 14%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 2px 2px 0;
+    border-radius: 50px;
+    text-align: center;
+}
+.isMobile-Layout .add-beneficiary-button .ps-action-icon-label{
+    flex: 0 0 70%;
+    max-width: 70%;
+    text-align: center;
+    font-weight: 500;
+    font-size: var(--ps-md-font);
+}
+
+.chequebook-list-div .lookup-details-header .lookup-details-title .card-title-label, .chequebook-list-div ps-dynamic-edit, .chequebook-list-div .ps-lookup-status, .chequebook-list-div .container-option-table-row-Chequebook_no_key, .chequebook-list-div .container-option-table-row-from_key, .chequebook-list-div .container-option-table-row-to_Key{
+    position: absolute;
+}
+.chequebook-list-div .lookup-details-content .lookup-item-label{
+    display: flex !important;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.chequebook-list-div .lookup-item-label ion-label{
+    color: var(--ps-font-dark-color) !important;
+    font-weight: 300 !important;
+}
+.chequebook-list-div .lookup-details-header .lookup-details-title .card-title-label{
+    left: 0px;
+    top:0;
+}
+.chequebook-list-div .ps-lookup-status{
+    left: 15px;
+    top:10px;
+    font-weight: 600;
+    font-size: 12px !important;
+}
+.chequebook-list-div ps-dynamic-edit{
+    left: 15px;
+    top: 30px;
+}
+.chequebook-list-div .container-option-table-row-Chequebook_no_key{
+    right: 0;
+    top: 35px;
+}
+.chequebook-list-div .container-option-table-row-from_key{
+    right: 0;
+    top: 55px;
+}
+.chequebook-list-div mat-card-content .lookup-details-content .container-option-table .container-option-table-row:first-child{
+    max-width: 100%;
+    flex: 0 0 100%;
+    
+}
+.chequebook-list-div .container-option-table-row-to_Key{
+    left: 0;
+    top: 75px;
+}
+.chequebook-list-div .ps-container-lookup-option-details .lookup-details-header{
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px) 0px calc(var(--ps-form-container-padding-ratio-initial) * 10px) 0px !important;
+}
+.chequebook-list-div .ps-container-lookup-option-details mat-card-content .lookup-details-content .container-option-table-col.item-value{
+    justify-content: right;
+    text-align: right;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-top: 10px;
+}
+.chequebook-list-div .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle{
+    font-weight: 400 ;
+    font-size: var(--ps-md-font);
+}
+.chequebook-list-div .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-lookup-status{
+    display: block;
+    line-height: 30px;
+    padding-right: 5px;
+}
+.chequebook-list-div .ps-container-lookup-option-details .lookup-details-header{
+    border: none !important;
+}
+
+.chequebook-list-div .statement-card {
+    display: none;
+}
+.chequebook-list-div .lookup-details-header .lookup-details-title .card-title-label{
+    text-align: right;
+}
+.chequebook-list-div .lookup-details-header .lookup-details-title .card-title-label .lookup-details-title{
+    font-size: var(--ps-sm-font);
+    font-weight: 300;
+    right: 0;
+    top: 0px;
+}
+
+personalize-my-quick-links .common-quick-menu, chequebook-list .common-quick-menu, app-profile .common-quick-menu{
+    display: none !important;
+}
+
+.home-quick-links-expanded, .home-quick-links-collapsed{
+   /* display: none !important;*/
+}
+.home-quick-links-expanded ion-icon, .home-quick-links-collapsed ion-icon{
+    border-radius: 21%; 
+    background: transparent; 
+    padding: 5px; 
+    fill: transparent;
+    box-shadow: none;
+    font-size: var(--ps-largeIcons-font);
+}
+.ps-container-lookup-option-details .lookup-details-header{
+    border: none;
+}
+.ps-container-lookup-option-details .lookup-details-header{
+    background-color: transparent !important;
+    border: none !important;
+}
+.container-option-table-row{
+    border-inline-end:none !important;
+}
+
+
+
+
+ps-container-panel ps-container-item.ps-container-panel-item .item, ps-container-panel ps-container-item.ps-container-panel-item .item ion-label{
+    font-size: var(--ps-lg-font);
+}
+.ps-container-panel .ps-container-panel-item.is-expanded ion-item{
+    border: none !important;
+}
+ps-container-panel .ps-container-panel-expand-icon, ps-container-panel .ps-container-panel-icon, ps-container-panel .ps-container-panel-title{
+    height: 50px;
+}
+ps-complex-preview ps-container-panel .ps-container-panel-title{
+    flex: 0 0 66.666667%;
+}
+on-boarding .upload-title ion-label{
+    color: var(--ps-font-dark-color) !important;
+    font-size: var(--ps-sm-font);
+}
+
+ps-input-varchar{
+    margin:10px 0 0;
+}
+ps-file-upload .file-upload-padding #ion-input-7-lbl{
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-sm-font);
+    font-weight: 400;
+}
+ps-file-upload ps-action-icon ion-icon:not(.psCustIcon){
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-lg-font);
+}
+ps-file-upload .item .sc-ion-label-ios-h{
+    font-size: var(--ps-md-font) !important;
+    color: var(--ps-font-dark-color) !important;
+}
+ps-file-upload .description-section .no-file-choosen{
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-select-lookup-option-list .lookup-dropdown-content-show{
+    padding:0px !important;
+}
+.labelSelected ps-select-lookup-option-list .lookup-dropdown-content-show{
+    background: var(--ps-primary-color) !important;
+}
+ps-complex-lookup .select-item-card{
+    padding:0px !important;
+}
+ps-select-lookup-option-list mat-card-content.mat-card-content{
+    min-height: auto;
+    margin: 0px;
+}
+ps-select-lookup-option-list .ps-container-lookup-option-details{
+    border-radius: 0px !important;
+    margin-bottom: 0.2em !important;
+}
+ps-select-lookup-option-list .ps-container-lookup-option-details .lookup-details-header{
+    padding: 0px !important;
+}
+ps-select-lookup-option-list .ps-balance{
+    justify-content:flex-start;
+}
+ps-select-lookup-option-list mat-card-content.mat-card-content{
+    margin:0 15px;
+}
+ps-select-lookup-option-list .ps-container-lookup-option-details .mat-card{
+    margin-bottom: 5px !important;
+}
+ps-select-lookup-option-list .ps-container-lookup-option-details, ps-select-lookup-option-list ps-accounts-list .mat-card-content{
+    background: #eeeeee !important;
+}
+.ps-complex-exchange-component .exchange-rate ion-label, .ps-complex-exchange-component .exchange-rate .exchange-rate-icon ion-icon, .ps-complex-exchange-component .exchange-rate span:nth-child(3){
+    color: var(--ps-font-dark-color) !important;
+    font-size: var(--ps-md-font) !important;
+}
+
+ps-complex-preview .preview-wrapper{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+ps-complex-preview .preview-label{
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-weight: 600;
+    display: flex !important;
+}
+ps-complex-preview .preview-label ion-label{
+    font-weight: 400;
+    font-size: var(--ps-sm-font);
+}
+ps-complex-preview .preview-value{
+    display: flex !important;
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-weight: 600;
+    justify-content: end;
+} 
+ps-complex-preview .preview-value ion-label{
+    font-weight: 600;
+    text-align: right;
+    font-size: var(--ps-sm-font);
+    white-space: break-spaces;
+    width: 175px !important;
+}
+.preview-wrapper:nth-of-type(2) .preview-value ion-label{
+    white-space: break-spaces !important;
+    text-overflow: initial;
+    overflow: initial;
+}
+.ps-complex-terms-and-conditions ps-container-item .item {
+    border:none !important;
+}
+ps-button-cancel.footer-buttons {
+    display: none !important;
+}
+.no-beneficiary-found-text{
+    font-size: var(--ps-sm-font);
+    text-align: center;
+    padding: 20px 0;
+    color: var(--ps-font-dark-color);
+    font-weight: 600;
+}
+
+ps-authentication-matrix .mat-vertical-stepper-header{
+    padding:10px 10px;
+}
+ps-authentication-matrix .mat-step-header .mat-step-label.mat-step-label-active{
+    padding-left: 0px;
+    font-weight: 600;
+}
+ps-authentication-matrix .mat-vertical-content-container{
+    margin-left: 0px;
+}
+ps-authentication-matrix .mat-vertical-content{
+    padding: 40px 0 20px;
+}
+ps-authentication-matrix .request-otp-container{
+    padding: 0 10px;
+}
+ps-authentication-matrix .request-otp ion-button{
+    margin: 0px;
+    --background:transparent;
+    --color:var(--ps-font-dark-color);
+    font-size: var(--ps-md-font);
+    height: auto !important;
+    --box-shadow:none
+}
+ps-authentication-matrix .request-otp ion-button ion-label, ps-authentication-matrix .request-otp ion-button ion-icon{
+    color: var(--ps-font-dark-color) !important;
+    text-decoration: underline;
+    font-weight: 400 !important;
+}
+ps-authentication-matrix .request-otp ion-button .ps-action-icon-icon{
+    display: none;
+}
+#otp_authentication{
+    order: 1;
+}
+#otp_request{
+    order: 2;
+}
+ps-authentication-matrix .authentication-dismiss{
+    order: 2;
+    display: none;
+}
+ps-entity-phone-number ps-keyin-input ps-container-item.ps-field-item-wrapper ps-base-container-body .ps-container-item-img-icon{
+    display: none !important;
+}
+.list-card-expanded .collapsed{ 
+    display:none;
+}
+
+ps-template-alert-controller .ps-template-alert-controller-container.qr-code .header{
+    height: auto ;
+    text-align: center;
+}
+ps-template-alert-controller .header ion-label{
+    font-weight: 500;
+}
+ps-template-alert-controller .buttons {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+ps-template-alert-controller .ps-button-cancel{
+    --border-style:none;
+}
+ps-template-alert-controller .ps-template-alert-controller-container.center-header-img{
+    border-radius: var(--ps-popup-border-radius);
+}
+.alert-modal .ion-page{
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 20px);
+}
+app-beneficiary-list ion-segment .ps-segment-button-wrapper:nth-child(3), app-beneficiary-list ion-segment .ps-segment-button-wrapper:nth-child(4){
+    /*display: none;*/
+}
+app-chequebook-request ps-input-display-only#name_to_be_printed, app-chequebook-request ps-input-display-only#account_cif_branch{
+    display: none;
+} 
+.main-footer ps-button-save{
+    order: 1;
+}
+.main-footer ps-button-next{
+    order: 2;
+}
+app-profile ps-label.description {
+    display: none;
+}
+app-profile ps-hyperlink-anchor .ps-anchor-title{
+    font-size: var(--ps-sm-font) !important;
+}
+app-profile ps-container-panel ion-card.ps-container-panel{
+    box-shadow: none !important;
+}
+app-profile ps-hyperlink-anchor .ps-action-icon-avatar{
+    min-width:3em !important;
+    min-height:3em !important;
+}
+app-profile ps-container-panel .ps-container-panel-content{
+    padding: 20px 0px;
+}
+app-profile ps-container-panel .ps-container-panel-content ps-hyperlink-anchor{
+    margin-bottom: 10px;
+}
+/* app-financial-calculator ps-button-cancel.footer-buttons{
+    display: inherit !important;
+} 
+
+ps-complex-report-filter-criteria{
+    display: none;
+}*/
+/*cards-list*/ .container-option-table-row-card_status_key{
+    display: none;
+}
+mat-card-title.mat-card-title.lookup-details-title{
+    display : none;
+}
+
+.isMobile-Layout omni-login ~ app-information ps-container-html-viewer .ps-html-viewer-wrapper iframe, .isMobile-Layout omni-login ~ app-products-services ps-container-html-viewer .ps-html-viewer-wrapper iframe{
+    border-radius: 0px;
+}
+.isMobile-Layout omni-login ~ app-information ps-container-form .ps-container-form-content, .isMobile-Layout omni-login ~ app-products-services ps-container-form .ps-container-form-content{
+    padding: 0px !important;
+}
+.isMobile-Layout omni-login ~ app-information .main-footer, .isMobile-Layout omni-login ~ app-products-services .main-footer {
+    display: none;
+}
+
+ion-picker ion-picker-column{
+    background: var(--ps-primary-color) !important;
+}
+.picker-prefix, .picker-suffix, .picker-opt.picker-opt-selected{
+    color: #9acd00 !important;
+}
+
+sub-menu .ps-base-container-fluid, sub-menu .ps-container-form-content_container_body_container_fluid{
+    padding: 0px !important;
+}
+
+.my-location-btn-ui{
+    display: none !important;
+}
+
+.searchbar-search-icon.sc-ion-searchbar-ios{
+    margin-left: 0 !important;
+}
+
+ps-select-dropdown-overlay .avatar-label-wrapper{
+    display: flex !important;
+}
+
+app-change-pass .pass-note ps-label{
+	display : none !important; 
+}
+
+.home-quick-links .ps-complex-menu-item[operid="4001"] .ps-label-input , .home-quick-links .ps-complex-menu-item[operid="4002"] .ps-label-input , .home-quick-links .ps-complex-menu-item[operid="4003"] .ps-label-input, .home-quick-links .ps-complex-menu-item[operid="1499"] .ps-label-input{
+    opacity : 0.4;
+    visibility: visible;
+    color:rgba(255,255,255,0.4);
+}
+.ps-complex-menu-item[operid="4003"] .ps-label-input , .ps-complex-menu-item[operid="4002"] .ps-label-input , .ps-complex-menu-item[operid="4001"] .ps-label-input, .ps-complex-menu-item[operid="1499"] .ps-label-input {
+    opacity : 0.4;
+    visibility: visible;
+    color:rgba(255,255,255,0.4);
+}
+.is-widget-view .ps-complex-menu-item[operid="1499"] , .is-widget-view .ps-complex-menu-item[operid="4003"],
+ .is-widget-view .ps-complex-menu-item[operid="4002"], .is-widget-view .ps-complex-menu-item[operid="4001"]{
+    pointer-events: none;
+    cursor: not-allowed;
+}
+debit-card-request ps-complex-preview ps-container-panel .ps-container-panel-title{
+    flex: 0 0 65%;
+}
+debit-card-request ps-complex-preview .ps-container-panel-expand-icon, ps-complex-preview .ps-container-panel-icon{
+    display: flex;
+}
+
+app-payment ps-container-panel ps-complex-segment .ps-content-segment{
+    background-color: transparent !important;
+    padding: 0;
+}
+
+ion-modal#qr-generated-modal ion-label.ps-label{
+    text-align: center;
+}
+
+.mapAtmBranchModal ps-container-panel ps-container-item.ps-container-panel-item .item ion-label{
+    color: #ffffff !important;
+    font-weight: 500;
+}
+.mapAtmBranchModal .ps-complex-card-details-branch-item-label{
+    font-weight: 300;
+    font-size: var(--ps-md-font);
+    color: #BDD8DC !important;
+}
+.mapAtmBranchModal .ps-complex-card-details-branch-item-value{
+    font-weight: 500 !important;
+    font-size: var(--ps-md-font) !important;
+}
+.mapAtmBranchModal .ps-container-panel .ps-container-panel-item.is-expanded ion-item{
+    border-bottom: 1px solid #005B68 !important;
+}
+.mapAtmBranchModal ps-complex-card-details-branch .ps-complex-card-details-branch-item{
+    font-size: var(--ps-md-font);
+}
+.mapAtmBranchModal ps-container-panel:nth-child(2) .ps-container-panel-content .ps-complex-card-details-branch-item{
+    justify-content: center;
+}
+.mapAtmBranchModal ps-button-call, .mapAtmBranchModal ps-action-button.ps-button-cancel{
+    display: none !important;
+}
+.mapAtmBranchModal#ion-overlay-4 .map-atm-branch-details-bottom{
+    display: none;
+}
+.mapAtmBranchModal ps-button-direction{
+    flex: 0 0 80%;
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+.mapAtmBranchModal .map-atm-branch-details-bottom{
+    padding: 15px 0 !important;
+}
+
+ps-complex-preview .ps-container-panel-expand-icon, ps-complex-preview .ps-container-panel-icon{
+    display: flex;
+}
+.cust-buttons{
+    color : var(--ps-highlight-background-color);   
+}
+
+ps-dropdown-currencies .col-3.dropdown-selected-image.ng-star-inserted{
+    display: none !important;
+}
+
+#qr-generated-modal{
+    opacity: 0.9;
+}
+
+qrcode .ps-field-qr-code .ps-component-default-class canvas {
+    border : 1px solid;
+}
+
+#ps-failure-alert , #ps-info-alert , #ps-success-alert , #ps-fatal-error , .alert-modal{
+    background-color: transparent ;
+}
+
+ps-template-popup-message .failure-alert .popup-modal-img{
+    display: none;
+}
+
+ps-template-screen .widget-menu-icon-draft{
+    display: none;
+}
+.popup-modal-img:not(#ps-success-alert .popup-modal-img){
+    display: none;
+}
+#ps-success-alert .popup-modal-img ion-img img{
+    width: 30px;
+    height: 30px;
+}
+ps-template-report ps-base-container-body.ps-container-form-content{
+    overflow-y:  hidden !important;
+}
+ps-container-report-viewer ps-container-html-viewer .highlight{
+    background-color: yellow !important;
+}
+
+.isPad-Layout ps-template-base .template-base-row, .isMobile-Layout ps-template-base .template-base-row, .isWeb-Layout.userIsNotLoggedIn ps-template-base .template-base-row{
+    background-color: var(--ps-form-container-background-color);
+}
+
+debit-card-request .home-quick-links-expanded, app-profile .home-quick-links-expanded, app-change-pass  .home-quick-links-expanded, app-profile  .home-quick-links-expanded, app-beneficiary-list .home-quick-links-expanded, internal-beneficiary .home-quick-links-expanded, app-chequebook-request .home-quick-links-expanded, report-page .home-quick-links-expanded, app-change-security-questions  .home-quick-links-expanded, app-payment .home-quick-links-expanded, atm-and-branch-locator  .home-quick-links-expanded , #sub_menu_1491 .home-quick-links-expanded{
+    display: none !important;
+}
+
+ps-input-display-only .ps-keyin-input-label{
+    font-size: var(--ps-sm-font) !important;
+}
+ps-complex-lookup .ps-complex-lookup .select-card-dropDown .ps-label{
+    font-size: var(--ps-sm-font) !important;
+}
+
+ps-select-lookup-option-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-title{
+    padding-inline-start: 15px;
+}
+ps-select-lookup-option-list .mat-card-content{
+    min-height: 45px !important;
+}
+ps-input-display-only ps-container-item .ps-disabled{
+    border: 1px #737573 solid;
+}
+ps-label.label-remaning-limit  ion-label.ps-label{
+    display: none !important;
+}
+.native-input[disabled] , *[psFcName].ion-dirty{
+    opacity: 1 !important;
+    font-weight: 600;
+    color: black;
+}
+
+card-management *[psFcName='currentPosLimit'] ,card-management *[psFcName='currentWdLimit'] {
+    opacity: 1 !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+#ps-auth-matrix-process-alert ps-authentication-matrix.ion-page:after{
+/*    content: url(../imgs/close-ico.png);
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 30px;
+    right: 7px;*/
+}
+ps-authentication-matrix #auth-close-icon{
+    margin-left: 85%;
+}
+ps-authentication-matrix #auth-close-icon ion-button button.button-native{
+    background-color: white;
+    box-shadow: none;
+}
+ion-toast{
+    margin-inline-start:8% !important;
+    width:84% !important;
+    text-align:center;
+    margin-top: 75%;
+}
+
+ps-local-beneficiary mat-card.lookup-details-card > mat-card-header , ps-internal-beneficiary mat-card.lookup-details-card > mat-card-header{
+    display: none;
+}
+ps-local-beneficiary mat-card.lookup-details-card > mat-card-content , ps-internal-beneficiary mat-card.lookup-details-card > mat-card-header{
+    padding-bottom: 15px;
+}
+
+ps-container-panel#card_information, card-pin-request ps-input-password.main-password.pc-input-label{
+    display: none;
+}
+ps-authentication-matrix #auth-close-icon ion-button{
+    --background: transparent;
+    --box-shadow: none;
+}
+.success-alert > .popup-modal-img {
+    display: block;
+}
+
+ps-authentication-matrix .mat-step-text-label{
+    text-overflow: ellipsis;
+    white-space: normal !important;
+    text-align: center;
+}
+
+ps-dropdown-country ps-select-dropdown ion-item.ps-component-default-class .dropdown-selected-image{
+    display: none;
+}
+ion-item.ps-dropdown-select-item ion-avatar{
+    display: none;
+}
+ps-dropdown-country ps-select-dropdown .mat-select-arrow{
+    right: -65px;
+    position: relative;
+}
+
+report-page ps-template-report .ps-template-report-viewer{
+    height:80%;
+}
+forgot-credentials ps-complex-segment ps-select-segment{
+    display: block;
+}
+
+.userIsNotLoggedIn .popup-modal, .isMobile-Layout .popup-modal{
+    width: 100%;
+}
+
+.export_excel{
+    display: none !important;
+}
+app-beneficiary-list .card-action-buttons .action-details-options div ion-icon{
+    font-size: var(--ps-medLargsIcons-font);
+}
+ps-container-panel ps-select-segment .segment-button-checked{
+    background-color: var(--ps-checked-color) !important;
+    border-radius: 0px !important;
+    box-shadow: -1px -3px 18px 0px rgb(32, 32, 32);
+	--indicator-color: var(--ps-checked-color);
+}
+forgot-credentials ps-select-segment ion-segment-button:not(.segment-button-checked){
+    background-color:var(--ps-panel-expanded-header-background-color) !important;
+}
+forgot-credentials ps-select-segment .ps-select-segment ion-label, ps-select-segment .ps-select-segment ion-icon{
+    color: white !important;
+}
+forgot-credentials ps-container-panel ps-complex-segment .ps-content-segment{
+    background-color: transparent !important;
+    padding: 0;
+}
+
+#biommmmetric_submit{
+    margin-top: 12%;
+    background: #9ACD00;
+    max-height: 50px;
+    height: 50px;
+    border-radius:8px;
+}
+
+app-chequebook-request ps-complex-preview .ps-container-panel .ps-container-panel-content , app-beneficiary-list ps-complex-preview .ps-container-panel .ps-container-panel-content {
+    width: 100% !important;
+}
+ 
+ion-modal.session_terminated-alert-modal  ps-template-alert-controller .buttons{
+    flex: 0 0 50%;
+    --background: var(--ps-primary-color);
+ }
+ ion-modal.session_terminated-alert-modal  ps-template-alert-controller ion-button{
+    --background: var(--ps-primary-color);
+ }
+
+ personal-details .disableContent,personal-details ps-container-item.ps-field-item-wrapper.disableContent,personal-details ps-container-item.ps-field-item-wrapper .item-interactive-disabled{
+    opacity: 0.8 !important;
+ }
+
+ ps-button-share[ng-reflect-id='rep_share_report_page']{
+     display: none;
+}
+
+forgot-credentials ps-select-segment ion-segment-button:not(.segment-button-checked) ps-label ion-label {
+    white-space: pre-wrap !important;
+}
+
+forgot-credentials ps-select-segment ion-segment {
+    overflow-x: hidden;
+}
+
+cards-list #card_request_key_lookup_link , cards-list #pin_reset_lookup_link , cards-list #block_lookup_link ,cards-list #report_lost_card_lookup_link{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+personal-details ps-entity-phone-number .ps-dropdown-country-code-wrapper{
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: block;
+}
+personal-details ps-entity-phone-number .ps-keyin-input-wrapper {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+personal-details ps-select-dropdown-base .dropdown-selected-image{
+    display: none;
+}
+.ps-biometric-submit ps-action-icon .ps-action-icon-icon {
+    width: 100%;
+    margin-top: -4%;
+    color: #448656;
+    text-transform: none;
+    font-size: 220px;
+    }
+
+ion-icon .biometric { 
+    width:100%;
+}
+.ps-complex-menu-item[operid="4001"]:hover , .ps-complex-menu-item[operid="1499"]:hover, .ps-complex-menu-item[operid="4002"]:hover ,  .ps-complex-menu-item[operid="4003"]:hover{
+    background: transparent !important;
+}
+
+.main-content{
+        padding-bottom : 0px !important;
+}
+.ps-complex-menu-item:hover{
+    background:transparent !important;
+}
+
+#pin_reset_lookup_link ps-action-icon {
+	display:flex;
+	flex-direction:column-reverse;
+	justify-content:center;
+}
+
+#pin_reset_lookup_link .ps-action-icon-container {
+	justify-content:center;
+	margin:10px 0;
+}
+
+ps-container-item .about-app{
+    display: none;
+}
+
+.isMobile-Layout ps-complex-profile .last-login-value , .isMobile-Layout ps-complex-profile .last-login-label{
+    font-size: var(--ps-sm-font);
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+}
+
+alternative-login ps-label-input{
+    display: flex;    
+}
+
+alternative-login ps-container-item.ps-field-item-wrapper ion-item.item-interactive-disabled .ps-select-toggle-item ps-label-input ion-label{
+    opacity : 1 !important;
+    color: red !important;
+}
+
+alternative-login ps-container-item.ps-field-item-wrapper ion-item.ion-valid .ps-select-toggle-item ps-label-input ion-label, alternative-login ps-container-item.ps-field-item-wrapper ion-item.ion-invalid .ps-select-toggle-item ps-label-input ion-label{
+    opacity : 1 !important;
+    color: var(--ps-primary-color) !important;
+}

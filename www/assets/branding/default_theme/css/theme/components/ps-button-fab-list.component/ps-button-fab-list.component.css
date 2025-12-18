@@ -1,0 +1,93 @@
+:root {
+    --ps-fab-login-button-size: 60px;
+    --ps-fab-button-size: 60px;
+}
+
+ps-button-fab-list ion-fab-button {
+    --border-radius: 20%;
+    margin-block-start: 0.5rem;
+    margin-inline-start: 0.5rem;
+}
+
+ion-fab ps-button-fab.main-fab-button .ps-action-icon-label {
+    display: none !important;
+}
+
+ps-button-fab-list ion-fab-button ion-icon {
+    font-size: var(--ps-xl-font);
+}
+
+/* ps-button-fab-list ion-fab-button ps-action-icon {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+} */
+
+ps-button-fab-list ion-fab-button ps-action-icon .ps-action-icon-label,
+ps-button-fab-list ion-fab-button ps-action-icon ps-label {
+    order: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ps-button-fab-list ion-fab-button ps-action-icon .ps-action-icon-icon {
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+ps-button-fab-list ion-fab-button.fab-button-show .ps-action-icon-icon {
+    height: initial;
+}
+
+ion-fab-button {
+    width: var(--ps-fab-button-size) !important;
+    height: var(--ps-fab-button-size) !important
+}
+
+@media only screen and (max-width: 350px) {
+
+    :root {
+        --ps-fab-button-size: 45px;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    :root {
+        --ps-fab-button-size: 48px;
+    }
+}
+
+ps-button-fab-list ion-fab-button ps-label ion-label {
+    white-space: normal !important;
+    font-weight: bold;
+    font-size: var(--ps-xs-font) !important;
+}
+
+
+ps-button-fab-list ion-fab-button ion-icon,
+ps-button-fab-list ion-fab-button ps-label {
+    color: var(--ps-fab-list-color);
+}
+
+ps-button-fab-list ion-fab-button {
+    --background: var(--ps-fab-list-background-color);
+    --background-activated: var(--ps-fab-list-background-color);
+}
+
+ps-button-fab-list ion-fab-button.fab-button-in-list {
+    --background: var(--ps-fab-in-list-background-color) !important;
+
+}
+
+ps-button-fab-list ion-fab-button.fab-button-in-list ion-icon,
+ps-button-fab-list ion-fab-button.fab-button-in-list ps-label {
+    color: var(--ps-fab-in-list-color) !important;
+}

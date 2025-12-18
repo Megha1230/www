@@ -1,0 +1,186 @@
+ps-authentication-matrix .error-message {
+    color: var(--ps-negative-value-font-color);
+}
+
+ps-authentication-matrix .validation-matrix-message {
+    color: var(--ps-font-light-color);
+    text-align: center;
+}
+
+ps-authentication-matrix mat-vertical-stepper {
+    background: var(--ps-authentication-panel-background-color) !important;
+}
+
+ps-authentication-matrix .mat-step-header .mat-step-label.mat-step-label-active {
+    color: var(--ps-tooltip-message-font-color) !important;
+    display: block;
+    padding-left: 15px;
+}
+
+ps-authentication-matrix .mat-step-header .mat-step-label {
+    display: none;
+}
+
+ps-authentication-matrix .authentication-success-img {
+    order: 1;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ps-authentication-matrix .authentication-success-img-gif {
+    display: inline;
+}
+
+ps-authentication-matrix .authentication-success-title {
+    order: 2;
+    flex-grow: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--ps-tooltip-message-font-color);
+}
+
+ps-authentication-matrix .ps-button-standard {
+    --background: var(--ps-button-submit-background-color);
+    --color: var(--ps-tooltip-message-font-color);
+}
+
+.mat-stepper-vertical-line::before {
+    background: var(--ps-tooltip-message-font-color);
+}
+
+ps-authentication-matrix ion-button {
+    margin: 0px !important;
+}
+
+ps-authentication-matrix .mat-vertical-stepper-content ion-button {
+    margin-top: 5px !important;
+}
+
+ps-authentication-matrix .auth-bottom {
+    justify-content: space-around;
+}
+
+
+.mat-step-icon.mat-step-icon-selected {
+    width: 41px;
+    height: 41px;
+}
+
+ps-authentication-matrix .ps-keyin-input-label {
+    display: none;
+}
+
+ps-authentication-matrix .authentication-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+ps-authentication-matrix .authentication-actions1 {
+    display: flex;
+    justify-content: center;
+}
+
+ps-authentication-matrix .authentication-verify-button-div,
+ps-authentication-matrix .authentication-dismiss,
+ps-authentication-matrix .authentication-request-dismiss {
+    flex: 0 0 33%;
+    max-width: 40%;
+}
+
+ps-authentication-matrix ps-select-dropdown .ps-container-item-img-icon {
+    display: none;
+}
+
+ps-authentication-matrix ps-select-dropdown .ps-container-item-main-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-inline-start: 5px;
+}
+
+ps-authentication-matrix {
+    max-height: calc(calc(85/100) * var(--ps-100vh)) !important;
+    background: var(--ps-authentication-panel-background-color) !important;
+    justify-content: space-between !important;
+    border-radius: var(--ps-popup-border-radius);
+}
+
+#ps-auth-matrix-process-alert .modal-wrapper {
+    height: auto !important;
+}
+
+.isWeb-Layout.userIsLoggedIn #ps-auth-matrix-process-alert .modal-wrapper {
+    margin-left: var(--ps-margin-left);
+    display: flex;
+    justify-content: center;
+    height: 100% !important;
+}
+
+.isWeb-Layout.userIsLoggedIn ps-authentication-matrix {
+    width: 50%;
+    align-self: flex-end;
+    margin-bottom: var(--ps-atm-model-page-margin);
+}
+
+/* ps-authentication-matrix .request-otp ps-action-icon {
+    border-bottom: 1px solid var(--ps-button-submit-background-color) !important;
+} */
+
+ps-authentication-matrix .request-otp ion-button {
+    padding: 0px !important;
+}
+
+ps-authentication-matrix .request-otp ion-button ion-label,
+ps-authentication-matrix .request-otp ion-button ion-icon {
+    color: var(--ps-highlight-background-color) !important;
+    font-weight: 500 !important;
+}
+
+ps-authentication-matrix .request-otp ion-label {
+    white-space: normal;
+}
+
+.request-otp-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#otp_request {
+    order: 1;
+}
+
+#otp_authentication {
+    order: 2;
+}
+ps-authentication-matrix #auth-close-icon{
+    width: fit-content;
+}
+ps-authentication-matrix #auth-close-icon ion-button{
+    --border: 0px;
+    --border-width: 0px !important;
+}
+ps-authentication-matrix #auth-close-icon ion-button .ps-action-icon-label{
+    display: none;
+}
+.isWeb-Layout ps-authentication-matrix .ps-base-container-body-row .ps-container-item-main-content{
+    margin-right: 1%;
+    margin-bottom: -2px;
+}
+.isMobile-Layout ps-authentication-matrix .ps-base-container-body-row .ps-container-item-main-content{
+    margin-right: 1%;
+    margin-bottom: -2px;
+}
+.isWeb-Layout ps-authentication-matrix ps-container-item{
+    margin-right: 49%;
+    background: #f9f9f9 !important;
+}
+.isMobile-Layout ps-authentication-matrix ps-container-item{
+    margin-right: -10px;
+    background: #f9f9f9 !important;
+}
+
+ps-authentication-matrix .soft_token_otp_hint {
+    color: var(--ps-tooltip-message-font-color);
+}

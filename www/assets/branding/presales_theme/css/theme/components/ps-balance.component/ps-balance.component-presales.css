@@ -1,0 +1,9 @@
+.isMobile-Layout .ps-balance .available-balance-div {
+    flex: 0 0 56%;
+    max-width: 56%;
+}
+
+.isWeb-Layout .ps-balance .available-balance-div {
+    flex: 0 0 52%;
+    max-width: 52%;
+}

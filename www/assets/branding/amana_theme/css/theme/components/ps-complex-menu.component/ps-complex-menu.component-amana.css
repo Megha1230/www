@@ -1,0 +1,18 @@
+ps-complex-menu .ps-complex-menu-widget-container {
+    overflow: hidden !important;
+    overflow-y: unset !important;
+    padding-bottom: 10px;
+}
+
+
+.root-button {
+    order: 3;
+}
+
+ps-complex-menu .opened-screen-title .current-opened-page .ps-action-image-row {
+    justify-content: center !important;
+}
+
+.isWeb-Layout ps-template-landing-main ps-template-landing-menu-web .opened-screen-title {
+    background: var(--ps-account-list-title-background-color) !important;
+}

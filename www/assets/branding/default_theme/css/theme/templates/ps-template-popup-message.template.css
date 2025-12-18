@@ -1,0 +1,216 @@
+.popup-modal-button .oneActionButton {
+    min-width: 75%;
+}
+
+.ps-popup-modal-button {
+    -webkit-box-flex: 0;
+    flex: 1;
+    max-width: 50%;
+}
+
+ps-template-popup-message {
+    display: flex;
+    align-items: center;
+}
+
+.alert-modal {
+    --background: transparent !important;
+    --box-shadow: none !important;
+    background: var(--ps-alert-modal-background-color);
+}
+
+.isWeb-Layout .alert-modal {
+    --backdrop-opacity: 0 !important;
+}
+
+.alert-modal .ion-page {
+    height: 100%;
+    position: relative;
+    contain: content;
+    max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px);
+}
+
+.popup-modal {
+    background: var(--ps-popup-background-color);
+    z-index: 999999;
+    border-radius: var(--ps-popup-border-radius);
+}
+
+.popup-modal>* {
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 0.5em);
+}
+
+.popup-modal-message-label ion-label,
+.popup-modal-title-label ion-label {
+    color: var(--ps-font-light-color);
+}
+
+.ps-popup-modal-button ion-button {
+    --background: var(--ps-popup-button-background-color) !important;
+    color: var(--ps-font-light-color);
+    /* opacity: 0.7; */
+}
+
+.success-alert .popup-modal-title-label ion-label {
+    color: var(--ps-success-color);
+}
+
+.failure-alert .popup-modal-title-label ion-label {
+    color: var(--ps-error-color);
+}
+
+.popup-modal {
+    /* height: calc(calc(40/100) * var(--ps-100vh)); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30%;
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 10px);
+    /* min-height: 50%; */
+}
+
+.userIsNotLoggedIn .popup-modal,
+.isMobile-Layout .popup-modal {
+    min-width: 50%;
+}
+
+.popup-modal-img {
+    order: 2;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-modal-gif {
+    display: inline;
+    width: 5rem;
+}
+
+.popup-modal-title {
+    order: 1;
+    flex-grow: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.failure-alert .popup-modal-title {
+    display: none !important;
+}
+
+.sec-alert .popup-modal-title {
+    display: flex !important;
+}
+
+/* Added by Richie for #BUG 1540528 in order to show the title*/
+.revert-old-value-popup .popup-modal-title {
+    display: flex !important;
+}
+
+.popup-modal-title-label ion-label {
+    font-size: var(--ps-xxl-font);
+    font-weight: bold;
+}
+
+.popup-modal-message {
+    order: 3;
+    flex-grow: 5;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.popup-modal-message-label {
+    text-align: center;
+    display: flex;
+}
+
+.popup-modal-message-label ion-label {
+    font-size: var(--ps-md-font);
+    align-self: center;
+    white-space: break-spaces;
+}
+
+.popup-modal-button {
+    flex-grow: 1;
+    order: 4;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.popup-modal-button ps-action-button {
+    width: 100%;
+}
+
+.ps-popup-modal-button {
+    width: 100%;
+}
+
+.ps-popup-modal-button ion-button {
+    width: 100%;
+    --border-radius: calc(2 * var(--ps-button-border-radius));
+    font-size: var(--ps-md-font);
+    font-weight: bold;
+    margin: auto;
+    padding-inline-end: 0.3em;
+}
+
+.isMobile-Layout .ps-popup-modal-button ion-button {
+    font-size: calc(12px * var(--ps-font-size-ratio-initial));
+}
+
+.ps-popup-modal-button .text-truncate {
+    white-space: normal !important;
+}
+
+.failure-alert .popup-modal-img {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}

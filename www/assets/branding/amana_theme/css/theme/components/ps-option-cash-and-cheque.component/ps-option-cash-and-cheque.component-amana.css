@@ -1,0 +1,37 @@
+/* ps-option-cash-and-cheque ps-option-cash-and-cheque mat-card-content .lookup-details-content .container-option-table-row, .container-lookup-balance{
+    max-width: 100%;
+} */
+
+/* ps-option-cash-and-request .ps-balance .available-balance-div{
+    width:48%;
+}
+
+ps-option-cash-and-request .ps-balance .current-balance-diV{
+    width: 48%;
+} */
+ps-option-cash-and-cheque .ps-container-lookup-option-details .lookup-details-content .container-option-labels-order {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+   
+}
+ps-option-cash-and-cheque .container-option-table-row-Mode ps-keyin-input .ps-custom-component-preview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+ps-option-cash-and-cheque .ps-container-lookup-option-details .card-content-field .ps-custom-component-preview ps-label-input{
+    width: 100%;
+}
+ps-option-cash-and-cheque mat-card-content ps-balance .current-balance-div {
+    display: none;
+}
+
+ps-option-cash-and-cheque .ps-container-lookup-option-details mat-card-content .available-balance-div ps-label,
+ps-option-cash-and-cheque .ps-container-lookup-option-details mat-card-content .available-balance-value,
+ps-option-cash-and-cheque .ps-container-lookup-option-details mat-card-content .lookup-details-content .container-option-table-col.item-value {
+    border-inline-start: 0px !important;
+    padding-inline-start: 0px !important;
+}

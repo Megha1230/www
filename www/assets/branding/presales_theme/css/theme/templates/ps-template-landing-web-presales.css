@@ -1,0 +1,190 @@
+ps-template-landing-web {
+    width: 100vw;
+    height: 100vh;
+    background-image: none !important;
+    /* DK */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* changed: increasing the height to 30/100 instead of 22/100 to prevent profile section collapsing with menu (Clark) */
+ps-template-landing-web .left-section .main-header,
+ps-template-landing-web .main-section .home-banners,
+ps-template-landing-web .main-section .home-banners * {
+    height: calc(calc(30/100) * var(--ps-100vh)) !important;
+    /* DK */
+    border-radius: var(--ps-section-border-radius) !important;
+}
+
+ps-template-landing-web .right-section ps-container-panel .ps-container-panel-item ion-label,
+ps-template-landing-web .right-section ps-container-panel .ps-container-panel-item ion-icon {
+    --color: white !important;
+    color: white !important;
+}
+
+ps-template-landing-web .right-section .web-map-panel-widget ps-container-panel .ps-container-panel-content {
+    padding: 0px !important;
+}
+
+ps-template-landing-web .main-section .main-section-page>* {
+    margin: auto auto !important;
+    max-width: var(--ps-main-section-width);
+    max-height: var(--ps-main-section-height);
+    border-radius: 20px;
+}
+
+ps-template-landing-web .ps-dropdown-allowed-languages-wrapper,
+ps-template-landing-web .ps-user-info-wrapper {
+    margin: 0px !important;
+}
+
+.isWeb-Layout ps-template-landing-web ps-label-welcome, ps-template-landing-web ps-label-user-last-login {
+    flex-direction: column;
+    align-items: center;
+}
+
+.isWeb-Layout ps-template-landing-web ps-label-user-last-login ion-label {
+    font-size: calc(var(--ps-md-font) - 1px) !important;
+    transition: 0.5s ease;
+}
+
+.navbar-header {
+    background: var(--ps-primary-color);
+}
+
+.navbar-header .ps-complex-menu-reach_container_complex_base_container_body_container_body_row {
+    width: auto;
+}
+
+.navbar-header ps-complex-menu-reach ps-action-icon .ps-action-icon-label ps-label {
+    font-weight: 500;
+    font-size: var(--ps-xl-font) !important;
+    transition: 0.5s ease;
+}
+
+.navbar-header .reach-menu-header ps-complex-profile {
+    width: 120px;
+    margin-right: var(--ps-xxs-margin) !important;
+}
+
+ps-template-landing-web .left-section {
+    background: var(--ps-template-menu-background-color) !important;
+    transition: 0.5s ease;
+}
+
+ps-template-landing-web .left-section ps-action-icon.menu-icon.menu-icon-close,
+ps-template-landing-web .main-section.menu-landing-1-2 ps-action-icon.menu-icon.menu-icon-open {
+    display: none;
+}
+
+ps-template-landing-web .left-section ps-action-icon.menu-icon ion-icon.close,
+ps-template-landing-web .main-section .ps-action-menu-icon ps-action-icon.menu-icon.menu-icon-open ion-icon {
+    opacity: 1;
+    color: var(--ps-font-light-color);
+    font-size: calc(var(--ps-xxxl-font) + var(--ps-xs-font)) !important;
+}
+
+ps-template-landing-web .main-section.menu-landing-1-2 ps-action-icon.menu-icon.menu-icon-open ion-icon {
+    font-size: calc(var(--ps-xxxl-font) + var(--ps-lg-font)) !important;
+    padding: var(--ps-xs-padding);
+}
+
+ps-template-landing-web .left-section ps-action-icon.menu-icon .close:not(:disabled):not(.disabled):focus,
+ps-template-landing-web .left-section ps-action-icon.menu-icon .close:not(:disabled):not(.disabled):hover {
+    opacity: 1;
+}
+
+ps-template-landing-web .main-section .ps-action-menu-icon {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar-header ps-complex-menu-reach ps-action-icon .ps-action-icon-label ps-label {
+        font-size: var(--ps-sm-font) !important;
+        transition: 0.5s ease;
+    }
+
+    .navbar-header .ps-dropdown-allowed-languages-wrapper mat-form-field * {
+        font-size: calc(var(--ps-sm-font) - 1px) !important;
+        transition: 0.5s ease;
+    }
+
+    /* .isWeb-Layout ps-template-landing-web ps-label-user-last-login ion-label {
+        font-size: calc(var(--ps-sm-font) - 1px) !important;
+        transition: 0.5s ease;
+    } */
+
+    .main-web-content>.container-fluid>.row {
+        display: grid;
+        transition: 0.5s ease;
+    }
+
+    ps-template-landing-web .left-section {
+        position: absolute;
+        flex: 0 0 320px;
+        max-width: 320px;
+        z-index: 1;
+        height: 100% !important;
+        display: none;
+        transition: 0.5s ease;
+    }
+
+    ps-template-landing-web .left-section.menu-open {
+        display: flex;
+        transition: 0.5s ease;
+    }
+
+    ps-template-landing-web .left-section ps-action-icon.menu-icon.menu-icon-close {
+        display: flex;
+        position: absolute;
+        padding: 10px;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    ps-template-landing-web .main-section.menu-landing-1-2 ps-action-icon.menu-icon.menu-icon-open {
+        display: flex;
+        position: absolute;
+        z-index: 1;
+    }
+
+    ps-template-landing-web .main-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    ps-template-landing-web .main-section .ps-action-menu-icon {
+        display: flex;
+    }
+
+    ps-template-landing-web .main-section .ps-action-menu-icon ps-action-icon.menu-icon.menu-icon-open {
+        display: flex;
+        margin: var(--ps-md-margin) !important;
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    ps-template-landing-web .main-section .main-section-page>* {
+        max-width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navbar-header ps-complex-menu-reach ps-action-icon .ps-action-icon-label ps-label {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar-header .ps-complex-menu-reach .ps-base-container-body-row>* {
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+}

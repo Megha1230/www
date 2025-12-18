@@ -1,0 +1,50 @@
+:root {
+    --ps-button-border-radius: calc(var(--ps-border-radius-ratio-initial) * 10px);
+    --ps-button-border-width: 0px;
+    --ps-button-submit-background-color: #A566C4;
+    --ps-button-save-background-color: transparent;
+    --ps-button-next-background-color: #836096;
+    --ps-button-cancel-background-color: transparent;
+    --ps-button-submit-background-color-hover: #9247b8;
+    --ps-button-cancel-background-color-hover: white;
+    --ps-button-cancel-font-color: white;
+    --ps-button-next-background-color-hover: #b17fcc;
+    --ps-button-back-background-color-hover: white;
+    --ps-button-export-background-color: var(--ps-button-submit-background-color);
+    --ps-button-export-border-color: transparent;
+    --ps-button-export-background-color-hover: #5c459c18;
+    --ps-button-print-background-color: var(--ps-button-submit-background-color);
+    --ps-button-print-border-color: transparent;
+    --ps-button-print-background-color-hover: #5c459c18;
+    --ps-button-next-border-color: 1px solid white;
+    --ps-button-previous-background-color: transparent;
+    --ps-button-previous-border-color: 1px solid white;
+    --ps-button-reset-border: 1px solid white;
+    --ps-button-retrieve-background-color: var(--ps-button-submit-background-color);
+    --ps-button-cancel-border-color: 1px solid white;
+    --ps-button-save-border-color: 1px solid white;
+    /* --ps-button-logout-background-color: white; */
+    --ps-button-logout-font-color: white;
+}
+
+ps-action-button ion-button ps-action-icon .ps-action-image-container {
+    padding: 0px !important;
+}
+
+.ps-button-back ps-action-icon .ps-action-icon-icon,
+.ps-button-next ps-action-icon .ps-action-icon-icon,
+.ps-button-cancel ps-action-icon .ps-action-icon-icon,
+.ps-button-export ps-action-icon .ps-action-icon-icon,
+.ps-button-submit ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+
+
+ps-button-previous ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+ps-button-save ps-action-icon .ps-action-icon-icon {
+    display: none;
+}

@@ -1,0 +1,5 @@
+ussd-deactivation ps-label.text-warning-ussd-dactivation ion-label {
+    white-space: normal !important;
+    color: var( --ps-background-info-color) !important;
+}
+ 

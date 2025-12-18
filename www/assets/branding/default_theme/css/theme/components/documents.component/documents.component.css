@@ -1,0 +1,86 @@
+.documentsDropdown ps-select-dropdown-overlay {
+    position: unset;
+}
+
+.documentsDropdown ps-select-dropdown-overlay .ps-dismiss-modal {
+    height: fit-content;
+    width: fit-content;
+}
+
+.documentsDropdown ps-select-dropdown-overlay .ps-item-list-wrapper {
+    position: unset;
+}
+
+.ps-container-panel-doc {
+    height: fit-content!important;
+    display: block!important;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.documents-actions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-documents-button {
+    width: 50%!important;
+    --background: var(--ps-button-next-background-color-hover);
+}
+
+.reset-documents-button {
+    width: 50%!important;
+    --background: var(--ps-button-cancel-background-color);
+}
+
+.reset-documents-button ion-button {
+    --border-width: var(--ps-button-reset-border);
+}
+
+.documentsDropdown {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.documentsDropdown .ps-select-dropdown-widget .ps-item-list {
+    flex-wrap: nowrap;
+    justify-content: unset;
+    margin: 20px;
+}
+
+.documentsDropdown ps-complex-widget-dropdowns .ps-complex-widget-dropdowns_header {
+    display: none;
+}
+
+.documentsDropdown ps-select-dropdown-widget .additional-dropdown-information .avatar-label-wrapper {
+    width:140px!important;
+    height: 60px!important;
+}
+
+.documentsDropdown ps-select-dropdown-widget ps-container-item ion-item ion-label {
+    color: black!important;
+    padding: 5px!important;
+}
+
+.documentsDropdown ps-select-dropdown-widget .additional-dropdown-information ps-label {
+    display: inherit;
+    align-items: center;
+}
+
+.documentsDropdown ps-select-dropdown-widget .additional-dropdown-information{
+    background: #fdf4f1;
+    width: 100%!important;
+    max-width: fit-content;
+    margin: 20px!important;
+}
+
+@media screen and (max-width: 500px) {
+    .documentsDropdown .avatar-label-wrapper ion-label{
+        font-size:10px!important;
+    }
+}

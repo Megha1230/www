@@ -1,0 +1,196 @@
+ps-jbpm-task-list {
+    height: calc(calc(50/100) * var(--ps-100vh));
+}
+
+ps-jbpm-task-list .main-content-wrapper {
+    height: 100%;
+}
+
+
+ps-jbpm-task-list .main-section-wrapper {
+    height: 90%;
+}
+
+ps-jbpm-task-list .task-refresh-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+}
+
+ps-jbpm-task-list .task-refresh-icon ion-icon {
+    color: var(--ps-font-color-opp-highlight-color) !important;
+    background-color: var(--ps-highlight-background-color) !important;
+    border-radius: var(--ps-fields-border-radius) !important;
+    font-size: var(--ps-xxl-font) !important;
+    padding: 10px;
+}
+
+ps-jbpm-task-list .main-wrapper {
+    border-top: var(--ps-font-color-opp-highlight-color) 1px solid;
+    border-bottom: var(--ps-font-color-opp-highlight-color) 1px solid;
+    padding: 0px !important;
+    overflow-y: auto;
+}
+
+ps-jbpm-task-list .jbpm-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto !important;
+    margin: 0px !important;
+    border-bottom: none !important;
+}
+
+ps-jbpm-task-list .jbpm-field-wrapper {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    padding: 5px 0px !important;
+}
+
+ps-jbpm-task-list .jbpm-field-wrapper:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    width: 50%;
+    border-bottom: var(--ps-font-color-opp-highlight-color) 1px dashed;
+}
+
+ps-jbpm-task-list .jbpm-wrapper .list-key,
+ps-jbpm-task-list .jbpm-wrapper .list-value {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    color: var(--ps-font-color-opp-highlight-color);
+    text-align: center;
+}
+
+
+.task-switcher-switched ion-icon {
+    color: var(--ps-highlight-background-color) !important
+}
+
+.jbpm-container {
+    height: 100% !important;
+}
+
+ps-jbpm-task-list .show-more-less-button-card {
+    border-bottom: var(--ps-font-color-opp-highlight-color) 1px solid;
+}
+
+ps-jbpm-task-list .show-more-less-button-card ion-icon {
+    font-size: var(--ps-xxl-font) !important;
+    padding: 5px;
+    color: var(--ps-font-color-opp-highlight-color);
+}
+
+
+ps-jbpm-task-list .jbpm-task-action-container {
+    display: flex;
+    animation: jbpm-task-action-container 1s forwards;
+    -webkit-animation: jbpm-task-action-container 1s forwards;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0px !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+ps-jbpm-task-list .jbpm-task-action-container-hide {
+    animation: jbpm-task-action-container-hide 0.5s forwards 0s;
+    -webkit-animation: jbpm-task-action-container-hide 0.5s forwards 0s;
+}
+
+ps-jbpm-task-list .jbpm-task-action {
+    /* margin-bottom: 5px; */
+    padding: 5px;
+    /* border: 1px solid;
+    flex: 0 0 45%;
+    max-width: 45%; */
+    margin-bottom: 5px;
+    border-radius: var(--ps-fields-border-radius);
+    background: var(--ps-highlight-background-color);
+}
+
+ps-jbpm-task-list .jbpm-task-action .ps-action-icon-icon ion-icon {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    padding-inline-end: 10px;
+}
+
+ps-jbpm-task-list .jbpm-task-action .ps-action-image-row {
+    /* border: 1px solid;
+    justify-content: center;
+    border-radius: 10px;
+    width: 60px; */
+}
+
+ps-jbpm-task-list .jbpm-priority,
+ps-jbpm-task-list .jbpm-priority ion-icon {
+    height: 60px;
+    width: 60px;
+}
+
+
+ps-jbpm-task-list .jbpm-task-action-container ion-label,
+ps-jbpm-task-list .jbpm-task-action-container ion-icon {
+    cursor: pointer !important;
+    color: var(--ps-font-color-opp-secondary-color) !important;
+}
+
+ps-jbpm-task-list .no-data-text {
+    color: var(--ps-font-color-opp-secondary-color) !important;
+}
+
+@-webkit-keyframes jbpm-task-action-container {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes jbpm-task-action-container {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1);
+    }
+}
+
+
+
+@-webkit-keyframes jbpm-task-action-container-hide {
+    from {}
+
+    to {
+        font-size: 0;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+    }
+}
+
+@keyframes jbpm-task-action-container-hide {
+    from {}
+
+    to {
+        font-size: 0;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,58 @@
+.ps-complex-exchange-component {
+    margin-bottom: 0.5em;
+}
+
+.ps-complex-exchange-component .exchange-rate {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--ps-xl-font);
+}
+
+.ps-complex-exchange-component .from-amount ps-container-item .ps-container-item-wrapper {
+    margin-bottom: 0px !important;
+}
+
+.ps-complex-exchange-component .exchange-rate span:nth-child(1) {
+    font-weight: 500;
+    color: var(--ps-highlight-background-color) !important;
+}
+
+.ps-complex-exchange-component .exchange-rate-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.ps-complex-exchange-component .exchange-rate .exchange-rate-icon ion-icon {
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-xxl-font);
+}
+
+.ps-complex-exchange-component .exchange-rate span:nth-child(2) {
+    margin: 0em 1em;
+    color: var(--ps-font-light-color) !important;
+}
+
+.ps-complex-exchange-component .exchange-rate span:nth-child(3) {
+    font-weight: 500;
+    color: var(--ps-font-light-color) !important;
+}
+
+.ps-complex-exchange-component .complex-amount .ps-container-item-main-content:first-child {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: var(--ps-section-padding) !important;
+}
+
+.ps-complex-exchange-component .complex-amount .ps-container-item-main-content .mat-select-value {
+    text-align: center;
+}
+
+.ps-complex-exchange-component .exchange-rate ion-label {
+    color: var(--ps-font-light-color);
+}

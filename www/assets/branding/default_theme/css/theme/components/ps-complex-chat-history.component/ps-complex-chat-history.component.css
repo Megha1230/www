@@ -1,0 +1,99 @@
+:root {
+    --ps-chat-spacing: 25px;
+    --ps-chat-window-background-color: rgba(0, 0, 0, 0.5);
+    /* linear-gradient(to bottom, var(--ps-gradient-color-1), var(--ps-gradient-color-2)); */
+    --ps-chat-message-start-background-color:
+        /*  #82ccdd; */
+        var(--ps-primary-color);
+    --ps-chat-message-end-background-color:
+        /* #78e08f; */
+        var(--ps-secondary-color);
+
+    --ps-chat-message-light-color: null;
+    --ps-chat-message-dark-color: null;
+}
+
+ps-complex-chat-history {
+    background: var(--ps-chat-window-background-color) !important;
+    margin: auto;
+    padding: 0px !important;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+ps-complex-chat-history.ion-page {
+    width: 50%;
+}
+
+
+ps-complex-chat-history .chat-container {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ps-complex-chat-history .chat-history-wrapper {
+    max-height: 85%;
+    overflow-y: auto;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+ps-complex-chat-history .chat-wrapper {
+    height: auto !important;
+    margin: 0px !important;
+    width: 100%;
+    margin-bottom: var(--ps-chat-spacing) !important;
+    text-align: start !important;
+}
+
+ps-complex-chat-history .chat-message {
+    border-radius: calc(25px * var(--ps-border-radius-ratio-initial));
+    display: flex;
+    align-items: center;
+    padding: 15px !important;
+    margin-inline-start: 15px !important;
+    display: inline-block;
+    word-break: break-word;
+}
+
+ps-complex-chat-history .chat-date {
+    font-size: var(--ps-md-font);
+}
+
+ps-complex-chat-history ps-image-avatar * {
+    background-color: inherit !important;
+    border-radius: calc(100% * var(--ps-border-radius-ratio-initial)) !important;
+    color: inherit !important;
+}
+
+ps-complex-chat-history .chat-send-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    align-items: center !important;
+    background: var(--ps-chat-window-background-color) !important;
+    padding: 20px !important;
+    border-radius: var(--ps-fields-border-radius) !important;
+    width: 100%;
+    height: 15%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+ps-complex-chat-history .chat-message-section {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+
+}
+
+ps-complex-chat-history .chat-send-button {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+ps-complex-chat-history .chat-send-wrapper .ps-field-item-wrapper .ps-container-item-wrapper {
+    margin: 0px !important;
+}

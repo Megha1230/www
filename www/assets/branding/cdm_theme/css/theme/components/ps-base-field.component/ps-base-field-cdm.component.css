@@ -1,0 +1,30 @@
+.isMobile-Layout .ng-touched:not(.has-value),
+.isMobile-Layout .ng-untouched:not(.has-value) {
+    font-weight: 500;
+    border-radius: var(--ps-section-border-radius) var(--ps-section-border-radius) 0px 0px;
+}
+
+ps-input-count .count-span ion-icon{
+    color: #248b92 !important;
+}
+/* ps-entity-phone-number .ps-entity-phone-number ps-base-container.ps-container-item-wrapper{
+    margin-bottom: 5px;
+} */
+ps-entity-phone-number .ps-dropdown-country-code-wrapper{
+     display: none;
+}
+ps-entity-phone-number .ps-keyin-input-wrapper{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+*[ng-reflect-placeholder], *[ng-reflect-form-control-name], *[psFcName], .ng-touched, .ng-untouched, .ps-input-display-only-value, .mat-form-field-label, .mat-select-value-text{
+    font-size:14px !important
+}
+
+omni-login .ps-container-item-img-icon, on-boarding .ps-container-item-img-icon, forgot-credentials .ps-container-item-img-icon{
+    display: initial !important;
+}
+omni-login .ps-container-item-main-content-icon, on-boarding .ps-container-item-main-content-icon, forgot-credentials .ps-container-item-main-content-icon{
+    margin-left: 0px !important;
+}

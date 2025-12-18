@@ -1,0 +1,31 @@
+:root {
+    --ps-signature-pen-color: var(--ps-highlight-background-color);
+    --ps-pad-min-height: 300;
+    --ps-pad-min-width: 500;
+}
+
+ps-field-signature-pad .ps-signature-keyin-field .ps-field-item-wrapper .ps-item-wrapper {
+    display: none;
+}
+
+.signature-pad-wrapper.on-preview {
+    display: none;
+}
+
+ps-field-signature-pad .signature-pad-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ps-field-signature-pad .signature-pad-buttons>* {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+.signature-pad-buttons.disableContent ion-button {
+    pointer-events: none !important;
+    opacity: .5 !important;
+    cursor: default !important;
+}

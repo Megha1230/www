@@ -1,0 +1,9 @@
+ps-action-image .action-image-cust-icon {
+    position: fixed;
+    z-index: 2;
+    margin: -5px 0 0 -5px;
+}
+
+/* ion-img {
+    min-height: 1px !important;
+} */

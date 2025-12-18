@@ -1,0 +1,107 @@
+.parent-div,
+ps-container-stepper.is-stepper,
+ps-container-stepper .mat-horizontal-stepper-content {
+  height: 100%;
+}
+
+ps-container-stepper.is-widget {
+  max-height: 75%;
+}
+
+ps-template-stepper .widget-stepper-header-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  background: var(--ps-stepper-widget-header-background-color);
+}
+
+.isWeb-Layout ps-template-stepper .widget-stepper-header-wrapper .stepper-widget-buttons {
+  max-width: 25%;
+}
+
+ps-template-stepper .widget-stepper-header-wrapper .stepper-widget-buttons {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+ps-template-stepper .widget-stepper-header-wrapper .round-progress-wrapper {
+  width: 11%;
+  margin: 2% 0px !important;
+  position: relative;
+}
+
+.isMobile-Layout ps-template-stepper .widget-stepper-header-wrapper .round-progress-wrapper {
+  width: 20% !important;
+}
+
+ps-template-stepper .percentage-completion {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepperHidden>.mat-stepper-horizontal>.mat-horizontal-stepper-header-container {
+  display: none !important;
+}
+
+.multi-outlet-segment .main-header {
+  display: none !important;
+}
+/* TP #1442070 Salah changed from inherit to initial */
+.multi-outlet-segment .showSegment {
+  display: initial !important;
+}
+/* end salah */
+.multi-outlet-segment .hideSegment {
+  display: none !important;
+}
+
+ps-template-stepper .widget-stepper-header-wrapper .hint-wrapper {
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+
+ps-template-stepper .widget-stepper-header-wrapper .hint-wrapper .separator {
+  height: 2px;
+  width: 100%;
+  background: var(--ps-stepper-widget-separator-color);
+  width: 100%;
+  flex: 0 0 100%;
+}
+
+
+ps-template-stepper .widget-stepper-header-wrapper .hint-wrapper .hint {
+  border-radius: 10px;
+  background: var(--ps-stepper-widget-title-background-color);
+  color: var(--ps-stepper-widget-title-color);
+  width: 100% !important;
+  display: flex;
+  flex: 0 0 98%;
+  margin: 5px auto;
+  padding: 1%;
+}
+
+ps-template-stepper .widget-stepper-header-wrapper .hint-wrapper .hint ion-label {
+  white-space: normal !important;
+}
+
+ps-template-stepper ps-template-base .main-form,
+ps-template-stepper ps-template-base ion-content {
+  overflow: hidden;
+}

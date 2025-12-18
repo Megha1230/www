@@ -1,0 +1,34 @@
+ps-complex-instant-pay-address .ps-dropdown-psp-handler-wrapper {
+    -webkit-box-flex: 0;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+ps-complex-instant-pay-address .ps-input-varchar-wrapper {
+    -webkit-box-flex: 0;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+ps-complex-instant-pay-address ps-input-varchar ps-container-item .item {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+ps-complex-instant-pay-address ps-dropdown-psp-handler ps-container-item .item {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+ps-complex-instant-pay-address ps-input-varchar .ps-container-item-main-content {
+padding-left: 11% ;
+}
+
+ps-complex-instant-pay-address ps-dropdown-psp-handler .ps-container-item-img-icon {
+    display: none !important;
+}
+
+/* ps-complex-instant-pay-address ps-input-varchar .ps-container-item-img-icon {
+    display: none !important;
+} */
+

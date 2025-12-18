@@ -1,0 +1,23 @@
+ps-select-dropdown {
+    display: block;
+    position: relative;
+}
+
+.ps-select-dropdown-select-base {
+    display: none;
+}
+ps-select-dropdown .mat-select-arrow {
+    color: inherit !important;
+    margin-inline-end: 15px;
+}
+
+.mat-option {
+    height: auto !important;
+    border-bottom: 1px solid var(--ps-separator-panel-color);
+    margin: 0px 15px;
+}
+
+.mat-select-panel {
+    border-radius: var(--ps-fields-border-radius) !important;
+    background-color: var(--ps-dropdown-panel-background) !important;
+}

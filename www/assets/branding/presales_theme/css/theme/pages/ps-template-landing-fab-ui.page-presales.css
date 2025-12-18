@@ -1,0 +1,7 @@
+ps-template-landing-fab-ui .fab-ui-notification {
+    flex-direction: row;
+}
+
+ps-template-landing-fab-ui ps-button-fab-list ion-fab-button ion-icon {
+    font-size: var(--ps-xxl-font);
+}

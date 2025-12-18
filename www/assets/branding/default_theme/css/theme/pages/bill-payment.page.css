@@ -1,0 +1,12 @@
+.biller-type-select-segment .ps-content-segment {
+  padding: 0px !important;
+  background: var(--ps-segment-panel-selected-background-color);
+}
+
+.category_biller_header {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 2px solid var(--ps-stepper-line-color);
+  text-align: center;
+  color: var(--ps-font-light-color);
+}

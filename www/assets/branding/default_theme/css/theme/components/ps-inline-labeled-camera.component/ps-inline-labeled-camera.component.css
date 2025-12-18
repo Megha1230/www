@@ -1,0 +1,38 @@
+.profile-info {
+    border-radius: 50%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    margin: 2% auto;
+}
+
+profile-info ps-label ion-label {
+    justify-content: center;
+}
+
+.profile-image {
+    border-radius: 100%;
+}
+
+.profile-cust-img-dim {
+    width: calc(calc(25/100) * var(--ps-100vh));
+    height: calc(calc(30/100) * var(--ps-100vh));
+}
+
+.upload-profile-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: var(--ps-font-light-color);
+    width: 100%;
+    transition: .5s ease;
+    font-size: var(--ps-md-font) !important;
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 2px);
+    text-align: center;
+    opacity: 1;
+    left: 0;
+}

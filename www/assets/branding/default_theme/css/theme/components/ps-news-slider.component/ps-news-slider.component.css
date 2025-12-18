@@ -1,0 +1,20 @@
+ng-ticker::part(ticker-sliders){
+    display: flex;
+}
+
+ng-ticker::part(slider-items){
+    margin-right: 10%;
+}
+
+.container1 {
+    overflow-x: hidden;
+}
+
+.content {
+    display: inline-block;
+}
+
+.item {
+    white-space: nowrap;
+    display: flex;
+}

@@ -1,0 +1,307 @@
+/*                                             styling dashboard available widgets container                         */
+.dashboard-unused-widgets-container ps-container-panel .ps-container-panel-content{
+  background: #ffffff;
+}
+.dashboard-available-widgets-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    scrollbar-width: thin;
+    overflow-x: auto;
+    height: auto;
+}
+.dashboard-available-widgets-container::-webkit-scrollbar {
+    height: 8px;
+ }
+ 
+.dashboard-available-widgets-container::-webkit-scrollbar-thumb {
+    background: #ccc; /* Scrollbar thumb color */
+    border-radius: 4px;
+}
+.isWeb-Layout .widget-item-wrapper {
+    padding: 10px 0;
+}
+
+.widget-item-wrapper {
+    margin: 5px;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 30%;
+    flex: auto;
+}
+
+.widget-item-wrapper .item {
+    --background: transparent !important;
+    --border-style: none !important;
+    --padding-start: 0 !important;
+    --inner-padding: 0 !important;
+    --inner-padding-end: 0 !important;
+    --inner-padding-start: 0 !important;
+    padding-inline-start: 0 !important;
+    padding-inline-end: 0 !important;
+    color: var(--ps-dropdown-overlay-font-color);
+    margin: 0 calc(2* var(--ps-select-dropdown-list-spacing));
+    --background:var(--ps-card-header-color) !important;;
+    border-radius: var(--ps-fields-border-radius) !important;
+    /* border: #d5d5d5 1px solid;
+    margin-top: 0px !important; */
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    --highlight-background: none !important;
+    font-size: var(--ps-lg-font) !important;
+}
+.widget-item-wrapper .widget-item-actions_wrapper {
+    padding: 0 15px;
+    width: 100%;
+    background:var(--ps-card-header-color);
+    height: 100%;
+}
+
+ .widget-item-wrapper .widget-item-label-wrapper {
+   display: flex !important;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   padding-top: 10px;
+   width: 100%;
+   max-height: 150px !important;
+   height: 125px !important;
+ }
+
+ .widget-item-wrapper .widget-item-label-wrapper ps-action-icon {
+    /* margin: auto; */
+    color: var(--ps-font-light-color);
+    height: 60%;
+    width: unset;
+    font-size: 60px;
+}
+ .widget-item-wrapper ion-icon {
+    font-size: 60px !important;
+    height: 100%;
+}
+ 
+.widget-item-wrapper ps-label {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 0px !important;
+}
+ 
+.widget-item-wrapper .widget-item-label-wrapper ion-label {
+    font-size: var(--ps-lg-font) !important;
+    pointer-events: none !important;
+}
+.widget-item-wrapper ion-item ion-label {
+    text-overflow: unset !important;
+    color: var(--ps-font-light-color) !important;
+}
+ 
+ 
+@media (max-width: 576px) {
+    .widget-item-wrapper {
+        width: unset;
+        max-width: unset;
+    }
+}
+ 
+ 
+/*                     styling dashboard layout icons container                                             */
+.dashboard-layout-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  flex-grow: 1;
+}
+.dashboard-layout-container .choose_web_layout_label ion-label{
+  font-size: var(--ps-xl-font);
+}
+.dashboard-layout-buttons{
+display: flex;
+align-items: center;
+justify-content: end;
+padding: 10px;
+gap: 10px;
+}
+ 
+.dashboard-action-buttons{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.add-widegt-btn .row.ps-action-image-row{
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.add-widegt-btn .ps-label.text-truncate{
+  font-size: var(--ps-xl-font);
+}
+ 
+/*                       start of user widgets container styling                                    */
+.dashboard-user-widgets-container{
+    margin-top:5px;
+}
+.dashboard-user-widgets-container .empty-widgets-label{
+    margin:auto
+}
+.dashboard-user-widgets-container.cdk-drop-list-dragging .empty-widgets-label {
+    display: none;
+}
+.empty-widgets-label ion-label {
+    font-weight: 700;
+    color: grey;
+}
+.dashboard-user-widgets-container.cdk-drop-list-dragging{
+  border: thick dashed gray !important
+  }
+.dashboard-user-widgets-container,.dashboard-available-widgets-container,.dashboard-unused-widgets-container{
+    user-select: none; /* Disable text selection */
+    -webkit-user-select: none; /* For Safari */
+    -ms-user-select: none; /* For IE */
+    -moz-user-select: none; /* For older Firefox versions */
+}
+
+.cdk-drag-placeholder {
+    opacity: 0.3;
+  }
+ 
+.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+.cdk-drag-animating .widget-container-box {
+    transform: translate(0, 0);
+  }
+.widget-container-box:last-child {
+    border: none;
+  }
+ 
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    opacity: 0.9;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+
+
+.widget-container-box .widget-container-card-details mat-card-content{
+    overflow-y: auto;
+  }
+
+#drag-widget-handle-icon{
+    cursor: grab;
+}
+/*                                              rows layout styling                                                             */
+
+.user-widgets-row-layout{
+  height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+.isMobile-Layout .user-widgets-row-layout{
+  padding: 0px;
+  height: 93%;
+}
+.rows-widget-card-container .widget-container-card-details mat-card-content{
+  height: 300px;
+}
+/*                                              columns layout styling                                                             */
+.user-widgets-column-layout{
+  min-height: 90%;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto !important;
+}
+
+.columns-widget-card-container .widget-container-card-wrapper{
+  width: 400px;
+  max-width: 550px;
+}
+
+.columns-widget-card-container .ps-inline-html table {
+  width: max-content !important;
+}
+
+.columns-widget-card-container .widget-container-card-details mat-card-content{
+  height: 450px;
+}
+
+.columns-widget-card-container .widget-container-card-header {
+  height: 100px;
+}
+
+.columns-widget-card-container .widget-container-card-header .text-truncate{
+  white-space: normal;
+}
+/*                                              grid layout styling                                                             */
+
+.user-widgets-grid-layout{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    overflow-y: auto;
+    gap: 10px;
+    padding: 10px;
+ }
+ .drop-list-widget{
+  flex: 1;
+ }
+ .user-widgets-grid-layout.cdk-drop-list-dragging .drop-list-widget{
+  flex:0
+ }
+.grid-placeholder-droplist{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.grid-placeholder-droplist.cdk-drop-list-dragging ps-label{
+  display: none;
+}
+
+.grid-placeholder-droplist ps-label{
+  margin: auto;
+}
+
+.grid-widget-card-container .ps-inline-html table{
+  width: auto;
+}
+
+.grid-widget-card-container .widget-container-card-details mat-card-content{
+  height: 260px;
+}
+
+ 
+/*                       start of widget modal styling                                                        */
+.isWeb-Layout ion-modal#dashboard-widget-container-modal .modal-wrapper{
+  width: 85%;
+}
+.isWeb-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details mat-card-content{
+  height: 340px;
+  overflow-y:auto;
+}
+.isWeb-Layout ion-modal#dashboard-widget-container-modal .modal-wrapper .report-header{
+  display: none;
+}
+.isMobile-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details .text-truncate{
+  white-space: normal;
+}
+.isMobile-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details .widget-container-card-header .mat-card-header-text{
+  width: 70%;
+}
+.isMobile-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details .widget-container-card-header .widget-container-card-title .text-truncate{
+  font-size: var(--ps-xl-font);
+}
+.isMobile-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details .widget-container-card-header .widget-container-card-subtitle .text-truncate{
+  font-size: var(--ps-md-font);
+}
+.isMobile-Layout.userIsLoggedIn ion-modal#dashboard-widget-container-modal .widget-container-card-details mat-card-content{
+  height: 550px;
+  overflow-y:auto;
+}

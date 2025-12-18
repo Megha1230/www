@@ -1,0 +1,24 @@
+.scanIcon ion-icon {
+    color: var(--ps-font-light-color);
+    padding: 1%;
+    background: var(--ps-highlight-background-color);
+    padding: .6rem;
+    margin-top: .8rem;
+    border-radius: 50%;
+}
+
+.transfer-select-segment {
+    margin: var(--ps-fields-margin) 0px;
+}
+
+.payment-segment-panel .ps-container-panel-item {
+    display: none;
+}
+
+.radio-button ion-radio-group {
+    display: flex;
+}
+
+.radio-button ion-list-header {
+    display: none;
+}

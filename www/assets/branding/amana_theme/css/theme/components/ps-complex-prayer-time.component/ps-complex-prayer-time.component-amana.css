@@ -1,0 +1,55 @@
+/* ps-complex-prayer-time .prayer-reminder-button {
+    --border-radius: 0px !important;
+    --background: none !important;
+} */
+
+ps-complex-prayer-time .prayer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+ps-complex-prayer-time .set-reminder {
+    order: 2;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-prayerTiming .items .ps-container-item-img-icon {
+    display: none;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-prayerTiming .items .ps-container-item-main-content {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-prayerTiming .items .prayer-name {
+    display: flex;
+    align-items: center;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-prayerTiming .items .prayer-time {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ps-complex-prayer-time .set-reminder .ps-container-item-img-icon {
+    display: none;
+}
+
+ps-complex-prayer-time .prayer-clock-icon {
+    display: none;
+}
+
+ps-complex-prayer-time .prayer-button-wrapper {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+ps-complex-prayer-time .prayer-reminder-button .ps-action-image-row {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}

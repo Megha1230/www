@@ -1,0 +1,182 @@
+omni-login ion-content main {
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+omni-login ps-action-hyperlink ion-icon,
+omni-login ps-action-hyperlink ion-label,
+omni-login ps-action-hyperlink .ps-action-icon-icon ion-icon {
+  color: var(--ps-highlight-background-color) !important;
+  cursor: pointer;
+  display: flex !important;
+  padding: calc(var(--ps-form-container-padding-ratio-initial) * 5px) !important;
+}
+
+omni-login ps-select-toggle ps-label-input {
+  width: auto !important;
+}
+
+omni-login .ps-action-anchor {
+  display: block;
+  margin-top: 10px !important;
+  border-radius: 50px;
+  padding-inline-start: 5px;
+}
+
+omni-login ::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.isWeb-Layout omni-login #online_registration_link .ps-action-image-row {
+  justify-content: center !important;
+
+}
+
+/* mindflare structure  */
+omni-login ps-action-hyperlink#online_registration_link .ps-action-image-row {
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--ps-form-container-padding-ratio-initial) * 15px);
+}
+
+.isWeb-Layout omni-login .ps-action-anchor {
+  margin-top: 5px !important;
+}
+
+.omni-login-fab-list ion-fab-button {
+  width: var(--ps-fab-login-button-size) !important;
+  height: var(--ps-fab-login-button-size) !important
+}
+
+.omni-login-fab-list ps-button-fab-list ion-fab-button ion-icon {
+  font-size: var(--ps-xxl-font);
+}
+
+.omni-login-fab-list ps-button-fab-list ion-fab-button ion-label {
+  font-size: var(--ps-xs-font) !important;
+}
+
+omni-login ion-button.ps-button-submit {
+  --border-radius: var(--ps-fields-border-radius) !important;
+  --border-width: 0px;
+}
+
+omni-login ion-card {
+  background: transparent;
+}
+
+
+.isPad-Layout omni-login .main-content {
+  width: 100%;
+  background: transparent;
+  margin-top: 0rem;
+}
+
+.isWeb-Layout omni-login .login-main .main-content {
+  height: calc(calc(90/100) * var(--ps-100vh)) !important;
+  padding: 0px 20px !important;
+}
+
+.isWeb-Layout omni-login .login-main {
+  margin: auto;
+  flex: 0 0 75% !important;
+  width: 75% !important;
+}
+
+omni-login ps-action-hyperlink .ps-action-anchor:hover {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+omni-login .ps-template-login-rememberMe ion-item {
+  --background: transparent !important;
+}
+
+omni-login ps-input-username ps-container-item .item,
+omni-login ps-input-password ps-container-item .item {
+  --background: var(--ps-login-input-background-color) !important;
+}
+
+
+omni-login .additional-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  margin-bottom: -2%;
+}
+
+omni-login .additional-links ps-action-hyperlink {
+  order: 1
+}
+
+omni-login .additional-links ps-complex-tooltip {
+  order: 2;
+  margin-top: 0.4em;
+}
+
+omni-login ps-action-hyperlink .ps-action-image-row {
+  align-items: center;
+  justify-content: center;
+}
+
+omni-login .additional-links .online-registration-link {
+  width: 100%;
+  justify-content: center;
+}
+
+
+.isMobile-Layout ps-template-login .ps-template-login-submit {
+  margin-top: 0px;
+}
+
+ps-template-login .ps-template-login-submit ion-button.ps-button-submit {
+  padding: 0px;
+  --border-radius: calc(var(--ps-border-radius-ratio-initial) * 10pt) !important;
+}
+
+.isMobile-Layout ps-template-login .online-registration-link a {
+  margin-top: 5px !important;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper {
+  width: 40%;
+  margin: 0 var(--ps-xs-margin);
+  z-index: 1;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper ps-container-item .item {
+  --background: transparent !important;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper ps-container-item ps-base-container-body .ps-container-item-img-icon {
+  display: none;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper ps-select-dropdown-base .select-row-wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper ps-select-dropdown-base .dropdown-selected-image {
+  display: flex;
+  justify-content: center;
+  width: 16%;
+  padding-inline-end: 0px !important;
+}
+
+omni-login .ps-dropdown-allowed-languages-wrapper {
+  width: 40%;
+  margin: 0 var(--ps-xs-margin);
+  z-index: 1;
+}
+
+.isMobile-Layout omni-login .ps-dropdown-allowed-languages-wrapper {
+  width: 75%;
+}
+
+.isMobile-Layout omni-login .ps-dropdown-allowed-languages-wrapper ps-select-dropdown-base .mat-select-value-text,
+.isMobile-Layout omni-login .ps-dropdown-allowed-languages-wrapper ps-select-dropdown-base .mat-select-arrow-wrapper {
+  color: var(--ps-font-light-color) !important;
+}

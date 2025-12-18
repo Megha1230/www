@@ -1,0 +1,26 @@
+:root ps-container-item {
+    --ps-valid-field-color: var(--ps-checked-color);
+    --ps-invalid-field-color: hsl(0, 95%, 55%);
+    --ps-focused-field-color: var(--ps-primary-color);
+    --ps-default-field-color: #4A4636;
+    --ps-default-font-color: var(--ps-secondary-color);
+}
+
+ps-container-item .item {
+    margin-top: 20px;
+}
+ps-container-panel ion-card.ps-container-panel{
+    box-shadow: none !important;
+}
+on-boarding ps-container-panel ion-card.ps-container-panel{
+    box-shadow: none !important;
+}
+on-boarding ps-container-panel .ps-container-panel-content .ps-container-panel-content{
+    padding: 0px !important;
+}
+on-boarding .ps-container-panel-content ps-container-item.ps-container-panel-item{
+    display: none !important;
+}
+on-boarding .ps-base-container-body-row ps-complex-cif-id-types{
+    /*display: none;*/
+}

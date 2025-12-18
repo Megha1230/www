@@ -1,0 +1,9 @@
+.app-logo {
+    align-self: center;
+    text-align: center;
+    color: var(--ps-input-label-font-color);
+}
+
+.app-logo .ps-action-image-row {
+    justify-content: center;
+}

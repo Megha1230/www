@@ -1,0 +1,55 @@
+{
+    "MAIN_CONFIG": {
+        "MINIFIED_DEFAULT_CSS_FILE_NAME": "./assets/ps-css-default-files.min.css",
+        "REQUEST_TIMEOUT": 20000,
+        "REQUESTS_TO_CACHE": {
+            "rest/omniCommonPull/returnCurrenciesList": {
+                "EXCLUDED_OPERS": []
+            },
+            "rest/omniCommon/returnLovValues": {
+                "EXCLUDED_OPERS": []
+            },
+            "rest/omniCommon/executePWSService": {
+                "EXCLUDED_OPERS": []
+            }
+        },
+        "IST": {},
+        "AST": {},
+        "SHOW_ALERT_ERROR": false,
+        "TIME_LOG_ENABLED": false,
+        "DDT": true,
+        "PITime": 15000
+    },
+    "DEFAULT_ASSETS_CONFIG": {
+        "ASSETS_URL": "./assets/branding/default_theme/",
+        "MAIN_CSS_FILE_NAME": "ps-css-files.css",
+        "IMGS_FOLDER_URL": "./assets/branding/default_theme/imgs/",
+        "CSS_FOLDER_URL": "./assets/branding/default_theme/css/",
+        "ICONS_URL": "./assets/branding/default_theme/icon/",
+        "HTML_URL": "./assets/html/",
+        "FONT_FAMILY": "./assets/branding/default_theme/fonts/fonts.css",
+        "SVG_URL": "./assets/branding/default_theme/svg/",
+        "BANNERS_FILE_URL": "./assets/html/default_banners/default_banners.json",
+        "UI_CONFIGURATION": {
+            "LANDING_UI_TYPE": 1,
+            "DISPLAY_SLIDER_ON_LOGIN": false,
+            "DefaultZoomBranchPercentage": 14,
+            "REGULA_ENABLED": false,
+            "REGULA_PROCESS": "FullProcess",
+            "REGULA_DOC_TYPE": "Full"
+        }
+    },
+    "CLIENT_ASSETS_CONFIG": {
+        "UI_CONFIGURATION": {
+            "CUSTOM_TIMEOUT_OPER_LIST": {},
+            "CUSTOM_TIMEOUT_SERVICE_LIST": {}
+        }
+    },
+    "GOOGLE_API_KEYS": {},
+    "REGULA_API_KEYS": {},
+    "commonVariables": {
+        "svgsFileContent": {},
+        "countriesFileContent": {},
+        "currenciesFileContent": {}
+    }
+}

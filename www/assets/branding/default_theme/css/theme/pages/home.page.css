@@ -1,0 +1,15 @@
+app-home .ps-action-image-image ion-img {
+    /* height: var(--ps-100vh) !important;
+    object-fit: fill !important; */
+}
+
+.isPad-Layout home-page .main-content {
+    width: 100%;
+    background: transparent;
+    margin-top: 0rem;
+}
+
+/* 
+.isMobile-Layout home-page ps-template-base .template-base-row {
+    background: var(--ps-menu-background-color) !important;
+} */

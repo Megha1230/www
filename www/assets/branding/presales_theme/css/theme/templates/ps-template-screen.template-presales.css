@@ -1,0 +1,24 @@
+.isWeb-Layout ps-template-screen .menu-icon ion-icon {
+    font-size: calc(var(--ps-xxl-font) + 4px);
+}
+
+.isMobile-Layout ps-template-screen .menu-icon ion-icon {
+    font-size: calc(var(--ps-xxl-font) + 1px);
+}
+
+ps-template-screen .widget-header-title {
+    padding-inline-start: calc(var(--ps-xxxl-padding) * 2) !important;
+}
+
+ps-template-screen .widget-header-title ps-label-header ps-label {
+    font-size: calc(var(--ps-xxl-font));
+    font-weight: 700;
+}
+
+.isMobile-Layout ps-template-screen .widget-header-title ps-label-header ps-label {
+    font-size: calc(var(--ps-xl-font));
+}
+
+.isMobile-Layout ps-template-screen .widget-header-title {
+    padding-inline-start: calc(var(--ps-xxxl-padding) - var(--ps-xxl-padding)) !important;
+}

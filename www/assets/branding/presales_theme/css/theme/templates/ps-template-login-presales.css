@@ -1,0 +1,29 @@
+.ps-template-login-card-flex {
+    justify-content: initial;
+}
+
+ps-template-login .ps-template-login-rememberMe{
+    margin-left: var(--ps-xs-margin) !important;
+}
+
+ps-template-login .ps-template-login-rememberMe .ps-select-toggle-wrapper {
+    justify-content: initial;
+}
+
+ps-template-login .online-registration-link a {
+    margin-top: 0px !important;
+}
+
+.isWeb-Layout ps-template-login .ps-template-login-rememberMe ion-label {
+    font-size: var(--ps-md-font);
+    color: var(--ps-login-label-color) !important;
+}
+
+.isWeb-Layout ps-template-login .ps-template-login-help ion-label {
+    font-size: var(--ps-md-font);
+    color: var(--ps-login-label-color) !important;
+}
+
+.isWeb-Layout ps-template-login .additional-links ion-label, ps-template-login .additional-links ps-action-hyperlink .ps-action-icon-icon ion-icon {
+    font-size: var(--ps-md-font);
+}

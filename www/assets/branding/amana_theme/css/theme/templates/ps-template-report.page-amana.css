@@ -1,0 +1,33 @@
+.report-content-label span {
+  color: white !important;
+}
+
+.report-header-value span {
+  color: white !important;
+  font-size: inherit !important;
+}
+
+ps-input-search-html .ps-template-report-search ion-input {
+  --placeholder-color: white !important;
+  --placeholder-opacity: 1 !important;
+}
+
+
+report-page ps-template-report .jrPage .report-header {
+  background: var(--ps-report-content-color) !important;
+}
+
+ps-input-search-html .search-html ps-action-icon ion-icon {
+  font-size: var(--ps-xxl-font);
+  border: 1px solid;
+  border-radius: var(--ps-popup-border-radius);
+  padding: 10px;
+}
+
+.ps-template-report-search ps-input-search-html .ps-keyin-input {
+  padding-top: 0.7em;
+}
+
+report-page .export_excel {
+  display: none;
+}

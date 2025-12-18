@@ -1,0 +1,3 @@
+.is-widget-view ps-action-menu-item .ps-menu-main-icon ps-action-icon ion-icon{
+    font-size: calc(var(--ps-xxxl-font) * 1.5) !important;
+}

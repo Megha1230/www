@@ -1,0 +1,13 @@
+ps-template-report .ps-template-report-search ps-container-item .item {
+  border: 1px solid #EFEDED !important;
+}
+.report-header-title span{
+  color: var(--ps-font-dark-color) !important;
+}
+.jrPage{
+  margin:20px 0;
+  background: transparent;
+}
+ps-container-report-viewer *{
+  background: #f6f6f6 !important;
+}

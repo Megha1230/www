@@ -1,0 +1,93 @@
+.ps-complex-terms-and-conditions {
+    display: block !important;
+    border-radius: var(--ps-fields-border-radius) !important;
+}
+
+.ps-complex-terms-and-conditions .ps-select-checkbox-label ion-label {
+    color: var(--ps-terms-cond-checkbox-color) !important;
+}
+
+.ps-complex-terms-and-conditions .ps-terms-cond-checkbox {
+    position: sticky;
+    bottom: 0;
+    padding-inline-start: 10px !important;
+}
+
+.ps-complex-terms-and-conditions .ps-container-item-img-icon {
+    display: none;
+}
+
+.ps-complex-terms-and-conditions .ps-container-item-wrapper {
+    margin-bottom: 0px !important;
+}
+
+
+.ps-complex-terms-and-conditions ps-select-checkbox ps-label {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.ps-complex-terms-and-conditions .ps-terms-cond-file {
+    overflow-y: scroll
+}
+
+
+.ps-complex-terms-and-conditions .ps-terms-cond-row>div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.ps-complex-terms-and-conditions ps-container-item .item {
+    background: none !important;
+    --background: none !important;
+    color: var(--ps-input-value-font-color) !important;
+}
+
+.ps-complex-terms-and-conditions ps-container-html-viewer .ps-html-viewer-wrapper,
+.ps-complex-terms-and-conditions ps-container-html-viewer .ps-inline-html {
+    height: auto !important;
+}
+
+.ps-complex-terms-and-conditions ps-select-checkbox .ps-container-item-main-content {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.ps-complex-terms-and-conditions ps-select-checkbox ion-label {
+    font-size: var(--ps-md-font) !important;
+    padding-inline-start: 10px;
+    font-weight: 600;
+}
+
+.ps-complex-terms-and-conditions ps-select-checkbox .ps-container-item-main-content {
+    -webkit-box-flex: 0 !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+/* .ps-complex-terms-and-conditions ps-select-checkbox ion-checkbox {
+    --border-radius: 0px !important;
+    max-width: 20px;
+    max-height: 20px;
+} */
+
+.ps-complex-terms-and-conditions ps-select-checkbox .ps-container-item-main-content .row:first-child {
+    flex-direction: row-reverse;
+}
+
+.ps-complex-terms-and-conditions ps-select-checkbox ion-checkbox {
+    --background: transparent !important;
+    --border-color: var(--ps-checkbox-border-color) !important;
+}
+
+ps-complex-terms-and-conditions .ps-complex-terms-and-conditions .ps-html-viewer-wrapper {
+    background: var(--ps-background-info-color);
+    border-radius: var(--ps-section-border-radius) !important;
+}
+
+ps-complex-terms-and-conditions ps-container-html-viewer {
+    text-align: start;
+    color: var(--ps-font-light-color);
+}

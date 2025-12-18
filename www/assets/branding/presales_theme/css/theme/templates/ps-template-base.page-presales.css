@@ -1,0 +1,29 @@
+ps-template-base .main-header {
+    /* padding: 6px !important; */
+    background: linear-gradient(to right, var(--ps-app-header-color-stop1), var(--ps-app-header-color-stop2)) !important;
+    /* Newly Added by DK */
+    background-image: linear-gradient(to right, var(--ps-app-header-color-stop1), var(--ps-app-header-color-stop2));
+    border-radius: 0px !important;
+    max-width: 100% !important;
+}
+
+
+ps-template-base .main-footer {
+    background: linear-gradient(to right, var(--ps-app-header-color-stop1), var(--ps-app-header-color-stop2)) !important;
+    border-radius: 0px !important;
+}
+
+.isWeb-Layout ps-template-base .main-footer {
+    background: transparent !important;
+    max-width: 100% !important;
+}
+
+.isMobile-Layout ps-template-base .main-content ps-button-fab-list{
+    position: absolute;
+    bottom: calc(var(--ps-xs-margin) * 3) !important;
+    right: 0;
+}
+
+.isMobile-Layout ps-template-base .main-content .omni-login-fab-list ps-button-fab-list{
+    bottom: calc(var(--ps-xxxs-margin) * 6) !important;
+}

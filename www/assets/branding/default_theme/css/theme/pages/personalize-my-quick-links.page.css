@@ -1,0 +1,17 @@
+personalize-my-quick-links .ps-quick-link-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+personalize-my-quick-links .ps-quick-link-item-icon {
+  order: 1;
+  margin-top: 2%;
+  padding-right: 2%;
+}
+
+personalize-my-quick-links .ps-quick-link-item-toogle {
+  order: 2;
+  width: 100%;
+}

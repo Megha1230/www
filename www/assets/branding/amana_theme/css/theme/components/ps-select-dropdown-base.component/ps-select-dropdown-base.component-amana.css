@@ -1,0 +1,16 @@
+ps-select-dropdown-base ps-label-input {
+    display: none !important;
+}
+
+.mat-option {
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+}
+
+ps-select-dropdown-widget.level-1 .ps-select-dropdown-widget .additional-dropdown-information {
+    background: white !important;
+}
+
+ps-select-dropdown-widget.level-1 .ps-select-dropdown-widget .additional-dropdown-information ion-label {
+    color: var(--ps-highlight-background-color) !important;
+}

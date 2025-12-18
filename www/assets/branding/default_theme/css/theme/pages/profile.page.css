@@ -1,0 +1,67 @@
+.ps-label-cifname,
+.ps-label-username,
+.ps-label-bvn {
+    color: var(--ps-font-color-opp-primary-color) !important;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: var(--ps-lg-font) !important;
+    /* display: flex; */
+}
+
+.ps-label-cifname ion-label {
+    white-space: normal;
+}
+
+.ps-label-bvn ion-label {
+    font-weight: 500;
+}
+
+.ps-label-bvn {
+    margin-inline-start: 5px;
+}
+
+.ps-label-cifname {
+    font-weight: normal;
+    align-content: center;
+}
+
+.bank-profile-setion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+app-profile ps-hyperlink-anchor .ps-action-icon-avatar ion-icon {
+    color: var(--ps-icon-panel-color) !important;
+}
+
+.profile-section ps-dynamic-edit {
+    font-size: var(--ps-lg-font) !important;
+    color: var(--ps-font-color-opp-primary-color) !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.profile-section ps-dynamic-edit .ps-action-icon-label {
+    display: block !important;
+    font-size: var(--ps-lg-font) !important;
+}
+
+.profile-section ps-dynamic-edit .ps-action-icon-icon {
+    display: none !important;
+}
+
+.profile-sections ps-keyin-input ps-container-item .item {
+    --background: var(--ps-font-color-opp-primary-color) !important;
+    border-radius: var(--ps-fields-border-radius) !important;
+}
+
+app-profile .ps-dynamic-edit .edit-button {
+    display: block;
+}

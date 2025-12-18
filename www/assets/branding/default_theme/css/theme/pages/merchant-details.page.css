@@ -1,0 +1,12 @@
+.merchant-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+
+.merchant-img {
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}

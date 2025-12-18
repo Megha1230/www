@@ -1,0 +1,32 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container .tooltiptext {
+  visibility: hidden;
+  /* width: 120px;    */
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 80%;
+  margin-left: -60px;
+}
+
+.tooltip-container:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltipicon ion-icon {
+  font-size: var(--ps-xl-font) !important;
+  padding: 2px 0px;
+}
+
+.tooltip-container ps-container-html-viewer .ps-html-viewer-wrapper iframe {
+  background-color: var(--ps-font-dark-color);
+  height: -webkit-fill-available
+}

@@ -1,0 +1,8 @@
+ps-complex-report-filter-criteria {
+    display: block;
+}
+
+ps-complex-report-filter-criteria .filterButtonOptions {
+    padding-top: 10px;
+    display: flex;
+}

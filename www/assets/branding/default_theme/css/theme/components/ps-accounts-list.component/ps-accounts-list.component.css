@@ -1,0 +1,76 @@
+ps-accounts-list .ps-container-lookup-option-details .available-balance-value {
+    font-size: var(--ps-sm-font) !important;
+}
+
+ps-accounts-list mat-card-content .lookup-details-content .container-option-table-col.item-value {
+    font-size: var(--ps-sm-font) !important;
+}
+
+ps-accounts-list mat-card-subtitle ps-dynamic-edit .dynmaic-edit-label ps-label {
+    margin: 0px 15px !important;
+}
+
+ps-accounts-list .container-option-table-col ps-label {
+    display: flex;
+}
+
+ps-accounts-list .container-option-table-col {
+    text-align: start;
+}
+
+ps-accounts-list .mat-card-header-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+}
+
+ps-accounts-list mat-card-subtitle {
+    order: 1;
+}
+
+ps-accounts-list mat-card-title {
+    order: 2;
+    margin: 0 16px !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle {
+    border-radius: var(--ps-fields-border-radius) var(--ps-fields-border-radius) 0px 0px;
+    background: var(--ps-account-list-title-background-color) !important;
+    /* margin-bottom: 15px !important; */
+}
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle {
+    padding: 0px !important;
+}
+
+
+ps-accounts-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-dynamic-edit {
+    align-items: center;
+}
+
+ps-accounts-list .ps-container-lookup-option-details ps-keyin-input ps-container-item .ps-container-item-img-icon {
+    display: none
+}
+
+ps-accounts-list .ps-container-lookup-option-details mat-card-content .available-balance-div ps-label,
+ps-accounts-list .ps-container-lookup-option-details mat-card-content .available-balance-value,
+ps-accounts-list .ps-container-lookup-option-details mat-card-content .lookup-details-content .container-option-table-col.item-value {
+    border-inline-start: 0px !important;
+    padding-inline-start: 0px !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details mat-card-content .available-balance-div ps-label {
+    font-weight: 500;
+}
+
+.isMobile-Layout ps-accounts-list .lookup-details-content .container-option-table-col.item-value.lookup-item-value {
+    padding-inline-start: 0px !important;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .available-balance-value {
+    white-space: nowrap;
+}
+
+ps-accounts-list .ps-container-lookup-option-details .action-details-options ps-label {
+    font-size: var(--ps-md-font) !important;
+}

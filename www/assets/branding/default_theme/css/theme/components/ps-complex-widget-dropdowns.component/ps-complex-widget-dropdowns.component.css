@@ -1,0 +1,36 @@
+.ps-complex-widget-dropdowns .hide-dropdown {
+    display: none;
+}
+
+.ps-complex-widget-dropdowns .show-dropdown {
+    display: initial;
+}
+
+.ps-complex-widget-dropdowns .ps-complex-widget-dropdowns_header {
+    display: flex;
+    height: 50px;
+    border-bottom: 2px solid var(--ps-stepper-line-color);
+}
+
+.ps-complex-widget-dropdowns .ps-complex-widget-dropdowns_header .ps-complex-widget-dropdowns_header-label {
+    margin: auto;
+}
+
+.ps-complex-widget-dropdowns .ps-complex-widget-dropdowns_header .ps-complex-widget-dropdowns_header-back {
+    margin: 15px 0;
+}
+
+.ps-complex-widget-dropdowns_header-back ion-icon {
+    color: var(--ps-primary-degree-1-color);
+}
+
+.ps-complex-widget-dropdowns_header-label ps-label {
+    font-weight: bold;
+    color: var(--ps-font-light-color);
+}
+
+.select-documents-validation-message {
+    color: var(--ps-invalid-field-color);
+    font-size: var(--ps-sm-font);
+    padding-inline-start: 20px;
+}

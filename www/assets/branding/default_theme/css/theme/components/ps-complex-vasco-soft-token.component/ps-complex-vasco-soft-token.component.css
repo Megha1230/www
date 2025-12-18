@@ -1,0 +1,17 @@
+:root {
+  --ps-tooltip-text-color: hsl(0, 0%, 100%);
+}
+
+
+.soft-token-btn:hover+.soft-token-hint {
+  display: inline-block;
+}
+
+.soft-token-hint {
+  display: none;
+  /* background-color: var(--ps-font-dark-color); */
+  color: var(--ps-tooltip-text-color) !important;
+  text-align: center;
+  z-index: 1;
+  margin-top: .5em;
+}

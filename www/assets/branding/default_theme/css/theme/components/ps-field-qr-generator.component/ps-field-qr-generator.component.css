@@ -1,0 +1,9 @@
+.ps-qr-generator {
+    text-align: center;
+    margin: 1%;
+}
+
+.ps-qr-generator canvas {
+    width: 21em !important;
+    height: 21em !important;
+}

@@ -1,0 +1,30 @@
+online-registration .registration-charges-block {
+    text-align: center;
+    font-size: calc(var(--ps-font-size-ratio-initial) * 20px);
+    margin: 15px 0;
+}
+
+online-registration .registration-charges-block .registration-charges_label {
+    font-weight: bold;
+    color: var(--ps-panel-expanded-header-background-color);
+}
+
+online-registration .registration-charges-block .registration-charges_value {
+    color: var(--ps-neutral-value-font-color);
+    text-transform: uppercase;
+}
+
+online-registration .online_reg_hints {
+    color: var(--ps-font-light-color) !important;
+    margin: 1rem 0.4rem;
+    font-size: .98rem;
+}
+
+online-registration .online_reg_hints ion-label {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+online-registration .online_reg_hints_blk {
+    color: var(--ps-font-light-color);
+}

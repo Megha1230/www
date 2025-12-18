@@ -1,0 +1,124 @@
+ps-template-landing-main {
+    width: 100%;
+    height: calc(100% - 4%);
+}
+
+ps-template-landing-main .opened-screen-title.row {
+    height: var(--ps-opened-screen-title-height) !important;
+    font-weight: 600;
+    font-size: var(--ps-lg-font);
+    color: var(--ps-font-light-color) !important;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+ps-template-landing-main ps-template-landing-menu-web .opened-screen-title.row {
+    padding-inline-start: 10px !important;
+}
+
+ps-template-landing-main .opened-screen-title .back-button,
+ps-template-landing-main .opened-screen-title .current-opened-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ps-template-landing-main .opened-screen-title .current-opened-page ion-icon {
+    font-size: var(--ps-xxxl-font);
+}
+.current-opened-page-title ion-icon {
+    display: none;
+    font-size: var(--ps-xxxl-font) !important;
+}
+
+ps-template-landing-main ps-complex-menu .opened-screen-title .current-opened-page-title{
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+ps-template-landing-main ps-complex-menu .opened-screen-title:has(.current-opened-page-title > ion-icon,.root-button){
+    font-size: calc(var(--ps-sm-font) - 2px);
+}
+ps-template-landing-main .opened-screen-title .current-opened-page .ps-action-image-row {
+    align-items: center;
+    padding-inline-start: 15px !important;
+}
+
+ps-template-landing-main .opened-screen-title .current-opened-page .ps-action-icon-icon ion-icon {
+    font-size: var(--ps-leaf-font-size);
+}
+
+ps-template-landing-main .opened-screen-title+* {
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+ps-template-landing-main ps-container-flip .flip-card.isFlipped .flip-card-inner.verticalFlip {
+    transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+}
+
+ps-template-landing-main ps-container-flip .flip-card-back.verticalFlip {
+    transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+}
+
+ps-template-landing-main .cif-switcher ion-icon {
+    transform: translate(100%) rotate(90deg) !important;
+    -webkit-transform: translate(100%) rotate(90deg) !important;
+    transform-origin: left top !important;
+    -webkit-transform-origin: left top !important;
+}
+
+
+.isMobile-Layout ps-template-landing-main .main-header.flipped {
+    display: none;
+}
+
+ps-template-landing-main ps-complex-menu .opened-screen-title {
+    background: transparent;
+}
+
+ps-template-landing-main ps-complex-menu .opened-screen-title.parent-page {
+    display: none;
+}
+
+.isMobile-Layout ps-template-landing-main .flip-card-back .opened-screen-title {
+    background: var(--ps-header-background-color);
+}
+
+.isMobile-Layout ps-template-landing-main ps-template-landing-fab-ui ps-complex-profile ps-dropdown-allowed-languages .mat-select-arrow,
+.isMobile-Layout ps-template-landing-main ps-template-landing-menu-web ps-complex-profile ps-dropdown-allowed-languages .mat-select-arrow {
+    display: none;
+}
+
+.isMobile-Layout ps-template-landing-main ps-template-landing-fab-ui ps-complex-profile ps-dropdown-allowed-languages .mat-select-value,
+.isMobile-Layout ps-template-landing-main ps-template-landing-menu-web ps-complex-profile ps-dropdown-allowed-languages .mat-select-value {
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 5px) !important;
+    border-radius: 50%;
+    background: var(--ps-selected-language-background-color);
+}
+
+.isMobile-Layout ps-template-landing-main ps-template-landing-fab-ui ps-complex-profile ps-dropdown-allowed-languages .dropdown-selected-image,
+.isMobile-Layout ps-template-landing-main ps-template-landing-menu-web ps-complex-profile ps-dropdown-allowed-languages .dropdown-selected-image {
+    display: none;
+}
+
+ps-template-landing-main ps-button-fab-list ion-fab-button {
+    --border-radius: 50% !important;
+}
+
+ps-template-landing-main .opened-screen-title .back-button {
+    font-size: var(--ps-xxxl-font) !important;
+}
+
+
+ps-template-landing-main .widget-banner-row {
+    width: 100%;
+    margin: auto;
+}

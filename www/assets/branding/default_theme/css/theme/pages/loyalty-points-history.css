@@ -1,0 +1,76 @@
+loyalty-points-history .loyalty_points_miles {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-direction: column;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info {
+    display: flex;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_desc .loyalty_points-label {
+    font-weight: bold;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_awarded {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_awarded ps-hyperlink-anchor {
+    padding: 0 10px;
+    text-align: end;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_awarded .ps-anchor-panel-image,
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button .redeem_now_btn .ps-anchor-panel-image {
+    display: none;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button {
+    margin: 20px 0;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button .redeem_now_btn {
+    text-align: center;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button .redeem_now_btn .row {
+    justify-content: center;
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button .redeem_now_btn ps-label {
+    background: var(--ps-dropdown-widget-font-color);
+}
+
+loyalty-points-history .loyalty_points_miles .loyalty_points_miles_button .redeem_now_btn ion-label {
+    color: red;
+    font-family: cursive !important;
+    font-size: 1.3em;
+}
+
+loyalty-points-history .loyalty_points_awarded ion-label {
+    color: var(--ps-dropdown-widget-font-color);
+    font-size: 1.1em;
+    font-family: cursive !important;
+}
+
+@media (max-width: 576px) {
+    loyalty-points-history .loyalty_points_miles {
+        background: var(--ps-font-light-color);
+    }
+
+    loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info {
+        flex-direction: column;
+    }
+
+    loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_desc {
+        text-align: center;
+    }
+
+    loyalty-points-history .loyalty_points_miles .loyalty_points_miles_info .loyalty_points_awarded {
+        justify-content: center;
+    }
+}

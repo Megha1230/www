@@ -1,0 +1,16 @@
+.isWeb-Layout ps-select-segment .ps-select-segment {
+    font-size: calc(var(--ps-xl-font));
+}
+
+.isMobile-Layout ps-select-segment .segment-button-checked {
+    border-bottom: 3px solid var(--ps-highlight-background-color);
+}
+
+ps-select-segment .segment-button-checked {
+    background: var(--ps-panel-expanded-header-background-color) !important;
+    border-bottom: 5px solid var(--ps-segment-button-border) !important;
+}
+
+ps-select-segment ion-segment-button:not(.segment-button-checked) {
+    background: var(--ps-panel-expanded-header-background-color) !important;
+}

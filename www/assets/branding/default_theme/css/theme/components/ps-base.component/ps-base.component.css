@@ -1,0 +1,34 @@
+ .validation-message {
+     color: var(--ps-invalid-field-color);
+     margin: 0px !important;
+     font-size: var(--ps-sm-font);
+     /* padding-top: 0.3em; */
+     padding-inline-start: 20px;
+ }
+
+
+ .disableContent,
+ ps-container-item.ps-field-item-wrapper.disableContent,
+ ps-container-item.ps-field-item-wrapper .item-interactive-disabled {
+     pointer-events: none !important;
+     opacity: .5 !important;
+     cursor: default !important;
+ }
+
+ .trigger-disable-field {
+     opacity: 0.1;
+     pointer-events: none;
+ }
+
+
+ .dim-content {
+     opacity: 0.6;
+ }
+
+ .hint-message {
+     margin: 0px !important;
+ }
+
+ .hide-content {
+     visibility: hidden !important;
+ }

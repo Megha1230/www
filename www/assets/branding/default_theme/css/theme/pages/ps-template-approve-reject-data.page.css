@@ -1,0 +1,138 @@
+
+ps-template-screen .preview-label{
+    display: block !important;  
+}
+ps-template-approve-reject-data .ps-container-panel .ps-container-panel-content,
+ps-template-approve-reject-data ps-container-panel ps-container-item {
+  background: var(--ps-background-info-color) !important;
+}
+ps-template-approve-reject-data ps-container-panel ps-container-item .item {
+    --background: transparent !important;
+  }
+  
+  ps-template-approve-reject-data ps-container-panel .ps-container-panel-item.is-expanded ion-item {
+    --background: transparent !important;
+  }
+  
+  ps-template-approve-reject-data ps-container-panel .ps-container-panel-item.is-expanded ion-item ion-label {
+    font-weight: 600;
+  }
+  
+  ps-template-approve-reject-data .ps-container-panel-expand-icon,
+  ps-template-approve-reject-data .ps-container-panel-icon {
+    display: none;
+  }
+  
+  ps-template-approve-reject-data ps-container-panel .ps-container-panel-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  ps-template-approve-reject-data ps-container-panel .ps-container-panel-item .ps-item-wrapper .ps-container-item-main-content {
+    border-bottom: 0px;
+  }
+  
+  ps-template-approve-reject-data .preview-wrapper {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  ps-template-approve-reject-data .preview-label {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  ps-template-approve-reject-data .preview-value {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  ps-template-approve-reject-data ps-label ion-label {
+    color: var(--ps-preview-label-color) !important;
+  }
+
+
+
+
+  /*            operId : 1489      Benef manage                    */
+
+  
+  ps-template-approve-reject-data.operId_1489  .preview-label-dataSaveId,
+  ps-template-approve-reject-data.operId_1489  .preview-label-idType,
+  ps-template-approve-reject-data.operId_1489  .preview-label-previewProperty,
+  ps-template-approve-reject-data.operId_1489  .preview-label-status,
+  ps-template-approve-reject-data.operId_1489  .preview-label-operId,
+  ps-template-approve-reject-data.operId_1489  .preview-label-rowIndex,
+  ps-template-approve-reject-data.operId_1489  .preview-label-statusCode,
+  ps-template-approve-reject-data.operId_1489  .preview-label-nickNameNumber,
+  ps-template-approve-reject-data.operId_1489  .preview-label-nickName,
+  ps-template-approve-reject-data.operId_1489  .preview-label-currency,   
+  ps-template-approve-reject-data.operId_1489  .preview-label-title,
+  ps-template-approve-reject-data.operId_1489  .preview-label-benefBankId,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bank,
+  ps-template-approve-reject-data.operId_1489  .preview-label-sendBackReason,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankTitleKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankAccountNumberKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-lookupKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankPurposeKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankBenefNameKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-localTitleKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-benefBvnKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-localBenefNameKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-localAccountNumberKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-localBenefBankNameKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-makerOcUserID,
+  ps-template-approve-reject-data.operId_1489  .preview-label-outputType,
+  ps-template-approve-reject-data.operId_1489  .preview-label-checkboxConfirm,
+  ps-template-approve-reject-data.operId_1489  .preview-label-readOnlypage,
+  ps-template-approve-reject-data.operId_1489  .preview-label-outputNotification,
+  ps-template-approve-reject-data.operId_1489  .preview-label-outputNotificationDetails,
+  ps-template-approve-reject-data.operId_1489  .preview-label-currencyDescriptionConcat,
+  ps-template-approve-reject-data.operId_1489  .preview-label-currencyFlagCtrConcat,
+  ps-template-approve-reject-data.operId_1489  .preview-label-lastActiveStep,
+  ps-template-approve-reject-data.operId_1489  .preview-label-cashBenefNameKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-cashTitleKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-cashPurposeKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-benefPhonecountriesFcName,
+  ps-template-approve-reject-data.operId_1489  .preview-label-cashBenefPhoneKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-benefPhonenumberFcName,
+  ps-template-approve-reject-data.operId_1489  .preview-label-country,
+  ps-template-approve-reject-data.operId_1489  .preview-label-swiftBenefBankNameKey,  
+  ps-template-approve-reject-data.operId_1489  .preview-label-swiftAccountNumberKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-swiftTitleKey,
+  ps-template-approve-reject-data.operId_1489  .preview-label-swiftBenefNameKey, 
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankFullObjDescriptionConcat,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankName,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankDescriptionConcat,
+  ps-template-approve-reject-data.operId_1489  .preview-label-bankFullObj,
+  ps-template-approve-reject-data.operId_1489  .preview-label-outputCode
+  {  
+    display: none;
+}
+
+
+  /*            operId : 1648                         */
+  ps-template-approve-reject-data.operId_1648  .preview-label-dataSaveId,
+  ps-template-approve-reject-data.operId_1648  .preview-label-previewProperty,
+  ps-template-approve-reject-data.operId_1648  .preview-label-status,
+  ps-template-approve-reject-data.operId_1648  .preview-label-operId,
+  ps-template-approve-reject-data.operId_1648  .preview-label-rowIndex,
+  ps-template-approve-reject-data.operId_1648  .preview-label-statusCode,
+  ps-template-approve-reject-data.operId_1648  .preview-label-transactionStatus,
+  ps-template-approve-reject-data.operId_1648  .preview-label-serialNo,
+  ps-template-approve-reject-data.operId_1648  .preview-label-subTtile,
+  ps-template-approve-reject-data.operId_1648  .preview-label-toBranch,
+  ps-template-approve-reject-data.operId_1648  .preview-label-toAccount_lookupKey,
+  ps-template-approve-reject-data.operId_1648  .preview-label-fromAccount_lookupKey,
+  ps-template-approve-reject-data.operId_1648  .preview-label-fromCurrency,
+  ps-template-approve-reject-data.operId_1648  .preview-label-workingCif,
+  ps-template-approve-reject-data.operId_1648  .preview-label-toBeneficiary_lookupKey,
+  ps-template-approve-reject-data.operId_1648  .preview-label-title,
+  ps-template-approve-reject-data.operId_1648  .preview-label-account,
+  ps-template-approve-reject-data.operId_1648  .preview-label-makerOcUserID  {  
+    display: none;
+}
+

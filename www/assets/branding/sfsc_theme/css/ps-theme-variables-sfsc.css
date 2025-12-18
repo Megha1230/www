@@ -1,0 +1,398 @@
+:root {
+    --ps-assets-url: './assets';
+    --color-mixer: #1418fa #196916 hsl(45, 77%, 52%) rgb(242, 224, 15) rgb(179, 207, 166);
+
+    /*PRIMARY*/
+    --ps-primary-color: rgb(0, 89, 41);
+    --ps-primary-degree-1-color: rgb(0, 89, 41);
+    --ps-primary-degree-2-color: rgb(0, 145, 80);
+    --ps-primary-degree-3-color: rgb(63, 196, 125);
+    --ps-primary-degree-4-color: rgb(133, 255, 188);
+    /*END PRIMARY*/
+
+
+    /*SECONDARY*/
+    --ps-secondary-color: rgb(254, 242, 188);
+    --ps-secondary-degree-1-color: rgb(254, 242, 188);
+    --ps-secondary-degree-2-color: rgb(255, 247, 207);
+    --ps-secondary-degree-3-color: rgb(255, 249, 222);
+    --ps-secondary-degree-4-color: rgb(255, 251, 235);
+    /*END SECONDARY*/
+
+
+
+
+
+    /*notitcation*/
+    --ps-notification-background-color: var(--ps-primary-degree-1-color);
+    /*end notification*/
+
+    /*profile*/
+    --ps-selected-language-background-color: var(--ps-primary-color);
+    --ps-selected-language-color: white;
+    --ps-complex-profile-info-color: var(--ps-primary-color);
+    /*end profile*/
+
+
+    /*RATIO*/
+    --ps-font-size-ratio-initial: 1;
+    --ps-form-container-padding-ratio-initial: 1;
+    /**END RATIO **/
+
+
+    /*PADDING*/
+    --ps-form-content-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    --ps-section-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    --ps-panel-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    /*END PADDING*/
+
+    /* Fields spacing */
+    --ps-fields-margin: 12px;
+
+    /*FONT SIZE*/
+    --ps-xs-font: calc(9px * var(--ps-font-size-ratio-initial));
+    --ps-sm-font: calc(15px * var(--ps-font-size-ratio-initial));
+    --ps-md-font: calc(16px * var(--ps-font-size-ratio-initial));
+    --ps-lg-font: calc(17px * var(--ps-font-size-ratio-initial));
+    --ps-xl-font: calc(18px * var(--ps-font-size-ratio-initial));
+    --ps-xxl-font: calc(24px * var(--ps-font-size-ratio-initial));
+    --ps-xxxl-font: calc(32px * var(--ps-font-size-ratio-initial));
+    --ps-header-title-font-size: var(--ps-lg-font);
+    --ps-panel-icon-font-size: var(--ps-xxl-font);
+    --ps-fields-icon-font-size: var(--ps-lg-font);
+    --ps-header-icon-font-size: var(--ps-xl-font);
+    --ps-menu-icon-font-size: var(--ps-xl-font);
+    /**END FONT SIZE **/
+
+
+
+
+    /*FONT COLOR */
+    --ps-font-dark-color: black;
+    --ps-font-light-color: rgb(255, 255, 255);
+    --ps-input-label-font-color: #4A4636;
+    --ps-input-value-font-color: #005929;
+    --ps-input-placeholder-font-color: gray;
+    --ps-negative-value-font-color: hsl(0, 100%, 50%);
+    --ps-neutral-value-font-color: hsl(34, 100%, 58%);
+    --ps-error-color: red;
+    --ps-success-color: green;
+    /*FONT COLOR */
+
+
+
+
+    /*FONT COLOR OPP*/
+    --ps-font-color-opp-app-background: hsl(211, 60%, 23%);
+    --ps-font-color-opp-primary-color: var(--ps-primary-color);
+    --ps-font-color-opp-secondary-color: var(--ps-primary-color);
+    --ps-font-color-opp-highlight-color: var(--ps-primary-color);
+    --ps-font-light-color-second-degree: rgb(255, 255, 255, 0.5);
+    /*END FONT COLOR OPP*/
+
+
+
+
+    /*SCROLL*/
+    --ps-scroll-bar-width: 3px;
+    --scroll-bar-height: 3px;
+    --ps-scroll-bar-border-radius: 10px;
+    --ps-scroll-bar-thumb-color: var(--ps-primary-color);
+    --ps-scroll-bar-track-box-shadow: inset 0 0 5px hsl(0, 0%, 50%);
+    /*END SCROLL*/
+
+
+
+
+    /*SCROLLBAR*/
+    --ps-scrollbar-color-primary: var(--ps-scroll-bar-thumb-color);
+    --ps-scrollbar-color-secondary: var(--ps-scroll-bar-track-box-shadow);
+    --ps-scrollbar-color-firefox: var(--ps-scrollbar-color-primary) var(--ps-scrollbar-color-secondary);
+    --ps-scroll-bar-width-firefox: thin;
+    /*END SCROLLBAR*/
+
+
+
+    /*BORDER RADIUS*/
+    --ps-section-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    --ps-fields-border-radius: calc(var(--ps-border-radius-ratio-initial) * 50px);
+    --ps-panel-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    --ps-popup-border-radius: calc(var(--ps-border-radius-ratio-initial) * 10px);
+    --ps-card-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    --ps-home-quick-links-radius: calc(var(--ps-border-radius-ratio-initial) * 20px);
+    /*END BORDER RADIUS*/
+
+
+
+
+    /*PANEL*/
+    --ps-panel-expanded-header-background-color: var(--ps-primary-degree-1-color);
+    --ps-panel-collapsed-header-background-color: #7dad7d;
+    --ps-panel-title-font-color: white;
+    --container-panel-content-background-color: #a09778;
+    --ps-atm-panel-background-color: #a09778;
+    --ps-atm-panel-header-background-color: var(--ps-panel-expanded-header-background-color);
+    --ps-authentication-panel-background-color: hsl(45deg 28% 57%);
+    /*END PANEL*/
+
+
+
+    /*DROPDOWN*/
+    --ps-dropdown-panel-background: var(--ps-primary-degree-1-color);
+    --ps-dropdown-overlay-font-color: white;
+    --ps-separator-panel-color: var(--ps-primary-degree-2-color);
+    /*END DROPDOWN*/
+
+
+
+    /*TOOLTIP*/
+    --ps-tooltip-message-font-color: hsl(0, 0%, 100%);
+    --ps-tooltip-message-background-color: hsl(221, 29%, 25%);
+    /*END TOOLTIP*/
+
+
+
+    /*IMAGES*/
+    --ps-loader-image-name: "spinner.svg";
+    --ps-loader-size: 100px;
+    --ps-bank-logo: url('/assets/branding/sfsc_theme/imgs/BankLogo.png');
+    --app-logo: "BankLogo.png";
+    /*END IMAGES*/
+
+
+
+    --ps-app-background-color: transparent;
+    --ps-highlight-background-color: rgb(168, 56, 0);
+    --ps-app-header-color-stop1: transparent;
+    --ps-app-header-color-stop2: transparent;
+
+    --ps-app-opaque-background-color: transparent;
+
+    /* Report  */
+    --ps-report-search-input-border: 1px solid var(--ps-primary-color);
+    --ps-report-header-color: var(--ps-primary-color);
+    --ps-report-content-color: var(--ps-secondary-color);
+    --ps-report-header-title-color: var(--ps-primary-color);
+    --ps-report-header-title-size: 15px;
+    --ps-report-header-label-color: var(--ps-primary-color);
+    --ps-report-header-value-color: hsl(302, 89%, 19%);
+    --ps-report-content-label-color: #6b6b6b;
+    --ps-report-content-label-value-color: var(--ps-primary-color);
+    --ps-report-content-label-value2-color: var(--ps-primary-color);
+    --ps-report-content-label-value3-color: var(--ps-primary-color);
+    --ps-report-content-label-value4-color: var(--ps-primary-color);
+    --ps-report-content-border-color: #6b6b6b;
+    --ps-report-header-image-width: 30px;
+    --ps-report-highlight-background-color: var(--ps-button-submit-background-color);
+    /*END Report */
+
+
+
+    /* popup messages images definitions*/
+    --ps-success-message-image-name: 'checkmark.svg';
+    --ps-error-message-image-name: 'Stopper.svg';
+    --ps-info-message-image-name: 'info.svg';
+    --ps-fatal-message-image-name: 'FatalCrack.svg';
+    --ps-no-network-image-name: 'NoNetwork.svg';
+    /* END popup messages images definitions*/
+
+
+    /* container-item */
+    --ps-background-color-container-item: #FBF8F1;
+    --ps-background-color-container-item-details: var(--ps-primary-degree-1-color);
+    --ps-subtitle-background-color: transparent;
+    --ps-container-edit-subtitle-background: transparent;
+    --ps-disabled-container-background-color: lightgray;
+    --ps-container-item-border: 0px;
+    --ps-disabled-container-label-color: gray;
+
+    /* END container-item */
+
+
+    /* account balance */
+    --ps-balance-color: var(--ps-font-light-color);
+    --ps--current-balance-background-color: transparent;
+    --ps-available-balance-background-color: #205934;
+    /* END account balance */
+
+
+    /*nav header , init value if we are using landing type 3, we set in height*/
+    --ps-nav-header-init: 50px;
+    --ps-nav-header-height: 0px;
+
+
+    /*HEADER*/
+    --ps-header-background-color: var(--ps-primary-degree-1-color);
+    --ps-footer-background-color: var(--ps-primary-degree-1-color);
+    --ps-app-header-icon-color: #FFFFFF;
+    --ps-main-title-color: white;
+    /*END HEADER*/
+
+
+
+
+    /*MENU*/
+    /*  widget menu */
+    --ps-menu-background-color: var(--ps-primary-color);
+    --ps-menu-box-background: #efebeb80;
+    /*tree menu*/
+    --ps-menu-tree-label-color: #fff;
+    --ps-menu-tree-selected-hover-color: hsla(0, 0%, 87.8%, .2);
+    /*END MENU*/
+
+
+
+
+
+    /*STRUCTURE*/
+    --ps-shadow-color: rgba(0, 0, 0, 0.5);
+    --ps-form-container-background-color: linear-gradient(180deg, #FFFBEB 0%, #FFF3BD 100%) !important;
+    /* margin left and right for web */
+    --ps-margin-left: 0px;
+    --ps-atm-model-page-margin: 25px;
+    /*END STRUCTURE*/
+
+
+
+
+    /*LOGIN*/
+    --ps-login-label-color: #252323;
+    /* additional hyperlink*/
+    --ps-login-second-label-color: #4A4636;
+    --ps-login-input-background-color: var(--ps-background-color-container-item);
+    /*bank name and remember me */
+    --ps-login-secondary-color: #4A4636;
+    /*END LOGIN*/
+
+
+
+
+    /*SEGMENT*/
+    --ps-segment-selected-background-color: transparent;
+    --ps-segment-label-color: var(--ps-highlight-background-color);
+    --ps-segment-background-color: #8080801f;
+    --ps-segment-selected-border: 1px solid var(--ps-segment-label-color);
+    --ps-segment-panel-selected-background-color: #8080801f;
+    --ps-segment-panel-label-color: white;
+    --ps-segment-panel-selected-border: 0px;
+    /* END SEgment*/
+
+
+
+    /*POPUP*/
+    --ps-popup-button-background-color: var(--ps-primary-color);
+    --ps-popup-background-color: #a09778;
+    --ps-alert-modal-background-color: #58925675;
+    --ps-popup-atm-details-background-color: rgba(0, 0, 0, 0.5);
+    /*END POPUP*/
+
+
+
+    /*ACCOUNT LIST*/
+    --ps-account-list-title-background-color: transparent;
+    --ps-account-list-title-font-edit-color: var(--ps-input-placeholder-font-color);
+    --ps-card-action-buttons-background-color: #f1f3f554;
+    --ps-background-info-color: var(--ps-primary-degree-1-color);
+    --ps-lookup-padding-background: var(--ps-primary-degree-1-color);
+    --ps-header-lookup-background: #9c9795;
+    --ps-body-lookup-background: #94a5e2;
+    --ps-card-header-color: #f1f3f554;
+    --ps-card-header-title-label-color: var(--ps-font-light-color);
+    --ps-card-header-subtitle-label-color: var(--ps-font-color-opp-primary-color);
+    --ps-card-title-color: var(--ps-font-light-color);
+    --ps-show-more-less-color: var(--ps-font-light-color);
+    --ps-show-more-less-icon-background-color: transparent;
+    --ps-statement-color: var(--ps-font-light-color);
+    --ps-edit-nickname-color: var(--ps-font-light-color);
+    --ps-card-save-button-background-color: transparent;
+    --ps-card-save-button-font-color: var(--ps-font-color-opp-primary-color);
+    --ps-card-save-font-size: var(--ps-lg-font);
+    /*END ACCOUNT LIST*/
+
+
+
+    /*STEPPER*/
+    --ps-stepper-nb-selected-background-color: #6f7cca;
+    --ps-stepper-nb-background-color: #737573;
+    --ps-stepper-line-color: #959595;
+    --ps-stepper-step-done-background-color: var(--ps-primary-color);
+    --ps-stepper-step-selected-background-color: var(--ps-highlight-background-color);
+    --ps-preview-label-color: white;
+    /*END STEPPER*/
+
+
+
+    /*CHECKBOX*/
+    --ps-checkbox-background-default: var(--ps-primary-color);
+    --ps-checkbox-background-active: var(--ps-primary-color);
+    --ps-checkbox-border-color: var(--ps-highlight-background-color);
+    --ps-checkbox-border-width: 1.5px;
+    --ps-checkbox-unchecked-color: #757575;
+    --ps-terms-cond-checkbox-color: var(--ps-highlight-background-color);
+    --ps-toggle-checked-background: var(--ps-highlight-background-color);
+    --ps-toggle-unchecked-background: var(--ps-checkbox-unchecked-color);
+    /*END CHECKBOX*/
+
+
+
+    /*FAB BUTTONS*/
+    --ps-fab-list-color: #FBF8F1;
+    --ps-fab-list-background-color: var(--ps-highlight-background-color);
+    --ps-fab-in-list-background-color: #FBF8F1;
+    --ps-fab-in-list-color: #005929;
+    /*END FAB BUTTONS*/
+
+
+
+    /*PRAYER TIME*/
+    --ps-prayer-time-primary-color: var(--ps-primary-color);
+    --ps-prayer-time-secondary-color: var(--ps-primary-degree-1-color);
+    --ps-separator-time-color: gray;
+    --ps-prayer-time-selected-time-color: #6464dc;
+    --ps-prayer-time-color: var(--ps-primary-color);
+    /*END PRAYER TIME*/
+
+
+
+    /*DRAFT REPORT*/
+    --ps-draft-report-background-color: var(--ps-primary-degree-1-color);
+    --round-progress-0-20: var(--ps-primary-degree-4-color);
+    --round-progress-20-40: var(--ps-primary-degree-3-color);
+    --round-progress-40-60: var(--ps-primary-degree-2-color);
+    --round-progress-60-80: var(--ps-primary-degree-1-color);
+    --round-progress-80-100: var(--ps-primary-color);
+    --progress-complete: var(--ps-primary-color);
+    --progress-incomplete: var(--ps-secondary-color);
+    --progress-pending: var(--ps-secondary-degree-4-color);
+    /*END DRAFT REPORT*/
+
+    /*LIVE CHAT*/
+    --ps-live-chat-background-color: var(--ps-highlight-background-color);
+    --ps-live-chat-border-color: var(--ps-font-light-color);
+    /*END LIVE CHAT*/
+
+    /*OTHERS */
+    --ps-input-count-cursor-icon-color: white;
+    --ps-verify-cif-color: var(--ps-font-light-color);
+
+
+    --ps-quick-menu-height: 45px;
+}
+
+/* 
+.isWeb-Layout,
+.isPad-Layout {
+    --ps-card-header-color: #ffffff66;
+    --ps-background-color-container-item-details: var(--ps-app-header-color-stop1);
+
+
+}
+ */
+.isWeb-Layout {
+    --ps-complex-profile-info-color: white;
+    --ps-app-header-color-stop1: var(--ps-primary-degree-1-color);
+    --ps-app-header-color-stop2: var(--ps-primary-degree-1-color);
+    /* --ps-font-color-opp-primary-color: var(--ps-primary-color);
+    --ps-form-container-background-color: hsla(0, 0%, 100%, calc(0.4 * 1)); */
+
+}

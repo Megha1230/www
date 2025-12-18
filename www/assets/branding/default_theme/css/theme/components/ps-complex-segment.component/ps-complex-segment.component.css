@@ -1,0 +1,25 @@
+.isWeb-Layout ps-complex-segment .ps-content-segment {
+  margin-top: 10px;
+  height: auto;
+}
+
+
+ps-complex-segment,
+ps-complex-segment ps-select-segment,
+ps-complex-segment ps-container-segment {
+  display: block;
+}
+
+
+ps-complex-segment {
+  height: 100%;
+}
+
+ps-complex-segment ps-container-segment {
+  height: 90%;
+  overflow-y: auto;
+}
+
+ps-complex-segment ps-select-segment {
+  height: 10%;
+}

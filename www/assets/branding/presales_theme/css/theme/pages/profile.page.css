@@ -1,0 +1,36 @@
+.ps-anchor-title {
+    color: var(--ps-font-dark-color);
+    font-weight: 600;
+}
+
+.ps-label-cifname {
+    color: var(--ps-font-dark-color);
+    /* DK */
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: var(--ps-xl-font) !important;
+}
+
+.ps-label-username {
+    color: var(--ps-secondary-color);
+    /* DK */
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: var(--ps-md-font) !important;
+}
+
+app-profile .ps-dynamic-edit .edit-button {
+    display: flex;
+}
+
+.isMobile-Layout .ps-label-username {
+   font-size: var(--ps-sm-font) !important;
+}
+
+.bank-profile-setion {
+    margin-bottom: var(--ps-xxs-margin) !important;
+}

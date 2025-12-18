@@ -1,0 +1,70 @@
+
+ps-option-card .ps-container-lookup-option-details mat-card-content .lookup-details-content .container-option-table-col.item-value,
+ps-option-card  .lookup-details-content .container-option-table-row-card_number_key .lookup-item-label,
+ps-option-card  .lookup-details-content .container-option-table-row-expiry_date_key .lookup-item-label
+{
+    display:flex !important;
+    font-size: 12px !important;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+ps-option-card  .lookup-details-content .container-option-table-row-expiry_date_key{
+    margin-top:10px;
+}
+ps-option-card .ps-container-lookup-option-details mat-card-content .lookup-details-content .container-option-table-col.item-value{
+    flex-direction: row-reverse;
+}
+
+ps-option-card  mat-card-content .lookup-details-content .container-option-table .container-option-table-row:first-child,
+ps-option-card  mat-card-content .lookup-details-content .container-option-table .card-content-options {
+flex:0 0 100%;
+max-width: 100%;
+}
+
+ps-option-card ps-container-lookup-option .lookup-item-value .item-value-child{
+    max-width: 100%;
+}
+ps-option-card .container-option-table-row-name_on_card_key,
+ps-option-card .container-option-table-row-primary_account_key{
+    display: none !important;
+}
+ps-option-card .mat-card-content{
+    min-height: 100px;
+}
+.card-action-buttons .action-details-options div ion-icon{
+    font-size: var(--ps-largeIcons-font);
+}
+.card-action-buttons .action-details-options div ion-icon{
+    font-size: var(--ps-largeIcons-font);
+}
+
+cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label ,  
+card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label{
+    text-indent: 100%;
+    overflow: hidden;
+    width: 15px !important;
+    height: 15px;
+    border-radius: 100%;    
+    margin-left: 6px;
+}
+cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-2 > .ps-label ,cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-A> .ps-label ,
+card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-2 > .ps-label ,card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-A> .ps-label{
+        background: var(--ps-primary-color) !important;
+    background-color: var(--ps-primary-color) !important;
+}
+cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-9 > .ps-label,
+card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .status-class-9 > .ps-label{
+        background: orange  !important;
+    background-color: orange  !important;
+}
+
+cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label:not(.status-class-9, .status-class-2, .status-class-A) > .ps-label ,
+card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label:not(.status-class-9, .status-class-2, .status-class-A) > .ps-label {
+        background: var(--ps-error-color)  !important;
+    background-color: var(--ps-error-color)  !important;
+}
+
+cards-list .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label, card-management .ps-container-lookup-option-details .lookup-details-header .lookup-details-subtitle .ps-label{
+    background-color: var(--ps-error-color) ;
+}
+

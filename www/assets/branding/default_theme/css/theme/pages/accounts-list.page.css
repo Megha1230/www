@@ -1,0 +1,11 @@
+.no-account-text {
+    text-align: center;
+    padding-top: 20%;
+    color: var(--ps-error-color);
+    display: flex;
+    font-weight: bold;
+}
+
+.no-account-text ion-label {
+    margin-top: 2rem;
+}

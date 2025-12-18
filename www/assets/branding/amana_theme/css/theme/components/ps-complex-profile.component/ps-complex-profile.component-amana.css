@@ -1,0 +1,9 @@
+.isWeb-Layout ps-label-user-last-login {
+    flex-wrap: wrap;
+}
+
+.isWeb-Layout ps-label-user-last-login .last-login-label {
+    flex: 0 0 100%;
+    width: 100%;
+    text-align: center;
+}

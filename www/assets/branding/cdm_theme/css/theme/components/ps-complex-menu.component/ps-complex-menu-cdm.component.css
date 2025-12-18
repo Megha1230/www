@@ -1,0 +1,7 @@
+ps-complex-menu .ps-menu-title{
+    font-size: var(--ps-sm-font);
+    font-weight: 300;
+}
+ps-complex-menu .ps-complex-menu-item{
+    height: 120px !important;
+}

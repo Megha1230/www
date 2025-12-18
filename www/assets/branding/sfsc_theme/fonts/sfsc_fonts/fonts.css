@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Nunito';
+    src:
+
+        url('Nunito-Regular.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:
+
+        url('Nunito-Bold.ttf') format('ttf');
+
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:
+
+        url('Roboto-Regular.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:
+
+        url('Roboto-Bold.ttf') format('ttf');
+
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tajwal';
+    src:
+
+        url('Tajwal-Regular.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tajwal';
+    src:
+
+        url('Tajwal-Bold.ttf') format('ttf');
+
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Cairo';
+    src:
+
+        url('Cairo-Regular.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src:
+
+        url('Cairo-Bold.ttf') format('ttf');
+
+    font-weight: bold;
+    font-style: normal;
+}

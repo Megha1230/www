@@ -1,0 +1,20 @@
+ps-jbpm-task-list {
+    height: auto;
+}
+
+ps-jbpm-task-list .main-section-wrapper {
+    height: auto;
+}
+
+ps-jbpm-task-list .main-section-wrapper .container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+ps-jbpm-task-list .task-refresh-icon {
+    height: auto;
+}
+
+ps-jbpm-task-list .main-wrapper {
+    padding: var(--ps-xxxs-padding) !important;
+}

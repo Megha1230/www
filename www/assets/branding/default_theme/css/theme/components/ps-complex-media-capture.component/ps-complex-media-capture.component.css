@@ -1,0 +1,213 @@
+:root {
+    --ps-capture-media-image-height: 120px;
+    --ps-capture-media-image-width: var(--ps-capture-media-image-height);
+    --ps-preview-image-extension-format: 'png';
+}
+
+ps-complex-media-capture .media-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: auto;
+    height: 100%;
+}
+
+ps-complex-media-capture .media-wrapper>* {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* margin-top: 10px; */
+}
+
+ps-complex-media-capture .media-video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 65%;
+    padding: 5%;
+}
+
+
+ps-complex-media-capture .media-video-wrapper .ps-action-image-image,
+ps-complex-media-capture .media-video-wrapper .ps-action-image-image ion-img {
+    width: 100%;
+    height: 100%;
+}
+
+ps-complex-media-capture .flow-not-initialized .media-video {
+    display: none;
+}
+
+ps-complex-media-capture .media-video {
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: fill;
+    border-radius: var(--ps-fields-border-radius);
+    height: 100%;
+}
+
+ps-complex-media-capture .media-progress {
+    display: flex;
+    justify-content: center;
+}
+
+ps-complex-media-capture .media-progress ion-label {
+    color: var(--ps-font-light-color);
+}
+
+ps-complex-media-capture .media-video-wrapper-preview {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 25%;
+    background: var(--ps-secondary-degree-3-color);
+    padding: 10px;
+    cursor: grab;
+    transform: scale(1);
+}
+
+ps-complex-media-capture .media-video-wrapper-preview.active {
+    cursor: grab;
+    cursor: -webkit-grab;
+    transform: scale(0.9);
+}
+
+ps-complex-media-capture .media-video-wrapper-preview.active .media-image-preview {
+    cursor: grab;
+    cursor: -webkit-grab;
+}
+
+ps-complex-media-capture .media-video-wrapper-preview::-webkit-scrollbar {
+    height: 10px !important;
+}
+
+ps-complex-media-capture .ps-action-image-row {
+    justify-content: center;
+    align-items: center;
+}
+
+
+ps-complex-media-capture .media-image-preview {
+    flex: 0 0 25%;
+    /* max-width: 30%; */
+    /* border: 2px solid var(--ps-highlight-background-color); */
+    border-radius: var(--ps-fields-border-radius);
+    margin-inline-start: 5px;
+    cursor: pointer;
+}
+
+ps-complex-media-capture .media-image-preview ion-img {
+    border-radius: var(--ps-fields-border-radius);
+    overflow: hidden;
+    border: 2px solid var(--ps-primary-color);
+    max-width: var(--ps-capture-media-image-width);
+    max-height: var(--ps-capture-media-image-width);
+    height: var(--ps-capture-media-image-height);
+    width: var(--ps-capture-media-image-height);
+    object-fit: fill;
+}
+
+
+ps-complex-media-capture .media-video-preview {
+    flex: 0 0 25%;
+    max-width: 35%;
+    /* margin-top: 5px; */
+    border: 2px solid var(--ps-primary-color);
+    border-radius: var(--ps-fields-border-radius);
+}
+
+ps-complex-media-capture ion-button {
+    --background: var(--ps-button-submit-background-color) !important;
+    --color: var(--ps-button-submit-font-color) !important;
+    --background-hover: var(--ps-button-submit-background-color-hover) !important;
+    --background-activated: var(--ps-button-submit-background-color) !important;
+}
+
+ps-complex-media-capture .buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ps-complex-media-capture .ps-selected-image {
+    border: 4px solid var(--ps-highlight-background-color) !important;
+}
+
+.ps-media-capture-modal .modal-wrapper {
+    height: calc(calc(90/100) * var(--ps-100vh));
+    background: linear-gradient(to bottom, var(--ps-primary-degree-1-color), var(--ps-secondary-degree-1-color));
+}
+
+
+.isMobile-Layout ps-complex-media-capture .media-video-wrapper {
+    height: 60%;
+}
+
+
+
+.isMobile-Layout ps-complex-media-capture .media-video-wrapper-preview {
+    height: 30%;
+}
+
+.media-video-wrapper:before,
+.media-video-wrapper:after,
+.media-video-wrapper>:first-child:before,
+.media-video-wrapper>:first-child:after {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-color: white;
+    border-style: solid;
+    content: ' ';
+    margin: 5px;
+}
+
+.media-video-wrapper:before {
+    top: 0;
+    left: 0;
+    border-width: 5px 0 0 5px;
+}
+
+.media-video-wrapper:after {
+    top: 0;
+    right: 0;
+    border-width: 5px 5px 0 0;
+}
+
+.media-video-wrapper>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 5px 5px 0;
+}
+
+.media-video-wrapper>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 5px 5px;
+}
+
+
+.source-switcher {
+    position: absolute;
+    top: 20px;
+    color: var(--ps-highlight-background-color);
+    font-size: var(--ps-xxl-font);
+    cursor: pointer;
+    z-index: 9999999999;
+}
+
+[dir="rtl"] .source-switcher {
+    left: 20px;
+}
+
+
+[dir="ltr"] .source-switcher {
+    right: 20px;
+}

@@ -1,0 +1,22 @@
+ps-container-stepper .mat-horizontal-stepper-header-container {
+  height: 9% !important;
+}
+
+ps-template-landing-web .ps-container-form-content-wrapper {
+  padding: 0px !important;
+}
+
+ps-template-multi-outlets
+  app-payment
+  ps-complex-segment
+  .ps-segment-button-wrapper {
+  display: none !important;
+}
+
+ps-template-multi-outlets .visa-request-margin-top {
+  margin-top: 10px !important;
+}
+
+ps-template-multi-outlets ps-input-count ion-icon {
+  color: var(--ps-input-label-font-color) !important;
+}

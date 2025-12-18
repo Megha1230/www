@@ -1,0 +1,37 @@
+@import "./ps-structure-path-presales.css";
+@import "./ps-theme-variables-presales.css";
+
+
+@import "./theme/components/app.component/app.component-presales.css";
+@import "./theme/components/ps-action-button.component/ps-action-button.component-presales.css";
+@import "./theme/components/ps-base-field.component/ps-base-field.component-presales.css";
+@import "./theme/components/ps-container-item.component/ps-container-item.component-presales.css";
+@import "./theme/components/ps-complex-menu.component/ps-complex-menu.component-presales.css";
+@import "./theme/components/ps-complex-menu-reach.component/ps-complex-menu-reach.component-presales.css";
+@import "./theme/components/ps-draft-report.component/ps-draft-report.component-presales.css";
+@import "./theme/components/ps-jbpm-task-list.component/ps-jbpm-task-list.component-presales.css";
+@import "./theme/components/ps-complex-lookup.component/ps-complex-lookup.component-presales.css";
+@import "./theme/components/ps-select-dropdown-overlay.component/ps-select-dropdown-overlay.component-presales.css";
+@import "./theme/components/ps-accounts-list.component/ps-accounts-list.component-presales.css";
+@import "./theme/components/ps-container-lookup-option.component/ps-container-lookup-option.component-presales.css";
+@import "./theme/components/ps-select-segment.component/ps-select-segment.component-presales.css";
+@import "./theme/components/ps-balance.component/ps-balance.component-presales.css";
+@import "./theme/components/ps-complex-profile.component/ps-complex-profile.component-presales.css";
+@import "./theme/components/ps-action-menu-item.component/ps-action-menu-item.component-presales.css";
+@import "./theme/components/ps-hyperlink-anchor.component/ps-hyperlink-anchor.component-presales.css";
+@import "./theme/components/ps-container-panel.component/ps-container-panel.component-presales.css";
+@import "./theme/components/ps-select-dropdown-base.component/ps-select-dropdown-base.component-presales.css";
+@import "./theme/components/ps-button-notification.component/ps-button-notification.component-presales.css";
+@import "./theme/components/ps-complex-landmark-compass.component/ps-complex-landmark-compass.component-presales.css";
+@import "./theme/components/ps-inline-labeled-camera.component/ps-inline-labeled-camera.component-presales.css";
+
+@import "./theme/pages/ps-template-landing-fab-ui.page-presales.css";
+@import "./theme/pages/omni-login-presales.css";
+@import "./theme/pages/profile.page.css";
+
+@import "./theme/templates/ps-template-landing-web-presales.css";
+@import "./theme/templates/ps-template-landing-hamburger-presales.css";
+@import "./theme/templates/ps-template-base.page-presales.css";
+@import "./theme/templates/ps-template-login-presales.css";
+@import "./theme/templates/ps-template-screen.template-presales.css";
+@import "./theme/templates/ps-template-alert-controller.template-presales.css";

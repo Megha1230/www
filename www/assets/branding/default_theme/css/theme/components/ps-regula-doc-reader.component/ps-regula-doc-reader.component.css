@@ -1,0 +1,23 @@
+document-reader {
+    position: relative;
+}
+
+.doc-reader {
+    color: white;
+}
+
+.doc-reader .ps-action-icon-icon {
+    margin-inline-end: 0px !important;
+}
+
+
+.doc-reader .ps-action-image-row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.doc-reader .ps-action-image-row ion-icon {
+    font-size: 4em;
+    width: 4em;
+}

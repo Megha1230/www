@@ -1,0 +1,476 @@
+:root {
+
+    --ps-assets-url: './assets';
+    --color-mixer: hsl(211, 60%, 23%);
+
+    --ps-100vh: 100vh;
+
+    /*PRIMARY*/
+    --ps-primary-color: rgb(11, 33, 179);
+    --ps-primary-degree-1-color: #D5835E;
+    --ps-primary-degree-2-color: #CF8767;
+    --ps-primary-degree-3-color: #C98C70;
+    --ps-primary-degree-4-color: #BE9583;
+    /*END PRIMARY*/
+
+
+
+    /*SECONDARY*/
+    --ps-secondary-color: #7b4007;
+    --ps-secondary-degree-1-color: #B3A191;
+    --ps-secondary-degree-2-color: #C09B7B;
+    --ps-secondary-degree-3-color: #CD9666;
+    --ps-secondary-degree-4-color: #DA9151;
+    /*END SECONDARY*/
+
+
+
+    --ps-app-background-color: hsl(0, 0%, 100%);
+    --ps-highlight-background-color: #e77543;
+
+
+
+    /*RATIO*/
+    --ps-font-size-ratio-initial: 1;
+    --ps-padding-ratio-initial: 1;
+    --ps-margin-ratio-initial: 1;
+    --ps-form-container-padding-ratio-initial: 1;
+    --ps-border-radius-ratio-initial: 1;
+    /**END RATIO **/
+
+
+    /*PADDING*/
+    --ps-xxxs-padding: calc(5px * var(--ps-padding-ratio-initial));
+    --ps-xxs-padding: calc(9px * var(--ps-padding-ratio-initial));
+    --ps-xs-padding: calc(12px * var(--ps-padding-ratio-initial));
+    --ps-sm-padding: calc(15px * var(--ps-padding-ratio-initial));
+    --ps-md-padding: calc(16px * var(--ps-padding-ratio-initial));
+    --ps-lg-padding: calc(17px * var(--ps-padding-ratio-initial));
+    --ps-xl-padding: calc(18px * var(--ps-padding-ratio-initial));
+    --ps-xxl-padding: calc(24px * var(--ps-padding-ratio-initial));
+    --ps-xxxl-padding: calc(32px * var(--ps-padding-ratio-initial));
+    --ps-form-content-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    --ps-section-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    --ps-panel-padding: calc(10px * var(--ps-form-container-padding-ratio-initial));
+    /*END PADDING*/
+
+    /*MARGIN*/
+    --ps-xxxs-margin: calc(5px * var(--ps-margin-ratio-initial));
+    --ps-xxs-margin: calc(9px * var(--ps-margin-ratio-initial));
+    --ps-xs-margin: calc(12px * var(--ps-margin-ratio-initial));
+    --ps-sm-margin: calc(15px * var(--ps-margin-ratio-initial));
+    --ps-md-margin: calc(16px * var(--ps-margin-ratio-initial));
+    --ps-lg-margin: calc(17px * var(--ps-margin-ratio-initial));
+    --ps-xl-margin: calc(18px * var(--ps-margin-ratio-initial));
+    --ps-xxl-margin: calc(24px * var(--ps-margin-ratio-initial));
+    --ps-xxxl-margin: calc(32px * var(--ps-margin-ratio-initial));
+    /*END MARGIN*/
+
+    /* Fields spacing */
+    --ps-fields-margin: 12px;
+
+
+    /*FONT SIZE*/
+    --ps-xs-font: calc(9px * var(--ps-font-size-ratio-initial));
+    --ps-sm-font: calc(15px * var(--ps-font-size-ratio-initial));
+    --ps-md-font: calc(16px * var(--ps-font-size-ratio-initial));
+    --ps-lg-font: calc(17px * var(--ps-font-size-ratio-initial));
+    --ps-xl-font: calc(18px * var(--ps-font-size-ratio-initial));
+    --ps-xxl-font: calc(24px * var(--ps-font-size-ratio-initial));
+    --ps-xxxl-font: calc(32px * var(--ps-font-size-ratio-initial));
+    --ps-header-title-font-size: var(--ps-lg-font);
+    --ps-panel-icon-font-size: var(--ps-xxl-font);
+    --ps-fields-icon-font-size: var(--ps-lg-font);
+    --ps-header-icon-font-size: var(--ps-xl-font);
+    --ps-menu-icon-font-size: var(--ps-xl-font);
+    /**END FONT SIZE **/
+
+
+
+
+    /*FONT COLOR */
+    --ps-font-dark-color: black;
+    --ps-font-light-color: rgb(255, 255, 255);
+    --ps-input-label-font-color: black;
+    --ps-input-value-font-color: rgb(65, 55, 194);
+    --ps-input-placeholder-font-color: gray;
+    --ps-negative-value-font-color: hsl(0, 100%, 50%);
+    --ps-neutral-value-font-color: hsl(34, 100%, 58%);
+    --ps-error-color: red;
+    --ps-success-color: green;
+    /*FONT COLOR */
+
+
+
+
+    /*FONT COLOR OPP*/
+    --ps-font-color-opp-app-background: hsl(211, 60%, 23%);
+    --ps-font-color-opp-primary-color: black;
+    --ps-font-color-opp-secondary-color: white;
+    --ps-font-color-opp-highlight-color: white;
+    --ps-font-light-color-second-degree: rgb(255, 255, 255, 0.5);
+    /*END FONT COLOR OPP*/
+
+
+
+
+    /*SCROLL*/
+    --ps-scroll-bar-width: 3px;
+    --ps-scroll-bar-border-radius: 10px;
+
+    --ps-scroll-bar-track-color: var(--ps-secondary-color);
+    --ps-scroll-bar-track-box-shadow: inset 0 0 5px hsl(0, 0%, 50%);
+
+    --ps-scroll-bar-thumb-color: var(--ps-primary-color);
+
+
+    /*      SCROLLBAR For Firefox*/
+    --ps-scrollbar-color-firefox: var(--ps-scroll-bar-track-color) var(--ps-scroll-bar-thumb-color);
+    --ps-scroll-bar-width-firefox: thin;
+    /*      END SCROLLBAR For Firefox*/
+
+    /*END SCROLL*/
+
+
+
+
+    /*BORDER RADIUS*/
+    --ps-section-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    --ps-fields-border-radius: calc(var(--ps-border-radius-ratio-initial) * 10px);
+    --ps-panel-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    --ps-popup-border-radius: calc(var(--ps-border-radius-ratio-initial) * 10px);
+    --ps-card-border-radius: calc(var(--ps-border-radius-ratio-initial) * 7px);
+    /*END BORDER RADIUS*/
+
+
+
+
+    /*PANEL*/
+    --ps-panel-expanded-header-background-color: linear-gradient(to right, #000f42, #0015ce);
+    --ps-panel-collapsed-header-background-color: linear-gradient(to right, #bdc0ca, #6774e6);
+    --ps-panel-title-font-color: white;
+    --container-panel-content-background-color: #5c7cd6;
+    --ps-atm-panel-background-color: #5c7cd6;
+    --ps-atm-panel-header-background-color: var(--ps-panel-expanded-header-background-color) !important;
+    --ps-authentication-panel-background-color: #05146c;
+    /*END PANEL*/
+
+
+
+    /*DROPDOWN*/
+    --ps-dropdown-panel-background: #94a5e2;
+    --ps-separator-panel-color: #4f60d8;
+    --ps-dropdown-overlay-font-color: var(--ps-primary-color);
+    --ps-dropdown-widget-font-color: var(--ps-primary-color);
+    --ps-dropdown-widget-additional-action-label-color: #ff0000;
+    /*END DROPDOWN*/
+
+
+
+    /*TOOLTIP*/
+    --ps-tooltip-message-font-color: hsl(0, 0%, 100%);
+    --ps-tooltip-message-background-color: #E6F1F9;
+    /*END TOOLTIP*/
+
+
+
+    /*IMAGES*/
+    --ps-loader-image-name: "Eclipse-1s-90px-logo.svg";
+    --ps-splash-loader-image-name: var(--ps-loader-image-name);
+    --ps-loader-size: 100px;
+    --ps-bank-logo: url('/assets/branding/default_theme/imgs/BankLogo.png');
+    --app-logo: "BankLogo.png";
+    /*END IMAGES*/
+
+
+
+    --ps-app-opaque-background-color: hsla(0, 0%, 100%, 0.4);
+
+
+    /* Report  */
+    --ps-report-header-color: #0000004a;
+    --ps-report-content-color: hsl(225, 22%, 96%, 0.7);
+    --ps-report-header-title-color: #f4f5f8;
+    --ps-report-header-title-size: 15px;
+    --ps-report-header-label-color: #f4f5f8;
+    --ps-report-header-value-color: hsl(34, 100%, 58%);
+    --ps-report-content-label-color: #6b6b6b;
+    --ps-report-content-label-value-color: hsl(240, 97%, 26%);
+    --ps-report-content-label-value2-color: hsl(164, 43%, 33%);
+    --ps-report-content-label-value3-color: hsl(0, 100%, 50%);
+    --ps-report-content-label-value4-color: white;
+    --ps-report-content-border-color: #6b6b6b;
+    --ps-report-header-image-width: 30px;
+    --ps-report-highlight-background-color: #e77543;
+    /*END Report */
+
+
+
+    /* popup messages images definitions*/
+    --ps-success-message-image-name: 'checkmark.svg';
+    --ps-error-message-image-name: 'Stopper.svg';
+    --ps-info-message-image-name: 'info.svg';
+    --ps-fatal-message-image-name: 'FatalCrack.svg';
+    --ps-no-network-image-name: 'NoNetwork.svg';
+    /* END popup messages images definitions*/
+
+
+
+
+    /* container-item */
+    --ps-background-color-container-item: hsla(0, 0%, 100%, 0.851);
+    --ps-background-color-container-item-details: hsl(213deg, 48%, 45%);
+    --ps-hover-root-menu: #92381C;
+    --ps-hover-leaf-menu: #82372A;
+    --menu-children: #723738;
+    --ps-subtitle-background-color: transparent;
+    --ps-container-edit-subtitle-background: transparent;
+    --ps-disabled-container-background-color: lightgray;
+    --ps-disabled-container-label-color: var(--ps-input-label-font-color);
+    /* END container-item */
+
+
+    /* account balance */
+    --ps-balance-color: var(--ps-font-light-color);
+    --ps--current-balance-background-color: hsl(221, 29%, 25%);
+    --ps-available-balance-background-color: #FF6607;
+    /* END account balance */
+
+
+    /*nav header , init value if we are using landing type 3, we set in height*/
+    --ps-nav-header-init: 50px;
+    --ps-nav-header-height: 0px;
+    --ps-main-section-width: 700px;
+    --ps-main-section-height: 627px;
+
+
+    /*HEADER*/
+    --ps-header-background-color: linear-gradient(to right, var(--ps-app-header-color-stop1), var(--ps-app-header-color-stop2));
+    --ps-footer-background-color: transparent;
+    --ps-app-header-icon-color: #FFFFFF;
+    --ps-main-title-color: white;
+    /*END HEADER*/
+
+
+
+
+    /*notitcation*/
+    --ps-notification-background-color: var(--ps-primary-degree-1-color);
+    --ps-notification-font-color: var(--ps-font-light-color);
+    /*end notification*/
+
+    /*profile*/
+    --ps-selected-language-background-color: #252588;
+    /*end profile*/
+
+
+    /*MENU*/
+    /*  widget menu */
+    --ps-menu-background-color: var(--ps-primary-color);
+    --ps-menu-box-background: transparent;
+    /*tree menu*/
+    --ps-menu-tree-label-color: #fff;
+    --ps-menu-widget-label-color: var(--ps-font-light-color);
+    --ps-sub-menu-widget-label-color: var(--ps-primary-color);
+    --ps-menu-tree-selected-hover-color: hsla(0, 0%, 87.8%, .2);
+    /*END MENU*/
+
+
+
+
+    /*STRUCTURE*/
+    --ps-shadow-color: rgba(0, 0, 0, 0.5);
+    --ps-form-container-background-color: #ffffff47;
+    /* margin left and right for web */
+    --ps-margin-left: 0px;
+    --ps-atm-model-page-margin: 25px;
+    /*END STRUCTURE*/
+
+
+
+
+    /*LOGIN*/
+    --ps-login-label-color: white;
+    /* additional hyperlink*/
+    --ps-login-second-label-color: #ffffffb8;
+    --ps-login-input-background-color: white;
+    /*bank name and remember me */
+    --ps-login-secondary-color: white;
+    /*END LOGIN*/
+
+
+
+
+    /*SEGMENT*/
+    --ps-segment-selected-background-color: transparent;
+    --ps-segment-label-color: white;
+    --ps-segment-background-color: #8080801f;
+    --ps-segment-selected-border: 1px solid var(--ps-segment-label-color);
+    --ps-segment-panel-selected-background-color: #8080801f;
+    --ps-segment-panel-label-color: white;
+    --ps-segment-panel-selected-border: 0px;
+    /* END SEgment*/
+
+
+
+    /*POPUP*/
+    --ps-popup-button-background-color: #002cff66;
+    --ps-popup-background-color: #566bbb;
+    --ps-alert-modal-background-color: #002cff66;
+    --ps-popup-atm-details-background-color: rgba(0, 0, 0, 0.5);
+    /*END POPUP*/
+
+
+
+    /*ACCOUNT LIST*/
+    --ps-account-list-title-background-color: transparent;
+    --ps-account-list-title-font-edit-color: var(--ps-input-placeholder-font-color);
+    --ps-card-action-buttons-background-color: #f1f3f554;
+    --ps-background-info-color: rgba(17, 38, 110, 0.8);
+    --ps-lookup-padding-background: #4f60d8;
+    --ps-header-lookup-background: #020202;
+    --ps-body-lookup-background: #94a5e2;
+    --ps-card-header-color: #f1f3f554;
+    --ps-card-header-title-label-color: var(--ps-font-light-color);
+    --ps-card-header-subtitle-label-color: var(--ps-font-color-opp-primary-color);
+    --ps-card-title-color: var(--ps-font-light-color);
+    --ps-show-more-less-color: var(--ps-font-light-color);
+    --ps-show-more-less-icon-background-color: transparent;
+    --ps-statement-color: var(--ps-font-light-color);
+    --ps-edit-nickname-color: var(--ps-font-light-color);
+    --ps-card-save-button-background-color: transparent;
+    --ps-card-save-button-font-color: var(--ps-font-color-opp-primary-color);
+    --ps-card-save-font-size: var(--ps-lg-font);
+    /*END ACCOUNT LIST*/
+
+
+
+    /*STEPPER*/
+    --ps-stepper-nb-selected-background-color: #6f7cca;
+    --ps-stepper-nb-background-color: #737573;
+    --ps-stepper-line-color: #959595;
+    --ps-stepper-step-done-background-color: var(--ps-button-submit-background-color);
+    --ps-stepper-step-selected-background-color: var(--ps-highlight-background-color);
+    --ps-preview-label-color: white;
+    /*END STEPPER*/
+
+
+
+
+    /*CHECKBOX*/
+    --ps-checkbox-background-default: var(--ps-primary-color);
+    --ps-checkbox-background-active: var(--ps-primary-color);
+    --ps-checkbox-border-color: white;
+    --ps-checkbox-border-width: 1.5px;
+    --ps-checkbox-unchecked-color: #757575;
+    --ps-terms-cond-checkbox-color: white;
+    --ps-toggle-checked-background: var(--ps-highlight-background-color);
+    --ps-toggle-unchecked-background: var(--ps-checkbox-unchecked-color);
+    /*END CHECKBOX*/
+
+
+
+    /*FAB BUTTONS*/
+    --ps-fab-list-color: white;
+    --ps-fab-list-background-color: var(--ps-primary-color);
+    --ps-fab-in-list-background-color: white;
+    --ps-fab-in-list-color: var(--ps-primary-color);
+    /*END FAB BUTTONS*/
+
+
+
+    /*PRAYER TIME*/
+    --ps-prayer-time-primary-color: var(--ps-primary-color);
+    --ps-prayer-time-secondary-color: white;
+    --ps-separator-time-color: gray;
+    /*END PRAYER TIME*/
+
+
+
+    /*DRAFT REPORT*/
+    --ps-draft-report-background-color: #3952ab;
+    --round-progress-0-20: var(--ps-primary-degree-4-color);
+    --round-progress-20-40: var(--ps-primary-degree-3-color);
+    --round-progress-40-60: var(--ps-primary-degree-2-color);
+    --round-progress-60-80: var(--ps-primary-degree-1-color);
+    --round-progress-80-100: var(--ps-primary-color);
+    --progress-complete: green;
+    --progress-incomplete: red;
+    --progress-pending: orange;
+    --progress-not-loaded: var(--ps-primary-color);
+    /*END DRAFT REPORT*/
+
+
+    /*LIVE CHAT*/
+    --ps-live-chat-background-color: var(--ps-highlight-background-color);
+    --ps-live-chat-border-color: var(--ps-font-light-color);
+    /*END LIVE CHAT*/
+
+    --ps-icon-panel-color: var(--ps-highlight-background-color);
+
+    /*OTHERS */
+    --ps-input-count-cursor-icon-color: white;
+    --ps-verify-cif-color: var(--ps-highlight-background-color);
+
+    /* Grid Component */
+    --ps-loading-icon-bg: lightsteelblue;
+    --ps-deleted-row: #ffaaaa78;
+    --ps-editted-row: #ffa07a7d;
+    --ps-new-row: #90ee9082;
+    --ps-deleted-row-preview: #ffaaaa;
+    --ps-editted-row-preview: #ffa07a;
+    --ps-new-row-preview: #90ee90;
+    --ps-duplicated-row-animation-0: #fd0000;
+    --ps-duplicated-row-animation-25: #fd0000c4;
+    --ps-duplicated-row-animation-50: #fd000079;
+    --ps-duplicated-row-animation-100: #fd00000e;
+    --ps-ag-filter-apply-panel: #dde2eb;
+    --ps-ag-checkbox-input-wrapper: #2196f3;
+    --ps-ag-checkbox-input-wrapper-indeterminate: #999;
+    --ps-selected-row: rgba(33, 150, 243, 0.3);
+    --ps-selected-row-border: rgb(33, 150, 243, 0.5);
+    --ps-even-row: #ffffff;
+    --ps-odd-row: #f7f7f7;
+    --ps-duplicated-mobile-row: #fb6262d6;
+    --ps-deleted-row-first-cell: rgba(0, 0, 0, 0.09);
+    --ps-grid-checkbox: #dbdbdb;
+    --ps-grid-list-view-bg: #0000001c;
+    --ps-grid-popup-modal-width: 300px;
+
+
+    --ps-stepper-widget-title-color: #FC7F29;
+    --ps-stepper-widget-title-background-color: #FFDDC5;
+    --ps-stepper-widget-border-color-pending: #FC7F29;
+    --ps-stepper-widget-border-color-valid: #21B14C;
+    --ps-stepper-widget-border-color-invalid: #BB4C00;
+    --ps-stepper-widget-separator-color: #E6E6E6;
+    --ps-stepper-widget-header-background-color: #FFFFFF;
+
+
+    --ps-quick-menu-height: 45px;
+
+    /* STATUS BAR FALLBACK */
+    --ps-statusbar-background-color-fallback: #FFFFFF;
+}
+
+.isWeb-Layout,
+.isPad-Layout {
+    --ps-form-container-background-color: #e6e6e6;
+    --ps-background-info-color: rgba(17, 22, 39, 0.9);
+    --ps-background-color-container-item-details: #a2aed0;
+    --ps-checkbox-border-color: var(--ps-app-header-color-stop1);
+}
+
+
+.isPad-Layout {
+    --ps-menu-box-background: rgba(11, 33, 179, 0.9);
+    --ps-section-padding: calc(20px * var(--ps-form-container-padding-ratio-initial));
+}
+
+.isWeb-Layout {
+    --ps-header-title-font-size: var(--ps-xl-font);
+    --ps-header-icon-font-size: var(--ps-xxxl-font);
+    --ps-panel-icon-font-size: var(--ps-xxl-font);
+    --ps-fields-icon-font-size: var(--ps-xl-font);
+    --ps-menu-icon-font-size: var(--ps-xxxl-font);
+}

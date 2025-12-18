@@ -1,0 +1,135 @@
+.isWeb-Layout:root.userIsNotLoggedIn {
+    --ps-font-size-ratio-initial: 1.2;
+
+}
+
+ps-template-login .bank-logo {
+    height: calc(calc(15/100) * var(--ps-100vh));
+}
+
+ps-template-login ps-input-username .ps-keyin-input-label,
+ps-template-login ps-input-password .ps-keyin-input-label {
+    align-items: center;
+    display: flex;
+}
+
+ps-template-login ps-input-username ion-input.ng-untouched:not(.has-value),
+ps-template-login ps-input-password ion-input.ng-untouched:not(.has-value),
+ps-template-login ps-input-username ion-input.ng-touched:not(.has-value),
+ps-template-login ps-input-password ion-input.ng-touched:not(.has-value) {
+    --placeholder-color: transparent !important;
+}
+
+.isMobile-Layout ps-template-login .bank-logo {
+    margin-bottom: calc(calc(15/100) * var(--ps-100vh));
+    width: 100% !important;
+}
+
+.isMobile-Layout ps-template-login .ps-template-login-submit {
+    margin-top: calc(calc(2/100) * var(--ps-100vh));
+    padding-bottom: calc(calc(3/100) * var(--ps-100vh));
+    border-bottom: 2px solid #A62F03;
+}
+
+.isMobile-Layout ps-template-login .ps-template-login-submit ion-label {
+    font-weight: bold;
+}
+
+omni-login ps-input-username ps-container-item .item,
+omni-login ps-input-password ps-container-item .item {
+    border-radius: 0px !important;
+    --background: transparent !important;
+}
+
+ps-template-login .ps-keyin-input-label {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+
+ps-template-login .ps-keyin-input {
+    flex: 0 0 65%;
+    max-width: 65%;
+    background: var(--ps-background-color-container-item);
+    border: var(--ps-container-item-border);
+    border-radius: var(--ps-fields-border-radius);
+    padding: 0px var(--ps-form-content-padding);
+    border: calc(var(--ps-border-radius-ratio-initial) * 3px) solid #247046;
+}
+
+.omni-login-fab-list {
+    display: none;
+}
+
+ps-template-login ps-container-item .item {
+    --background: transparent !important;
+    border: 0px !important;
+}
+
+ps-template-login .ps-container-item-main-content-icon {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.isWeb-Layout ps-template-login ion-item .ps-keyin-input-label {
+    display: block;
+}
+
+.ps-template-login-links,
+.ps-template-login-rememberMe {
+    display: none;
+}
+
+ps-template-login ion-input {
+    min-height: 30px;
+}
+
+.isWeb-Layout ps-template-login .ps-button-submit ion-button {
+    width: fit-content;
+}
+
+ps-template-login ps-container-item .item.item-has-focus,
+ps-template-login ps-container-item .item.item-has-value.ion-valid.ion-dirty:not(.item-has-focus) {
+    border-bottom: 0px !important;
+}
+
+.isWeb-Layout .ps-template-login-card-flex {
+    background: linear-gradient(180deg, #FFFBEB 0%, #FFF3BD 100%) !important;
+}
+
+
+omni-login ps-action-hyperlink#online_registration_link .ps-action-image-row,
+omni-login ps-action-hyperlink#help_with_cred_link .ps-action-image-row {
+    justify-content: start !important;
+}
+
+omni-login ps-action-hyperlink#help_with_cred_link .ps-action-image-row ps-label {
+    font-weight: bold !important;
+}
+
+.isMobile-Layout ps-template-login .online-registration-link a {
+    margin-top: 8% !important;
+}
+
+ps-template-login .additional-links #online_registration_link .ps-action-icon-label {
+    border-bottom: 0px !important;
+}
+
+omni-login ion-button.ps-button-submit {
+    background: #005929 !important;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 42px;
+    --background: #005929 !important;
+    --background-hover: #005929 !important;
+    color: white !important
+}
+
+ps-template-login .bank-logo {
+    width: 100%;
+}
+
+.isWeb-Layout omni-login #online_registration_link .ps-action-image-row {
+    justify-content: start !important;
+}

@@ -1,0 +1,138 @@
+ps-container-panel .ps-container-panel-description-icon {
+    padding: calc(var(--ps-form-container-padding-ratio-initial) * 5px);
+}
+
+ps-container-panel .ps-container-panel-item .ps-container-item-wrapper {
+    margin-bottom: 0px !important;
+}
+
+ps-container-panel .ps-container-panel-item ion-item {
+    border-radius: 0px !important;
+    --inner-padding-end: 0px !important;
+}
+
+ps-container-panel ion-card {
+    border-radius: var(--ps-panel-border-radius) !important;
+}
+
+ps-container-panel .ps-container-panel-content {
+    padding: var(--ps-panel-padding);
+    overflow-y: auto;
+    border: none !important;
+    background: var(--container-panel-content-background-color);
+}
+
+ps-container-panel ion-card {
+    margin: 0px !important;
+    margin-bottom: var(--ps-section-padding) !important;
+    --background: transparent !important;
+}
+
+ps-container-panel .ps-container-panel-description-icon .arrowClr {
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-panel-icon-font-size) !important;
+    vertical-align: middle;
+}
+
+ps-container-panel ps-label-nav.col-10 {
+    padding-inline-start: 5px !important;
+    padding-inline-end: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+ps-container-panel .number-of-invalid-inputs {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--ps-invalid-field-color);
+    font-weight: bold;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+
+ps-container-panel .ps-container-panel-expand-icon,
+ps-container-panel .ps-container-panel-icon,
+ps-container-panel .ps-container-panel-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ps-container-panel .ps-container-panel-title ps-label {
+    width: 100%;
+}
+
+ps-container-panel .ps-container-panel-title ps-label ion-label {
+    white-space: normal !important;
+}
+
+ps-container-panel .ps-container-panel-expand-icon ps-action-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ps-container-panel .ps-container-panel-expand-icon {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+ps-container-panel .ps-container-panel-icon {
+    -webkit-box-flex: 0;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+ps-container-panel .ps-container-panel-title {
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+ps-container-panel .ps-container-panel-item.is-expanded ion-item {
+    --background: var(--ps-panel-expanded-header-background-color) !important;
+}
+
+ps-container-panel .ps-container-panel-item.is-collapsed ion-item {
+    --background: var(--ps-panel-collapsed-header-background-color) !important;
+}
+
+ps-container-panel ion-card.ps-container-panel {
+    background: transparent;
+}
+
+ps-container-panel ps-container-item.ps-container-panel-item .item,
+ps-container-panel ps-container-item.ps-container-panel-item .item ion-label {
+    --highlight-background: inherit !important;
+    --background-focused: inherit !important;
+    color: var(--ps-panel-title-font-color) !important;
+}
+
+ps-container-panel ps-select-segment .segment-button-checked {
+    background: var(--ps-segment-panel-selected-background-color) !important;
+    color: var(--ps-segment-panel-label-color);
+    border: var(--ps-segment-panel-selected-border) !important;
+    border-radius: var(--ps-panel-border-radius) var(--ps-panel-border-radius) 0px 0px !important;
+}
+
+ps-container-panel ps-complex-segment .ps-content-segment {
+    padding: var(--ps-panel-padding);
+    background: var(--ps-segment-panel-selected-background-color);
+}
+
+
+.isWeb-Layout ps-container-panel ps-complex-segment .ps-content-segment {
+    margin-top: 0px;
+}
+
+
+ps-container-panel ps-complex-segment .ps-complex-lookup ps-container-item ion-item.ps-container-item-wrapper:first {
+    margin-bottom: 0px;
+}

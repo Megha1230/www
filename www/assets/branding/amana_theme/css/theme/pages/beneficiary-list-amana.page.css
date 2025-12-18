@@ -1,0 +1,6 @@
+app-beneficiary-list ps-container-lookup-option .mat-card-title {
+	display: none !important;
+}
+app-beneficiary-list .add-beneficiary-button ps-label {
+	display: none;
+}

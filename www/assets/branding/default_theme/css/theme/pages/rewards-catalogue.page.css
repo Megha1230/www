@@ -1,0 +1,90 @@
+.rewards_catalogue_widgets ps-select-dropdown-overlay ps-container-item ion-item {
+    --border-color: transparent !important;
+}
+
+.rewards_catalogue_widgets .ps-select-dropdown-widget .additional-dropdown-information {
+    background-color: var(--ps-font-light-color) !important;
+}
+
+.rewards_catalogue_widgets .additional_action_item ion-button ps-label {
+    background-color: var(--ps-dropdown-widget-font-color) !important;
+    padding: 5px;
+}
+
+.rewards_catalogue_widgets .additional_action_item ion-button ion-label {
+    color: red !important;
+    font-family: cursive !important;
+}
+
+.rewards_catalogue_widgets .ps-select-dropdown-widget ps-container-item ion-item ion-label {
+    font-weight: bold;
+}
+
+.rewards_catalogue_widgets .additional_description_item ion-label,
+.rewards_catalogue_widgets .desc_opt ion-label {
+    color: var(--ps-dropdown-widget-font-color) !important;
+}
+
+.rewards_catalogue_widgets .additional-dropdown-information {
+    border: 1px solid;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .additional-dropdown-information {
+    width: 40% !important;
+    max-width: 40%;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .additional-dropdown-information .avatar-label-wrapper {
+    max-height: 250px !important;
+    height: auto !important;
+}
+
+.rewards_catalogue_widgets ps-select-dropdown-overlay ps-action-image {
+    margin: auto;
+}
+
+.rewards_catalogue_widgets ps-select-dropdown-overlay ps-action-image ion-img {
+    height: 90px !important;
+    width: 100px !important;
+    object-fit: cover;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .image_opt {
+    order: 1;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .desc_opt {
+    order: 3;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .opt_0 {
+    order: 4;
+    font-size: 15px;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .opt_1 {
+    order: 5;
+    font-size: 10px;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .opt_2 {
+    order: 2;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+.rewards_catalogue_widgets .additional_action_item ion-button {
+    --box-shadow: none;
+}
+
+.rewards_catalogue_widgets .multi_description_widget .action_0 {
+    order: 6;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .rewards_catalogue_widgets .multi_description_widget .additional-dropdown-information {
+        width: 80% !important;
+        max-width: 80% !important;
+    }
+}

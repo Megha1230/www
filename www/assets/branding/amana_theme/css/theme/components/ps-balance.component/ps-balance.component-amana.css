@@ -1,0 +1,5 @@
+.ps-balance .available-balance-div {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}

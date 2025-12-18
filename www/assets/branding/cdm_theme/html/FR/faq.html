@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/num-way.css" />
+
+</head>
+<body>
+    <div>
+        <div class="header-div">
+            <img class="img-header" src="./img/faq.png" />
+            <p class="faq-title">FAQ</p>
+        </div>
+       <div class="body-div" style="overflow: scroll !important">
+            <div class="title primary-color bold-text">Questions les plus fréquement posées</div>
+            <div class="sub-title text-center ">A quel sujet pouvons-nous vous aider ? N'hésitez pas à consulter cette
+                rubrique, les reponses que vous recherchez s'y trouvent peut-être </div>
+            <div class="content">
+                <div class="author_bio_toggle_wrapper">
+                    <a href="#0" class="collapse-tab-1" id="author_bio_wrap_toggle"> M'identifier <img
+                            class=" icon" src="./img/rightgreen.png" /></a>
+                </div>
+                <div class="content-tab-1" id="author_bio_wrap" style="display: none;">
+                    <h4>Je ne parviens pas à me connecter</h4>
+                    Pour accéder à votre espace personnel, vous devez saisir :
+                    <p>1-Votre identifiant (LOGIN) dans le champ « Saisissez votre identifiant » .</p>
+                    <p> 2-Votre code personnel d'accès composé de 6 chiffres.
+                        Ces identifiants sont uniques et vous permettent d'accéder à votre espace de gestion de compte à
+                        distance.</p>
+
+                    <h4> J'ai oublié mon code d'accès, que faire ?</h4>
+                    Vous pouvez accéder à « Identifiants/mots de passe oubliés » et saisir les informations demandées
+                    pour récupérer votre identifiant ou votre mot de passe.
+                    <p> Votre conseiller clientèle en agence pourrait vous assister en cas de besoin.</p>
+
+                    <p>Pensez à changer votre mot de passe dès votre première connexion et le changer régulièrement en
+                        cliquant sur le bouton « Changer de mot de passe » dans les paramètres de votre application.
+                        N’inscrivez nulle part vos identifiants et ne les communiquer à personne.</p>
+                    Votre conseiller ne vous le demandera jamais. Attention, au bout de trois saisies erronées de votre
+                    mot de passe, votre compte sera bloqué. Contactez votre conseiller pour vous débloquer.
+
+                </div>
+                <div class="author_bio_toggle_wrapper">
+                    <a href="#0" class="collapse-tab-2" id="author_bio_wrap_toggle"> Gérer mes comptes <img
+                        class=" icon" src="./img/rightgreen.png" /></a>
+                </div>
+                <div class="content-tab-2" id="author_bio_wrap" style="display: none;">
+                    <h4>Est-ce que le solde de mon compte est mis à jour automatiquement ?</h4>
+                    Oui, le solde fourni est un solde en temps réel.
+                    <h4> Est-il possible de consulter mes comptes depuis l’étranger ?</h4>
+                    Oui, si vous bénéficiez d’une connexion internet mobile.
+
+
+                </div>
+
+                <div class="author_bio_toggle_wrapper">
+                    <a href="#0" class="collapse-tab-3" id="author_bio_wrap_toggle"> Moyens de paiement <img
+                        class=" icon" src="./img/rightgreen.png" /></a>
+                </div>
+                <div class="content-tab-3" id="author_bio_wrap" style="display: none;">
+                    <h4>Je ne peux pas effectuer de virement depuis mon application ?</h4>
+                    <p>Assurez-vous auprès de votre conseiller en agence :</p>
+                    D’avoir signé un contrat vous autorisant à effectuer des virements depuis votre application.
+                    De la mise à jour de votre numéro de téléphone portable ainsi que votre adresse mail dans votre
+                    contrat.
+
+                    <h4> Je souhaite retrouver le détail des virements passés.</h4>
+                    Vous pouvez retrouver le détail des virements effectués depuis le menu « Mes virements» dans la
+                    rubrique « historique des virements ».
+                    <h4>Je ne reçois pas le code de confirmation par SMS </h4>
+                    Assurez-vousauprès de votre conseiller en agence de la mise à jour de votre numéro de téléphone
+                    mobile et votre adresse mail dans votre contrat de banque à distance.
+
+
+                </div>
+
+                <div class="author_bio_toggle_wrapper">
+                    <a href="#0" class="collapse-tab-4" id="author_bio_wrap_toggle"> Sécurité <img
+                        class=" icon" src="./img/rightgreen.png" /></a>
+                </div>
+                <div class="content-tab-4" id="author_bio_wrap" style="display: none;">
+                    <h4>Ce service est-il sécurisé ?</h4>
+                    <p>Toutes les informations reçues de votre téléphone mobile sont cryptées et sont transmises de
+                        manière totalement sécurisée à notre serveur.</p>
+                    <p>Pour votre sécurité et pour assurer la confidentialité de vos données, n’oubliez pas de vous
+                        déconnecter à chaque fin de navigation.</p>
+                    Oui, le solde fourni est un solde en temps réel.
+                    <h4> Quand dois-je changer mon mot de passe ?</h4>
+                    Régulièrement (par exemple tous les 6 mois) et dès que vous soupçonnez une utilisation par une autre
+                    personne. Ne réutilisez pas d’anciens codes qui pourraient être reconnus de quelqu’un.
+                    <h4>Je ne suis pas à l’origine d’une opération sur mon compte, que dois-je faire ?</h4>
+                    Contactez au plus vite votre conseiller pour lui signaler ces opérations.
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $(() => {
+
+            $(".collapse-tab-1").click(function () {
+            
+                $(".content-tab-1").slideToggle("slow");
+            });
+
+
+            $(".collapse-tab-2").click(function () {
+            
+                $(".content-tab-2").slideToggle("slow");
+            });
+
+            $(".collapse-tab-3").click(function () {
+           
+                $(".content-tab-3").slideToggle("slow");
+            });
+
+
+            $(".collapse-tab-4").click(function () {
+         
+                $(".content-tab-4").slideToggle("slow");
+            });
+
+        });
+    </script>
+</body>
+
+</html>

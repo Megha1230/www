@@ -1,0 +1,11 @@
+ps-template-bpm-flow .main-wrapper {
+    position: relative !important;
+    -webkit-animation-duration: 1s !important;
+    animation-duration: 1s !important;
+}
+
+/* ps-template-bpm-flow ps-button-next {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */

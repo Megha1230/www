@@ -1,0 +1,19 @@
+ps-template-screen .widget-menu-icon {
+    background-color: transparent !important;
+}
+
+ps-template-screen .widget-menu-icon .menu-icon ion-icon {
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-template-screen .widget-header-title ps-label-header {
+    overflow: unset;
+}
+
+ps-template-screen .widget-header-title ps-label-header ps-label {
+    width: 100%;
+}
+
+ps-template-screen .widget-header-title ps-label-header ps-label ion-label {
+    white-space: pre-line;
+}

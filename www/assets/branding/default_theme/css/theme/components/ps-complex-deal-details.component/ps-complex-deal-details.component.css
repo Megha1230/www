@@ -1,0 +1,56 @@
+ps-complex-deal-details ps-container-lookup-option .ps-balance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance .current-balance-div,
+ps-complex-deal-details ps-container-lookup-option .ps-balance .available-balance-div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    flex-direction: row-reverse;
+    display: inline-flex;
+
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance span,
+ps-complex-deal-details ps-container-lookup-option .ps-balance ps-label {
+    display: block;
+    max-width: 50%;
+    flex: 0 0 50%;
+
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance .available-balance-div ps-label {
+    padding-inline-start: 0px !important;
+    border-inline-start: none !important;
+    font-weight: 500 !important;
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance {
+    margin: 0px;
+    padding: 0px;
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance span {
+    font-weight: 300;
+    padding-inline-start: 0.9em;
+    border-inline-start: 1px solid white;
+    color: var(--ps-balance-color) !important;
+}
+
+ps-complex-deal-details ps-container-lookup-option .ps-balance .current-balance-div,
+ps-complex-deal-details ps-container-lookup-option .ps-balance .available-balance-div {
+    background: transparent !important;
+}
+
+ps-complex-deal-details ps-container-lookup-option .lookup-item-value .item-value {
+    border-inline-start: 0px !important;
+    padding-inline-start: 0px !important;
+}
+
+ps-complex-deal-details .ps-container-lookup-option-details .lookup-details-header .lookup-details-title ps-action-icon ion-icon {
+    font-size: 2.3em;
+}

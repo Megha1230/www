@@ -1,0 +1,570 @@
+.ag-grid-container {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid var(--ps-font-light-color);
+    overflow-x: auto;
+    /* padding-bottom: 1rem; */
+}
+
+ps-ag-grid th,
+ps-ag-grid td {
+    text-align: left;
+    padding: 8px;
+}
+
+.grid-header {
+    background-color: var(--ps-card-header-color);
+}
+
+ag-grid-angular .ag-row .ag-cell ps-container-item .ps-container-item-wrapper {
+    margin: 0 !important;
+}
+
+ag-grid-angular .ag-row .ag-cell ps-container-item ion-item {
+    height: 2.5rem;
+}
+
+.paginationIcons {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+span.grid-buttons.paginationIcons {
+    padding-right: 0rem;
+}
+
+span.grid-buttons.paginationIcons:nth-child(1) {
+    padding-left: 0rem;
+}
+
+.ag-grid-container {
+    width: 100%;
+    height: 50%;
+}
+
+.ag-grid-height {
+    min-height: 13.4rem;
+}
+
+.loading-icon-bg {
+    background-color: var(--ps-loading-icon-bg);
+}
+
+
+ag-grid-angular ps-container-item .ps-container-item-wrapper {
+    margin: 0 !important;
+}
+
+ag-grid-angular ps-container-item ion-item {
+    max-height: 2.9rem !important;
+}
+
+ag-grid-angular .ag-row .ag-cell ps-container-item .ps-container-item-wrapper .validation-message {
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+    animation: validation-message 3s both;
+}
+
+@keyframes validation-message {
+    0% {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes validation-message {
+    0% {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.deleted-row {
+    background: var(--ps-deleted-row) !important;
+}
+
+.editted-row {
+    background: var(--ps-editted-row) !important;
+}
+
+.new-row {
+    background: var(--ps-new-row) !important;
+}
+
+.duplicated-row {
+    background-color: white;
+    animation-name: duplicated-row-animation;
+    animation-duration: 7s;
+}
+
+@keyframes duplicated-row-animation {
+    0% {
+        border: 2px solid var(--ps-duplicated-row-animation-0);
+    }
+
+    25% {
+        border: 2px solid var(--ps-duplicated-row-animation-25);
+    }
+
+    50% {
+        border: 2px solid var(--ps-duplicated-row-animation-50);
+    }
+
+    100% {
+        border: 2px solid var(--ps-duplicated-row-animation-100);
+    }
+}
+
+@-webkit-keyframes duplicated-row-animation {
+    0% {
+        border: 2px solid var(--ps-duplicated-row-animation-0);
+    }
+
+    25% {
+        border: 2px solid var(--ps-duplicated-row-animation-25);
+    }
+
+    50% {
+        border: 2px solid var(--ps-duplicated-row-animation-50);
+    }
+
+    100% {
+        border: 2px solid var(--ps-duplicated-row-animation-100);
+    }
+}
+
+.deleted-row-preview {
+    background: var(--ps-deleted-row-preview) !important;
+}
+
+.editted-row-preview {
+    background: var(--ps-editted-row-preview) !important;
+}
+
+.new-row-preview {
+    background: var(--ps-new-row-preview) !important;
+}
+
+.lagend-font-size {
+    font-size: small;
+}
+
+.footer-font-size {
+    font-size: medium;
+}
+
+.legends {
+    display: inline-block;
+    padding: 0.3rem;
+    border: solid 1px;
+    margin-bottom: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.ps-grid-paging-div .add {
+    font-size: x-large;
+    margin-left: 0.7rem;
+}
+
+.ps-grid-paging-div .trash {
+    font-size: x-large;
+    margin-left: 0.7rem;
+}
+
+.ps-grid-paging-div .save {
+    font-size: large;
+    margin-left: 0.7rem;
+    height: 1.5rem;
+}
+
+.grid-buttons {
+    display: inline-block;
+}
+
+.grid-buttons-flex {
+    flex: auto
+}
+
+.btn-group {
+    left: 0;
+    position: absolute;
+    margin-top: 0.6rem;
+}
+
+.paging-padding {
+    padding-top: 0.4rem;
+}
+
+.grid-buttons ion-button {
+    width: 4rem;
+}
+
+.ag-radio-button-input-wrapper {
+    font-family: "agGridAlpine" !important;
+}
+
+.pagination-disabled {
+    color: var(--ps-input-placeholder-font-color);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.ag-theme-alpine .ag-filter-apply-panel {
+    padding: 2px 2px !important;
+    border-top: solid 1px;
+    border-top-color: var(--ps-ag-filter-apply-panel);
+    border-top-color: var(--ag-secondary-border-color, var(--ps-ag-filter-apply-panel));
+}
+
+.ag-theme-alpine .ag-root-wrapper-body .ag-checkbox-input-wrapper {
+    background: var(--ag-checkbox-unchecked-color, #999);
+}
+
+.ag-theme-alpine .ag-root-wrapper-body .ag-checkbox-input-wrapper::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    content: '';
+    font-size: larger;
+    font-weight: normal;
+}
+
+.ag-theme-alpine .ag-root-wrapper-body .ag-checkbox-input-wrapper.ag-checked::after {
+    content: '\2611';
+    color: var(--ps-ag-checkbox-input-wrapper);
+    font-weight: normal;
+}
+
+.ag-theme-alpine .ag-root-wrapper-body .ag-checkbox-input-wrapper.ag-indeterminate::after {
+    content: '\f068';
+    color: var(--ps-ag-checkbox-input-wrapper-indeterminate);
+    display: none;
+}
+
+.ag-paging-panel.ag-font-style.footer-font-size {
+    color: var(--ps-font-dark-color) !important;
+}
+
+.ag-row .ps-custom-component-preview {
+    display: inline !important;
+}
+
+.ag-cell-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.ag-cell-wrapper .ag-selection-checkbox {
+    width: 50%;
+    display: flex;
+    order: 1;
+    align-items: center;
+    justify-content: left;
+    margin: 0px !important;
+}
+
+.ag-cell-wrapper .ag-cell-value {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: row;
+    order: 2
+}
+
+.ag-cell-wrapper ps-ag-grid-action-renderer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.ag-cell-wrapper ps-ag-grid-action-renderer .edit-button {
+    width: 50%;
+    display: flex;
+    order: 1;
+    align-items: center;
+    justify-content: left;
+}
+
+.ag-cell-wrapper ps-ag-grid-action-renderer .save-button {
+    width: 50%;
+    display: flex;
+    order: 2;
+    align-items: center;
+    justify-content: left;
+}
+
+.grid-preview-checkbox {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.ag-center-cols-container .ag-cell:has(ps-action-button) {
+    padding: 0px !important;
+}
+
+.ag-center-cols-container .ag-cell:has(ps-action-button) ion-button {
+    color: #000 !important;
+}
+
+ps-ag-grid:has(.grid-list-view) {
+    height: 100%;
+}
+
+ps-ag-grid .grid-list-view {
+    overflow-y: auto;
+    height: 85%;
+    border: 2px solid var(--ps-font-dark-color);
+    background: var(--ps-grid-list-view-bg) !important;
+}
+
+ps-ag-grid .grid-list-view.noData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ps-ag-grid .grid-list-view .no-grid-data-found {
+    font-size: var(--ps-xxxl-font);
+    font-weight: bold;
+}
+
+ps-ag-grid .grid-list-view::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+ps-ag-grid ps-container-lookup-option .common-container-lookup {
+    position: relative;
+}
+
+ps-ag-grid .isCardsVisible .footer-font-size {
+    font-size: var(--ps-xl-font);
+}
+
+ps-ag-grid .isCardsVisible.ps-grid-paging-div .trash {
+    margin-left: calc(var(--ps-xxxs-padding) + 1.4px);
+}
+
+ps-ag-grid .isCardsVisible.ps-grid-paging-div .add {
+    margin-left: 0;
+}
+
+ps-ag-grid ps-container-lookup-option .common-container-lookup,
+ps-ag-grid .card-selection-checkbox ps-container-item {
+    display: flex;
+}
+
+ps-ag-grid .card-selection-checkbox {
+    border-right: 1px solid var(--ps-grid-checkbox);
+}
+
+ps-ag-grid ps-container-lookup-option .ps-container-lookup-option-details .lookup-details-header {
+    padding: 0px !important;
+    height: 8px;
+    border-radius: 0px;
+}
+
+ps-ag-grid ps-container-lookup-option .lookup-details-header.mat-card-header {
+    padding-top: 0;
+}
+
+ps-ag-grid ps-container-lookup-option .ps-container-lookup-option-details .mat-card .lookup-details-title {
+    margin-bottom: 0;
+}
+
+ps-ag-grid ps-container-lookup-option .ps-container-lookup-option-details .mat-card .lookup-details-subtitle {
+    display: none;
+}
+
+ps-ag-grid .ps-container-lookup-option-details .lookup-details-header .lookup-details-title {
+    flex-direction: row;
+}
+
+ps-ag-grid .card-selection-checkbox ps-container-item .ps-container-item-wrapper {
+    margin-bottom: 0;
+}
+
+ps-ag-grid .card-selection-checkbox ps-container-item .item {
+    background: none !important;
+    --background: none !important;
+    --inner-padding-end: 0px;
+}
+
+ps-ag-grid .card-selection-checkbox ps-container-item .item .container-fluid .row {
+    justify-content: center;
+}
+
+ps-ag-grid ion-checkbox :host(.checkbox-checked) .checkbox-icon {
+    border-color: transparent;
+}
+
+ps-ag-grid .ps-container-lookup-option-details {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+ps-ag-grid .grid-list-view .item-card {
+    margin-bottom: calc(var(--ps-xxxs-margin) - 3px);
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card:has(ps-container-lookup-option .selected-container-lookup) {
+    border: 6px solid var(--ps-selected-row-border);
+    transition: 0.3s;
+}
+
+ps-ag-grid ps-container-lookup-option .show-more-less-button-card,
+ps-ag-grid .grid-list-view .item-card .card-action-buttons {
+    z-index: 1;
+}
+
+ps-ag-grid .lookup-card-margin-bottom,
+ps-ag-grid .ps-container-lookup-option-details .mat-card {
+    margin-bottom: 0px !important;
+}
+
+ps-ag-grid .ps-container-lookup-option-details .mat-card {
+    touch-action: auto !important;
+}
+
+.isMobile-Layout ps-ag-grid .ag-theme-alpine .ag-paging-panel>* {
+    margin: 0 10px;
+}
+
+ps-ag-grid .ps-container-lookup-option-details .card-content-field .ps-custom-component-preview,
+ps-ag-grid .ps-container-lookup-option-details .action-details-options ps-label,
+ps-ag-grid .grid-list-view .card-content-field .ps-keyin-date-label,
+ps-ag-grid ps-container-lookup-option .show-more-less-button-card ion-label,
+ps-ag-grid .show-more-less-icon .ps-action-image-row .ps-action-icon-icon ion-icon {
+    color: var(--ps-font-dark-color) !important;
+}
+
+ps-ag-grid .action-details-options ion-icon {
+    background-color: var(--ps-font-dark-color) !important;
+}
+
+ps-ag-grid .card-selection-checkbox ion-checkbox {
+    --background: var(--ps-grid-checkbox) !important;
+    --checkmark-color: var(--ps-font-dark-color) !important;
+    --border-color: var(--ps-font-dark-color) !important;
+    --border-color-checked: var(--ps-font-dark-color) !important;
+    --border-width: 2px !important;
+    flex: auto !important;/* added by Richie in order to show the checkbox not minimized in mobile view */
+}
+
+ps-ag-grid .grid-list-view .item-card .card-action-buttons {
+    box-shadow: 0 0 1px rgb(0, 0, 0, 0.5) !important;
+}
+
+ps-ag-grid .ag-row.D .ag-cell:first-child,
+ps-ag-grid .ag-row.D .ag-cell:has(ps-action-button),
+ps-ag-grid .editModeInUse,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.D .card-selection-checkbox ps-container-item .item,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.D .card-action-buttons {
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+    cursor: default !important;
+    transition: 0.3s;
+}
+
+ps-ag-grid .ag-row.D .ag-cell ps-action-button ion-button {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+ps-ag-grid .ag-row.D .ag-cell:first-child,
+ps-ag-grid .ag-row.D .ag-cell:has(ps-action-button) {
+    background-color: var(--ps-deleted-row-first-cell);
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card:nth-child(even) ps-container-lookup-option .card-selection-checkbox ion-checkbox {
+    --background-checked: var(--ps-odd-row) !important;
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) ps-container-lookup-option .card-selection-checkbox ion-checkbox {
+    --background-checked: var(--ps-even-row) !important;
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card:nth-child(even) .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card:nth-child(even) .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card:nth-child(even) .ps-container-lookup-option-details,
+ps-ag-grid .grid-list-view .item-card:nth-child(even) ps-container-lookup-option .common-container-lookup,
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) .card-action-buttons {
+    background: var(--ps-even-row) !important;
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) .ps-container-lookup-option-details,
+ps-ag-grid .grid-list-view .item-card:nth-child(odd) ps-container-lookup-option .common-container-lookup,
+ps-ag-grid .grid-list-view .item-card:nth-child(even) .card-action-buttons {
+    background: var(--ps-odd-row) !important;
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option .selected-container-lookup .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option .selected-container-lookup .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option .selected-container-lookup .card-selection-checkbox {
+    background: var(--ps-selected-row) !important;
+    transition: 0.3s;
+}
+
+.isCardsVisible .new-row,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.N .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.N .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.N .card-selection-checkbox {
+    background: var(--ps-new-row) !important;
+    transition: 0.3s;
+}
+
+.isCardsVisible .deleted-row,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.D .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.D .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.D .card-selection-checkbox {
+    background: var(--ps-deleted-row) !important;
+    transition: 0.3s;
+}
+
+.isCardsVisible .editted-row,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.E .mat-card .lookup-details-header,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.E .mat-card .mat-card-content,
+ps-ag-grid .grid-list-view .item-card ps-container-lookup-option.E .card-selection-checkbox {
+    background: var(--ps-editted-row) !important;
+    transition: 0.3s;
+}
+
+.ag-grid-modal.popup-modal {
+    width: var(--ps-grid-popup-modal-width) !important;
+}
+
+ps-ag-grid .grid-list-view .item-card:has(ps-container-lookup-option.duplicated-row) {
+    animation: duplicated-row-animation 7s ease;
+    transition: 0.3s;
+}
+
+ps-ag-grid .grid-list-view .ps-custom-spinner-wrapper {
+    background: transparent !important;
+}

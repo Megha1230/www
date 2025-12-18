@@ -1,0 +1,40 @@
+ps-template-screen .widget-style {
+    min-height: 50px !important;
+}
+
+
+ps-select-segment ps-container-item ion-item,
+ps-select-segment ps-container-item .item {
+    height: 45px !important;
+    min-height: 45px !important;
+}
+
+ps-select-segment ion-segment-button {
+    min-height: 45px !important;
+}
+
+.isMobile-Layout ps-select-segment ps-container-item ion-item {
+    height: 50px !important;
+    min-height: 50px !important;
+    border: none;
+    background: none !important;
+}
+ps-template-screen .widget-header-title{
+    font-size: var(--ps-md-font) !important;
+    text-transform: lowercase;
+}
+ps-template-screen .widget-header-title ps-label-header ps-label {
+    font-weight: 500;
+    overflow-x: inherit !important;
+}
+
+app-payment ps-container-form .ps-container-form-content{
+    background: none !important;
+}
+app-payment ps-button-save{
+    display: none;
+}
+ion-router-outlet ps-template-base .main-footer.quick-main-footer{
+    margin-bottom: 8px !important;
+    padding-bottom: 0 !important;
+}
