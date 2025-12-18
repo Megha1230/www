@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[511],{cbr6:function(n,e,t){"use strict";t.r(e),e.default=".balance-wrapper {\n  height: 15%;\n}\n\n.account-list {\n  height: 85%;\n  overflow-y: scroll;\n}\n\n.ps-template-report-viewer {\n  height: 100%;\n}"}}]);

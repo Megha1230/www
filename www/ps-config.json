@@ -1,14 +1,14 @@
 {
     "MAIN_CONFIG": {
-        "MAIN_PATH": "http://172.27.113.34:10012/",
-        "PACKAGE_NAME": "omni_services_omni_qa_ucb_34_o19",
+        "MAIN_PATH": "https://onlinebankinguat.amanabank.lk/",
+        "PACKAGE_NAME": "omni_services",
         "COMP_CODE": 1,
         "APP_VERSION": "3.1.0.13.0.1",
         "APP_ID": 1,
         "LOG_LEVEL_INTERVAL": 300,
         "MINIFIED_CLIENT_CSS_FILE_NAME": "/assets/branding/presales_theme/ps-css-files.min.css",
         "APP_NAME": "OmniBK",
-        "REQUEST_TIMEOUT": 31000000,
+        "REQUEST_TIMEOUT": 9000000,
         "CLIENT_COUNTRY_ISO_CODE": "MA",
         "previewTimeOut":1500,
         "PAYMENT_AMOUNT": "",
@@ -20,13 +20,13 @@
             1491,
             1497
         ],
-        "PAYMENT_CURRENCY" : "af7c30e551dc831fb67f7340ea5213e45b54e331c5f576b63606764dca0f9ed4",
+        "PAYMENT_CURRENCY" : "",
         "SCREEN_TRANSLATION_OPER": [
             61,
             203
         ],
         "OLD_APP_ID" : "",
-        "WEBVIEW_URLS":{
+        "WEBVIEW_URLS": {
             "WEBVIEW_ONBOARDING_URL": "https://www.wikipedia.org"
         }
     },

@@ -10,7 +10,6 @@
 .tooltip-container .tooltiptext {
   visibility: hidden;
   width: 120px;
-  height: 18px !important;
   background-color: var(--ps-font-dark-color);
   color: var(--ps-tooltip-text-color) !important;
   text-align: center;

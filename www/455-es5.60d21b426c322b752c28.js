@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[455],{D8t5:function(t,n,e){"use strict";e.r(n),n.default="/* break term deposit account css*/\n.test {\n  text-align: center;\n}"}}]);

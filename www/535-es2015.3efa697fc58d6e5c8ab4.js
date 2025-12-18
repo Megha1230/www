@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[535],{snuT:function(n,o,p){"use strict";p.r(o),o.default=".primary-color {\n  background: var(--ps-primary-color);\n}\n\n.theme-value {\n  height: 100px;\n  width: 100px;\n}"}}]);
